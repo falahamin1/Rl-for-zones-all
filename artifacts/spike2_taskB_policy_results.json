@@ -1,0 +1,38 @@
+[
+  {
+    "instance": "PJS_01",
+    "n_concrete_states": 31,
+    "concrete_dp_truncated": false,
+    "n_unresolved_V": 0,
+    "n_multi_state_clusters": 6,
+    "n_missing_from_dp": 0,
+    "n_policy_consistent": 6,
+    "n_policy_inconsistent": 0,
+    "frac_policy_consistent_of_checkable": 1.0,
+    "inconsistent_examples": []
+  },
+  {
+    "instance": "PJS_02",
+    "n_concrete_states": 105,
+    "concrete_dp_truncated": false,
+    "n_unresolved_V": 0,
+    "n_multi_state_clusters": 16,
+    "n_missing_from_dp": 0,
+    "n_policy_consistent": 16,
+    "n_policy_inconsistent": 0,
+    "frac_policy_consistent_of_checkable": 1.0,
+    "inconsistent_examples": []
+  },
+  {
+    "instance": "PJS_03",
+    "n_concrete_states": 667,
+    "concrete_dp_truncated": false,
+    "n_unresolved_V": 0,
+    "n_multi_state_clusters": 9,
+    "n_missing_from_dp": 0,
+    "n_policy_consistent": 9,
+    "n_policy_inconsistent": 0,
+    "frac_policy_consistent_of_checkable": 1.0,
+    "inconsistent_examples": []
+  }
+]

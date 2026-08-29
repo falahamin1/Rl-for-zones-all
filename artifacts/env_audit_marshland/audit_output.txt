@@ -1,0 +1,96 @@
+=== BFS SUMMARY ===
+nonterminal states: 23
+terminal (goal) states: 2
+terminal (expired/zone-empty) states: 10
+total visited: 35
+distinct t_min among nonterminal states: [0, 3, 6, 9, 12, 15, 18]
+distinct t_min among expired states: [21, 27, 30]
+distinct t_min among goal states: [12, 18]
+distinct positions visited: [(0, 0), (0, 2), (1, 0), (1, 1), (1, 2), (2, 0), (2, 1), (2, 2)] count: 8
+
+=== SECTION C: ZONE GEOMETRY ===
+{'t_min': 0, 'empty': False, 'matrix': ((1, 1), (41, 1)), 'dim': 1, 'bounded': True, 'strict': False, 'vertices': 2, 'lower': -20, 'upper': 0, 'zone_str': '(c.t_gate<=20)'}
+{'t_min': 3, 'empty': False, 'matrix': ((1, -5), (41, 1)), 'dim': 1, 'bounded': True, 'strict': False, 'vertices': 2, 'lower': -20, 'upper': -3, 'zone_str': '(3<=c.t_gate & c.t_gate<=20)'}
+{'t_min': 6, 'empty': False, 'matrix': ((1, -11), (41, 1)), 'dim': 1, 'bounded': True, 'strict': False, 'vertices': 2, 'lower': -20, 'upper': -6, 'zone_str': '(6<=c.t_gate & c.t_gate<=20)'}
+{'t_min': 9, 'empty': False, 'matrix': ((1, -17), (41, 1)), 'dim': 1, 'bounded': True, 'strict': False, 'vertices': 2, 'lower': -20, 'upper': -9, 'zone_str': '(9<=c.t_gate & c.t_gate<=20)'}
+{'t_min': 12, 'empty': False, 'matrix': ((1, -23), (41, 1)), 'dim': 1, 'bounded': True, 'strict': False, 'vertices': 2, 'lower': -20, 'upper': -12, 'zone_str': '(12<=c.t_gate & c.t_gate<=20)'}
+{'t_min': 15, 'empty': False, 'matrix': ((1, -29), (41, 1)), 'dim': 1, 'bounded': True, 'strict': False, 'vertices': 2, 'lower': -20, 'upper': -15, 'zone_str': '(15<=c.t_gate & c.t_gate<=20)'}
+{'t_min': 18, 'empty': False, 'matrix': ((1, -35), (41, 1)), 'dim': 1, 'bounded': True, 'strict': False, 'vertices': 2, 'lower': -20, 'upper': -18, 'zone_str': '(18<=c.t_gate & c.t_gate<=20)'}
+{'t_min': 21, 'empty': True, 'matrix': None, 'dim': None, 'bounded': None, 'strict': None, 'vertices': 0, 'zone_str': 'false'}
+{'t_min': 27, 'empty': True, 'matrix': None, 'dim': None, 'bounded': None, 'strict': None, 'vertices': 0, 'zone_str': 'false'}
+{'t_min': 30, 'empty': True, 'matrix': None, 'dim': None, 'bounded': None, 'strict': None, 'vertices': 0, 'zone_str': 'false'}
+
+non-empty zone count: 7  empty zone count: 3
+affine dim distribution (non-empty only): {1: 7}
+vertex count distribution (non-empty only): {2: 7}
+zones with a strict inequality: 0 / 7
+boundedness fraction (non-empty, both bounds finite): 7 / 7 = 1.0
+
+=== SECTION D: AGGREGATION ===
+distinct concrete keys: 35
+distinct zone keys: 33
+aggregation ratio (concrete/zone): 1.0606060606060606
+distinct (pos, gate_open) location-only keys: 8
+location-only control ratio (concrete/location): 4.375
+zone keys with exactly one concrete state: 32 / 33 = 0.9696969696969697
+zone keys aggregating >1 concrete state: 1
+  example: (1, 1) True -> [((1, 1), True, 21), ((1, 1), True, 27), ((1, 1), True, 30)]
+
+=== SECTION E: EXACT DP ===
+value iteration converged after 572 iterations, delta = 9.663381206337363e-13
+locations with 2+ distinct reachable zones (t_min values): 7
+locations with optimal-action conflicts (no common optimal action across zones): 1
+conflict fraction: 0.14285714285714285
+
+All multi-zone locations detail:
+ pos=(0, 0):
+    t_min=  0  optimal_actions=[3]  Q=['358.248', '358.248', '358.248', '382.366']
+    t_min=  6  optimal_actions=[3]  Q=['151.672', '151.672', '151.672', '164.917']
+    t_min= 12  optimal_actions=[3]  Q=['-92.590', '-92.590', '-92.590', '-92.200']
+    t_min= 18  optimal_actions=[0, 1, 2, 3]  Q=['-100.000', '-100.000', '-100.000', '-100.000']
+ pos=(1, 0):
+    t_min=  3  optimal_actions=[3]  Q=['178.550', '378.366', '155.672', '403.543']
+    t_min=  9  optimal_actions=[0]  Q=['174.650', '160.917', '-88.590', '-88.590']
+    t_min= 15  optimal_actions=[2, 3]  Q=['-98.000', '-96.200', '-96.000', '-96.000']
+    t_min= 18  optimal_actions=[0, 1, 2, 3]  Q=['-100.000', '-100.000', '-100.000', '-100.000']
+ pos=(1, 1):
+    t_min=  6  optimal_actions=[0]  Q=['474.000', '164.917', '445.300', '425.835']
+    t_min= 12  optimal_actions=[0]  Q=['474.000', '-92.200', '445.300', '-92.200']
+    t_min= 15  optimal_actions=[0, 1, 3]  Q=['-96.000', '-96.000', '-96.200', '-96.000']
+    t_min= 18  optimal_actions=[0, 1, 2, 3]  Q=['-100.000', '-100.000', '-100.000', '-100.000']
+ pos=(1, 2):
+    t_min=  9  optimal_actions=[2]  Q=['470.000', '174.650', '500.000', '449.300']
+    t_min= 15  optimal_actions=[2]  Q=['470.000', '-98.000', '500.000', '-96.000']
+    t_min= 18  optimal_actions=[0, 1, 2, 3]  Q=['-100.000', '-100.000', '-100.000', '-100.000']
+ pos=(2, 0):
+    t_min=  6  optimal_actions=[0]  Q=['425.835', '399.543', '164.917', '399.543']
+    t_min= 12  optimal_actions=[0, 2]  Q=['-92.200', '-92.590', '-92.200', '-92.590']
+    t_min= 18  optimal_actions=[0, 1, 2, 3]  Q=['-100.000', '-100.000', '-100.000', '-100.000']
+ pos=(2, 1):
+    t_min=  9  optimal_actions=[0]  Q=['449.300', '-88.590', '174.650', '421.835']
+    t_min= 15  optimal_actions=[0, 1]  Q=['-96.000', '-96.000', '-98.000', '-96.200']
+    t_min= 18  optimal_actions=[0, 1, 2, 3]  Q=['-100.000', '-100.000', '-100.000', '-100.000']
+ pos=(2, 2):
+    t_min= 12  optimal_actions=[2]  Q=['445.300', '-92.200', '474.000', '445.300']
+    t_min= 18  optimal_actions=[0, 1, 2, 3]  Q=['-100.000', '-100.000', '-100.000', '-100.000']
+
+Worked conflict example:
+ position: (1, 0)
+   t_min=3: optimal actions=[3]  Q-values(U,D,L,R)=['178.550', '378.366', '155.672', '403.543']
+   t_min=9: optimal actions=[0]  Q-values(U,D,L,R)=['174.650', '160.917', '-88.590', '-88.590']
+   t_min=15: optimal actions=[2, 3]  Q-values(U,D,L,R)=['-98.000', '-96.200', '-96.000', '-96.000']
+   t_min=18: optimal actions=[0, 1, 2, 3]  Q-values(U,D,L,R)=['-100.000', '-100.000', '-100.000', '-100.000']
+
+=== SECTION F: ENGINEERING ===
+pickle.dumps(zone): False TypeError("cannot pickle 'pyudbm.binding._udbm._NativeFederation' object")
+copy.deepcopy(zone): False TypeError("cannot pickle 'pyudbm.binding._udbm._NativeFederation' object")
+zone.copy() (native): True None
+pickle.dumps(env): False TypeError("cannot pickle 'pyudbm.binding._udbm._NativeFederation' object")
+
+2000 .step() calls took 0.0309s -> 15.47 microseconds/call
+isinstance(env, gymnasium.Env): False
+class bases: (<class 'object'>,)
+reset signature: (self)
+step signature: (self, action)
+
+DONE

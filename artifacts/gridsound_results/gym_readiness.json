@@ -1,0 +1,17 @@
+{
+  "has_gymnasium": true,
+  "single_env": {
+    "fixed_discrete_n": 12,
+    "mask_shape_consistent_every_step": true,
+    "point_shape_consistent_every_step": true,
+    "zone_object_usable_every_step": true,
+    "observation_space_excludes_zone": true
+  },
+  "same_process_vector_env": {
+    "n_vector_envs": 3,
+    "works": true,
+    "error": null,
+    "each_subenv_has_independent_pyudbm_context": true,
+    "note": "NOT gymnasium.vector.SyncVectorEnv (Federation objects aren't picklable and have no gym.Space representation) -- a hand-rolled same-process analog, same as train/env.py's."
+  }
+}

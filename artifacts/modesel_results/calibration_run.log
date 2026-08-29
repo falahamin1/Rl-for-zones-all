@@ -1,0 +1,37 @@
+=== M0 ===
+  t=0.0: violation_frac=0.740 no_action_frac=0.0000
+  t=0.1: violation_frac=0.678 no_action_frac=0.0000
+  t=0.25: violation_frac=0.492 no_action_frac=0.0000
+  t=0.5: violation_frac=0.502 no_action_frac=0.0000
+  t=1.0: violation_frac=0.000 no_action_frac=0.0000
+  chosen t=0.25 (in [5%,50%] band: True)
+=== M1 ===
+  t=0.0: violation_frac=0.518 no_action_frac=0.0000
+  t=0.1: violation_frac=0.000 no_action_frac=0.0000
+  t=0.25: violation_frac=0.248 no_action_frac=0.0000
+  t=0.5: violation_frac=0.042 no_action_frac=0.0000
+  t=1.0: violation_frac=0.000 no_action_frac=0.0000
+  chosen t=0.25 (in [5%,50%] band: True)
+=== M2 ===
+  t=0.0: violation_frac=0.806 no_action_frac=0.0000
+  t=0.1: violation_frac=0.680 no_action_frac=0.0000
+  t=0.25: violation_frac=0.752 no_action_frac=0.0000
+  t=0.5: violation_frac=0.202 no_action_frac=0.0000
+  t=1.0: violation_frac=0.084 no_action_frac=0.0000
+  chosen t=0.5 (in [5%,50%] band: True)
+=== M3 ===
+  t=0.0: violation_frac=0.824 no_action_frac=0.0000
+  t=0.1: violation_frac=0.514 no_action_frac=0.0000
+  t=0.25: violation_frac=0.046 no_action_frac=0.0000
+  t=0.5: violation_frac=0.020 no_action_frac=0.0000
+  t=1.0: violation_frac=0.012 no_action_frac=0.0000
+  chosen t=0.25 (in [5%,50%] band: False)
+=== M4 ===
+  t=0.0: violation_frac=0.988 no_action_frac=0.0000
+  t=0.1: violation_frac=0.856 no_action_frac=0.0000
+  t=0.25: violation_frac=0.828 no_action_frac=0.0000
+  t=0.5: violation_frac=0.318 no_action_frac=0.0000
+  t=1.0: violation_frac=0.014 no_action_frac=0.0000
+  chosen t=0.5 (in [5%,50%] band: True)
+
+Wrote /tmp/modesel_results_calibration.json

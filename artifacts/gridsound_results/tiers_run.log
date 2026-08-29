@@ -1,0 +1,18 @@
+T0 seed=0: n_states=2519 truncated=False deadlocks=0 multi_zone_locations=8 cross_zone_conflict=0.0000 within_zone_nonuniform=nan dim>=2_frac=0.7636 wall=1.82s (dp=0.16 zone=0.05 geo=1.59 dec=0.03)
+T0 seed=1: n_states=3338 truncated=False deadlocks=0 multi_zone_locations=8 cross_zone_conflict=0.2500 within_zone_nonuniform=nan dim>=2_frac=0.7602 wall=2.32s (dp=0.20 zone=0.06 geo=2.01 dec=0.04)
+T0 seed=2: n_states=713 truncated=False deadlocks=28 multi_zone_locations=8 cross_zone_conflict=0.1250 within_zone_nonuniform=nan dim>=2_frac=0.6681 wall=0.59s (dp=0.04 zone=0.01 geo=0.52 dec=0.01)
+T1 seed=0: n_states=11480 truncated=False deadlocks=0 multi_zone_locations=15 cross_zone_conflict=0.0667 within_zone_nonuniform=nan dim>=2_frac=0.7905 wall=3.76s (dp=0.83 zone=0.24 geo=2.55 dec=0.13)
+T1 seed=1: n_states=12562 truncated=False deadlocks=0 multi_zone_locations=15 cross_zone_conflict=0.0000 within_zone_nonuniform=nan dim>=2_frac=0.7893 wall=4.20s (dp=0.87 zone=0.23 geo=2.95 dec=0.15)
+T1 seed=2: n_states=10798 truncated=False deadlocks=0 multi_zone_locations=15 cross_zone_conflict=0.0000 within_zone_nonuniform=nan dim>=2_frac=0.7867 wall=3.74s (dp=0.87 zone=0.22 geo=2.53 dec=0.13)
+T2 seed=0: n_states=76356 truncated=True deadlocks=0 multi_zone_locations=24 cross_zone_conflict=0.8750 within_zone_nonuniform=nan dim>=2_frac=0.9543 wall=20.01s (dp=6.22 zone=3.13 geo=8.95 dec=1.72)
+T2 seed=1: n_states=81589 truncated=True deadlocks=0 multi_zone_locations=24 cross_zone_conflict=0.9167 within_zone_nonuniform=nan dim>=2_frac=0.9315 wall=18.98s (dp=6.37 zone=2.63 geo=8.15 dec=1.83)
+T2 seed=2: n_states=84512 truncated=True deadlocks=0 multi_zone_locations=24 cross_zone_conflict=0.8750 within_zone_nonuniform=nan dim>=2_frac=0.9297 wall=19.06s (dp=6.79 zone=2.92 geo=7.56 dec=1.79)
+T3 seed=0: n_states=78012 truncated=True deadlocks=0 multi_zone_locations=35 cross_zone_conflict=0.6857 within_zone_nonuniform=nan dim>=2_frac=0.9822 wall=18.32s (dp=6.22 zone=2.83 geo=7.20 dec=2.08)
+T3 seed=1: n_states=71822 truncated=True deadlocks=0 multi_zone_locations=35 cross_zone_conflict=0.8286 within_zone_nonuniform=nan dim>=2_frac=0.9818 wall=19.30s (dp=5.95 zone=2.72 geo=8.39 dec=2.23)
+T3 seed=2: n_states=58891 truncated=True deadlocks=0 multi_zone_locations=35 cross_zone_conflict=0.8000 within_zone_nonuniform=nan dim>=2_frac=0.9768 wall=18.59s (dp=5.17 zone=2.74 geo=8.59 dec=2.09)
+T4 seed=0: n_states=65743 truncated=True deadlocks=0 multi_zone_locations=63 cross_zone_conflict=0.8254 within_zone_nonuniform=nan dim>=2_frac=0.9607 wall=23.70s (dp=5.56 zone=2.93 geo=12.58 dec=2.63)
+T4 seed=1: n_states=61286 truncated=True deadlocks=0 multi_zone_locations=63 cross_zone_conflict=0.6825 within_zone_nonuniform=nan dim>=2_frac=0.9603 wall=24.87s (dp=5.60 zone=2.65 geo=14.11 dec=2.51)
+T4 seed=2: n_states=70982 truncated=True deadlocks=0 multi_zone_locations=63 cross_zone_conflict=0.8413 within_zone_nonuniform=nan dim>=2_frac=0.9650 wall=23.08s (dp=6.54 zone=2.76 geo=11.20 dec=2.58)
+
+TOTAL WALL CLOCK: 272.5s
+Wrote /tmp/gridsound_results/tiers.json

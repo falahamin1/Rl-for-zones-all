@@ -1,0 +1,35 @@
+[
+  {
+    "instance": "PJS_01",
+    "n_episodes": 200,
+    "distinct_concrete_keys": 28,
+    "distinct_zone_keys": 73,
+    "distinct_locations": 15,
+    "aggregation_ratio_concrete_over_zone": 0.3835616438356164,
+    "location_only_control_ratio": 1.8666666666666667,
+    "frac_zones_with_exactly_one_concrete_state": 1.0,
+    "zone_ratio_exceeds_location_control": false
+  },
+  {
+    "instance": "PJS_03",
+    "n_episodes": 200,
+    "distinct_concrete_keys": 388,
+    "distinct_zone_keys": 649,
+    "distinct_locations": 67,
+    "aggregation_ratio_concrete_over_zone": 0.5978428351309707,
+    "location_only_control_ratio": 5.791044776119403,
+    "frac_zones_with_exactly_one_concrete_state": 1.0,
+    "zone_ratio_exceeds_location_control": false
+  },
+  {
+    "instance": "PJS_06",
+    "n_episodes": 200,
+    "distinct_concrete_keys": 4347,
+    "distinct_zone_keys": 4713,
+    "distinct_locations": 3190,
+    "aggregation_ratio_concrete_over_zone": 0.9223424570337365,
+    "location_only_control_ratio": 1.3626959247648902,
+    "frac_zones_with_exactly_one_concrete_state": 1.0,
+    "zone_ratio_exceeds_location_control": false
+  }
+]

@@ -1,0 +1,157 @@
+{
+  "M0": {
+    "sweep": {
+      "0.0": {
+        "violation_fraction": 0.74,
+        "no_action_available_fraction": 0.0,
+        "n_episodes": 500
+      },
+      "0.1": {
+        "violation_fraction": 0.678,
+        "no_action_available_fraction": 0.0,
+        "n_episodes": 500
+      },
+      "0.25": {
+        "violation_fraction": 0.492,
+        "no_action_available_fraction": 0.0,
+        "n_episodes": 500
+      },
+      "0.5": {
+        "violation_fraction": 0.502,
+        "no_action_available_fraction": 0.0,
+        "n_episodes": 500
+      },
+      "1.0": {
+        "violation_fraction": 0.0,
+        "no_action_available_fraction": 0.0,
+        "n_episodes": 500
+      }
+    },
+    "calibrated_t": 0.25,
+    "in_band": true
+  },
+  "M1": {
+    "sweep": {
+      "0.0": {
+        "violation_fraction": 0.518,
+        "no_action_available_fraction": 0.0,
+        "n_episodes": 500
+      },
+      "0.1": {
+        "violation_fraction": 0.0,
+        "no_action_available_fraction": 0.0,
+        "n_episodes": 500
+      },
+      "0.25": {
+        "violation_fraction": 0.248,
+        "no_action_available_fraction": 0.0,
+        "n_episodes": 500
+      },
+      "0.5": {
+        "violation_fraction": 0.042,
+        "no_action_available_fraction": 0.0,
+        "n_episodes": 500
+      },
+      "1.0": {
+        "violation_fraction": 0.0,
+        "no_action_available_fraction": 0.0,
+        "n_episodes": 500
+      }
+    },
+    "calibrated_t": 0.25,
+    "in_band": true
+  },
+  "M2": {
+    "sweep": {
+      "0.0": {
+        "violation_fraction": 0.806,
+        "no_action_available_fraction": 0.0,
+        "n_episodes": 500
+      },
+      "0.1": {
+        "violation_fraction": 0.68,
+        "no_action_available_fraction": 0.0,
+        "n_episodes": 500
+      },
+      "0.25": {
+        "violation_fraction": 0.752,
+        "no_action_available_fraction": 0.0,
+        "n_episodes": 500
+      },
+      "0.5": {
+        "violation_fraction": 0.202,
+        "no_action_available_fraction": 0.0,
+        "n_episodes": 500
+      },
+      "1.0": {
+        "violation_fraction": 0.084,
+        "no_action_available_fraction": 0.0,
+        "n_episodes": 500
+      }
+    },
+    "calibrated_t": 0.5,
+    "in_band": true
+  },
+  "M3": {
+    "sweep": {
+      "0.0": {
+        "violation_fraction": 0.824,
+        "no_action_available_fraction": 0.0,
+        "n_episodes": 500
+      },
+      "0.1": {
+        "violation_fraction": 0.514,
+        "no_action_available_fraction": 0.0,
+        "n_episodes": 500
+      },
+      "0.25": {
+        "violation_fraction": 0.046,
+        "no_action_available_fraction": 0.0,
+        "n_episodes": 500
+      },
+      "0.5": {
+        "violation_fraction": 0.02,
+        "no_action_available_fraction": 0.0,
+        "n_episodes": 500
+      },
+      "1.0": {
+        "violation_fraction": 0.012,
+        "no_action_available_fraction": 0.0,
+        "n_episodes": 500
+      }
+    },
+    "calibrated_t": 0.25,
+    "in_band": false
+  },
+  "M4": {
+    "sweep": {
+      "0.0": {
+        "violation_fraction": 0.988,
+        "no_action_available_fraction": 0.0,
+        "n_episodes": 500
+      },
+      "0.1": {
+        "violation_fraction": 0.856,
+        "no_action_available_fraction": 0.0,
+        "n_episodes": 500
+      },
+      "0.25": {
+        "violation_fraction": 0.828,
+        "no_action_available_fraction": 0.0,
+        "n_episodes": 500
+      },
+      "0.5": {
+        "violation_fraction": 0.318,
+        "no_action_available_fraction": 0.0,
+        "n_episodes": 500
+      },
+      "1.0": {
+        "violation_fraction": 0.014,
+        "no_action_available_fraction": 0.0,
+        "n_episodes": 500
+      }
+    },
+    "calibrated_t": 0.5,
+    "in_band": true
+  }
+}

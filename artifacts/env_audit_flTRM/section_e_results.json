@@ -1,0 +1,174 @@
+{
+  "three_goal": [
+    {
+      "instance": "TRM_01",
+      "n_states": 57888,
+      "n_multi_zone_locations": 96,
+      "n_conflicts": 0,
+      "conflict_fraction": 0.0,
+      "example": {
+        "no_conflict_example": {
+          "location": [
+            [
+              0,
+              0
+            ],
+            1
+          ],
+          "zones": {
+            "(0, 0)": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                3
+              ],
+              [
+                4,
+                3
+              ]
+            ],
+            "(0, 1)": [
+              [
+                0,
+                3
+              ]
+            ],
+            "(1, 0)": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                3
+              ],
+              [
+                4,
+                3
+              ]
+            ],
+            "(1, 1)": [
+              [
+                0,
+                3
+              ]
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "single_goal": [
+    {
+      "instance": "SG_01",
+      "n_states": 992,
+      "n_multi_zone_locations": 32,
+      "n_conflicts": 0,
+      "conflict_fraction": 0.0,
+      "example": null
+    },
+    {
+      "instance": "SG_02",
+      "n_states": 1952,
+      "n_multi_zone_locations": 32,
+      "n_conflicts": 2,
+      "conflict_fraction": 0.0625,
+      "example": {
+        "location": [
+          1,
+          2
+        ],
+        "zone_a": 0,
+        "actions_a": [
+          0
+        ],
+        "zone_b": 2,
+        "actions_b": [
+          3
+        ]
+      }
+    },
+    {
+      "instance": "SG_03",
+      "n_states": 3232,
+      "n_multi_zone_locations": 32,
+      "n_conflicts": 2,
+      "conflict_fraction": 0.0625,
+      "example": {
+        "location": [
+          1,
+          2
+        ],
+        "zone_a": 0,
+        "actions_a": [
+          0
+        ],
+        "zone_b": 2,
+        "actions_b": [
+          3
+        ]
+      }
+    },
+    {
+      "instance": "SG_04",
+      "n_states": 6432,
+      "n_multi_zone_locations": 32,
+      "n_conflicts": 2,
+      "conflict_fraction": 0.0625,
+      "example": {
+        "location": [
+          1,
+          2
+        ],
+        "zone_a": 0,
+        "actions_a": [
+          0
+        ],
+        "zone_b": 2,
+        "actions_b": [
+          3
+        ]
+      }
+    },
+    {
+      "instance": "SG_05",
+      "n_states": 12832,
+      "n_multi_zone_locations": 32,
+      "n_conflicts": 2,
+      "conflict_fraction": 0.0625,
+      "example": {
+        "location": [
+          1,
+          2
+        ],
+        "zone_a": 0,
+        "actions_a": [
+          0
+        ],
+        "zone_b": 2,
+        "actions_b": [
+          3
+        ]
+      }
+    }
+  ]
+}

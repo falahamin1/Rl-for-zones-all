@@ -1,0 +1,424 @@
+{
+  "sweep": {
+    "PJS_01": {
+      "0.0": {
+        "n_episodes": 500,
+        "n_jobs": 2,
+        "violation_fraction": 0.132,
+        "mean_violated_jobs_per_episode": 0.132,
+        "deadlock_fraction": 0.0,
+        "penalty": 18.0,
+        "deadlines": {
+          "J1": 7.0,
+          "J2": 5.0
+        }
+      },
+      "0.1": {
+        "n_episodes": 500,
+        "n_jobs": 2,
+        "violation_fraction": 0.132,
+        "mean_violated_jobs_per_episode": 0.132,
+        "deadlock_fraction": 0.0,
+        "penalty": 18.0,
+        "deadlines": {
+          "J1": 7.7,
+          "J2": 5.5
+        }
+      },
+      "0.25": {
+        "n_episodes": 500,
+        "n_jobs": 2,
+        "violation_fraction": 0.0,
+        "mean_violated_jobs_per_episode": 0.0,
+        "deadlock_fraction": 0.0,
+        "penalty": 18.0,
+        "deadlines": {
+          "J1": 8.75,
+          "J2": 6.25
+        }
+      },
+      "0.5": {
+        "n_episodes": 500,
+        "n_jobs": 2,
+        "violation_fraction": 0.0,
+        "mean_violated_jobs_per_episode": 0.0,
+        "deadlock_fraction": 0.0,
+        "penalty": 18.0,
+        "deadlines": {
+          "J1": 10.5,
+          "J2": 7.5
+        }
+      },
+      "1.0": {
+        "n_episodes": 500,
+        "n_jobs": 2,
+        "violation_fraction": 0.0,
+        "mean_violated_jobs_per_episode": 0.0,
+        "deadlock_fraction": 0.0,
+        "penalty": 18.0,
+        "deadlines": {
+          "J1": 14.0,
+          "J2": 10.0
+        }
+      }
+    },
+    "PJS_02": {
+      "0.0": {
+        "n_episodes": 500,
+        "n_jobs": 2,
+        "violation_fraction": 0.332,
+        "mean_violated_jobs_per_episode": 0.332,
+        "deadlock_fraction": 0.0,
+        "penalty": 24.0,
+        "deadlines": {
+          "J1": 9.0,
+          "J2": 10.0
+        }
+      },
+      "0.1": {
+        "n_episodes": 500,
+        "n_jobs": 2,
+        "violation_fraction": 0.076,
+        "mean_violated_jobs_per_episode": 0.076,
+        "deadlock_fraction": 0.0,
+        "penalty": 24.0,
+        "deadlines": {
+          "J1": 9.9,
+          "J2": 11.0
+        }
+      },
+      "0.25": {
+        "n_episodes": 500,
+        "n_jobs": 2,
+        "violation_fraction": 0.076,
+        "mean_violated_jobs_per_episode": 0.076,
+        "deadlock_fraction": 0.0,
+        "penalty": 24.0,
+        "deadlines": {
+          "J1": 11.25,
+          "J2": 12.5
+        }
+      },
+      "0.5": {
+        "n_episodes": 500,
+        "n_jobs": 2,
+        "violation_fraction": 0.0,
+        "mean_violated_jobs_per_episode": 0.0,
+        "deadlock_fraction": 0.0,
+        "penalty": 24.0,
+        "deadlines": {
+          "J1": 13.5,
+          "J2": 15.0
+        }
+      },
+      "1.0": {
+        "n_episodes": 500,
+        "n_jobs": 2,
+        "violation_fraction": 0.0,
+        "mean_violated_jobs_per_episode": 0.0,
+        "deadlock_fraction": 0.0,
+        "penalty": 24.0,
+        "deadlines": {
+          "J1": 18.0,
+          "J2": 20.0
+        }
+      }
+    },
+    "PJS_03": {
+      "0.0": {
+        "n_episodes": 500,
+        "n_jobs": 3,
+        "violation_fraction": 0.876,
+        "mean_violated_jobs_per_episode": 1.526,
+        "deadlock_fraction": 0.0,
+        "penalty": 39.3,
+        "deadlines": {
+          "J1": 9.0,
+          "J2": 8.3,
+          "J3": 8.1
+        }
+      },
+      "0.1": {
+        "n_episodes": 500,
+        "n_jobs": 3,
+        "violation_fraction": 0.876,
+        "mean_violated_jobs_per_episode": 1.378,
+        "deadlock_fraction": 0.0,
+        "penalty": 39.3,
+        "deadlines": {
+          "J1": 9.9,
+          "J2": 9.15,
+          "J3": 8.9
+        }
+      },
+      "0.25": {
+        "n_episodes": 500,
+        "n_jobs": 3,
+        "violation_fraction": 0.718,
+        "mean_violated_jobs_per_episode": 0.884,
+        "deadlock_fraction": 0.0,
+        "penalty": 39.3,
+        "deadlines": {
+          "J1": 11.25,
+          "J2": 10.4,
+          "J3": 10.1
+        }
+      },
+      "0.5": {
+        "n_episodes": 500,
+        "n_jobs": 3,
+        "violation_fraction": 0.48,
+        "mean_violated_jobs_per_episode": 0.574,
+        "deadlock_fraction": 0.0,
+        "penalty": 39.3,
+        "deadlines": {
+          "J1": 13.5,
+          "J2": 12.45,
+          "J3": 12.15
+        }
+      },
+      "1.0": {
+        "n_episodes": 500,
+        "n_jobs": 3,
+        "violation_fraction": 0.16,
+        "mean_violated_jobs_per_episode": 0.166,
+        "deadlock_fraction": 0.0,
+        "penalty": 39.3,
+        "deadlines": {
+          "J1": 18.0,
+          "J2": 16.6,
+          "J3": 16.2
+        }
+      }
+    },
+    "PJS_04": {
+      "0.0": {
+        "n_episodes": 500,
+        "n_jobs": 3,
+        "violation_fraction": 0.624,
+        "mean_violated_jobs_per_episode": 0.98,
+        "deadlock_fraction": 0.0,
+        "penalty": 30.0,
+        "deadlines": {
+          "J1": 9.0,
+          "J2": 9.0,
+          "J3": 10.0
+        }
+      },
+      "0.1": {
+        "n_episodes": 500,
+        "n_jobs": 3,
+        "violation_fraction": 0.622,
+        "mean_violated_jobs_per_episode": 0.874,
+        "deadlock_fraction": 0.0,
+        "penalty": 30.0,
+        "deadlines": {
+          "J1": 9.9,
+          "J2": 9.9,
+          "J3": 11.0
+        }
+      },
+      "0.25": {
+        "n_episodes": 500,
+        "n_jobs": 3,
+        "violation_fraction": 0.136,
+        "mean_violated_jobs_per_episode": 0.136,
+        "deadlock_fraction": 0.0,
+        "penalty": 30.0,
+        "deadlines": {
+          "J1": 11.25,
+          "J2": 11.25,
+          "J3": 12.5
+        }
+      },
+      "0.5": {
+        "n_episodes": 500,
+        "n_jobs": 3,
+        "violation_fraction": 0.022,
+        "mean_violated_jobs_per_episode": 0.022,
+        "deadlock_fraction": 0.0,
+        "penalty": 30.0,
+        "deadlines": {
+          "J1": 13.5,
+          "J2": 13.5,
+          "J3": 15.0
+        }
+      },
+      "1.0": {
+        "n_episodes": 500,
+        "n_jobs": 3,
+        "violation_fraction": 0.0,
+        "mean_violated_jobs_per_episode": 0.0,
+        "deadlock_fraction": 0.0,
+        "penalty": 30.0,
+        "deadlines": {
+          "J1": 18.0,
+          "J2": 18.0,
+          "J3": 20.0
+        }
+      }
+    },
+    "PJS_05": {
+      "0.0": {
+        "n_episodes": 500,
+        "n_jobs": 4,
+        "violation_fraction": 0.996,
+        "mean_violated_jobs_per_episode": 2.904,
+        "deadlock_fraction": 0.0,
+        "penalty": 50.400000000000006,
+        "deadlines": {
+          "J1": 12.3,
+          "J2": 11.6,
+          "J3": 11.9,
+          "J4": 12.0
+        }
+      },
+      "0.1": {
+        "n_episodes": 500,
+        "n_jobs": 4,
+        "violation_fraction": 0.992,
+        "mean_violated_jobs_per_episode": 2.602,
+        "deadlock_fraction": 0.0,
+        "penalty": 50.400000000000006,
+        "deadlines": {
+          "J1": 13.55,
+          "J2": 12.75,
+          "J3": 13.1,
+          "J4": 13.2
+        }
+      },
+      "0.25": {
+        "n_episodes": 500,
+        "n_jobs": 4,
+        "violation_fraction": 0.96,
+        "mean_violated_jobs_per_episode": 2.178,
+        "deadlock_fraction": 0.0,
+        "penalty": 50.400000000000006,
+        "deadlines": {
+          "J1": 15.4,
+          "J2": 14.5,
+          "J3": 14.9,
+          "J4": 15.0
+        }
+      },
+      "0.5": {
+        "n_episodes": 500,
+        "n_jobs": 4,
+        "violation_fraction": 0.79,
+        "mean_violated_jobs_per_episode": 1.22,
+        "deadlock_fraction": 0.0,
+        "penalty": 50.400000000000006,
+        "deadlines": {
+          "J1": 18.45,
+          "J2": 17.4,
+          "J3": 17.85,
+          "J4": 18.0
+        }
+      },
+      "1.0": {
+        "n_episodes": 500,
+        "n_jobs": 4,
+        "violation_fraction": 0.256,
+        "mean_violated_jobs_per_episode": 0.278,
+        "deadlock_fraction": 0.0,
+        "penalty": 50.400000000000006,
+        "deadlines": {
+          "J1": 24.6,
+          "J2": 23.2,
+          "J3": 23.8,
+          "J4": 24.0
+        }
+      }
+    },
+    "LJS_01": {
+      "0.0": {
+        "n_episodes": 500,
+        "n_jobs": 6,
+        "violation_fraction": 1.0,
+        "mean_violated_jobs_per_episode": 5.228,
+        "deadlock_fraction": 0.0,
+        "penalty": 228.0,
+        "deadlines": {
+          "J1": 46.0,
+          "J2": 50.5,
+          "J3": 48.25,
+          "J4": 49.25,
+          "J5": 53.25,
+          "J6": 52.5
+        }
+      },
+      "0.1": {
+        "n_episodes": 500,
+        "n_jobs": 6,
+        "violation_fraction": 1.0,
+        "mean_violated_jobs_per_episode": 4.836,
+        "deadlock_fraction": 0.0,
+        "penalty": 228.0,
+        "deadlines": {
+          "J1": 50.6,
+          "J2": 55.55,
+          "J3": 53.1,
+          "J4": 54.2,
+          "J5": 58.6,
+          "J6": 57.75
+        }
+      },
+      "0.25": {
+        "n_episodes": 500,
+        "n_jobs": 6,
+        "violation_fraction": 1.0,
+        "mean_violated_jobs_per_episode": 4.014,
+        "deadlock_fraction": 0.0,
+        "penalty": 228.0,
+        "deadlines": {
+          "J1": 57.5,
+          "J2": 63.1,
+          "J3": 60.3,
+          "J4": 61.55,
+          "J5": 66.55,
+          "J6": 65.6
+        }
+      },
+      "0.5": {
+        "n_episodes": 500,
+        "n_jobs": 6,
+        "violation_fraction": 0.99,
+        "mean_violated_jobs_per_episode": 2.526,
+        "deadlock_fraction": 0.0,
+        "penalty": 228.0,
+        "deadlines": {
+          "J1": 69.0,
+          "J2": 75.75,
+          "J3": 72.4,
+          "J4": 73.9,
+          "J5": 79.9,
+          "J6": 78.75
+        }
+      },
+      "1.0": {
+        "n_episodes": 500,
+        "n_jobs": 6,
+        "violation_fraction": 0.396,
+        "mean_violated_jobs_per_episode": 0.454,
+        "deadlock_fraction": 0.0,
+        "penalty": 228.0,
+        "deadlines": {
+          "J1": 92.0,
+          "J2": 101.0,
+          "J3": 96.5,
+          "J4": 98.5,
+          "J5": 106.5,
+          "J6": 105.0
+        }
+      }
+    }
+  },
+  "calibrated_t": {
+    "PJS_01": 0.0,
+    "PJS_02": 0.0,
+    "PJS_03": 1.0,
+    "PJS_04": 0.25,
+    "PJS_05": 1.0,
+    "LJS_01": 1.0
+  }
+}

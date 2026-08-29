@@ -1,0 +1,850 @@
+[
+  {
+    "instance": "PJS_01",
+    "n_concrete_states": 31,
+    "n_zone_states": 89,
+    "concrete_truncated": false,
+    "explore_wall_s": 0.005457878112792969,
+    "qualifies_for_exact_dp": true,
+    "n_concrete_states_explored": 31,
+    "n_states_with_optimal_action": 28,
+    "dp_wall_s": 9.012222290039062e-05,
+    "n_multi_state_locations": 7,
+    "n_conflicting_locations": 0,
+    "conflict_fraction": 0.0,
+    "example_conflict": null,
+    "n_locations_total": 14,
+    "zone_to_concrete_is_function_check_size": 89
+  },
+  {
+    "instance": "PJS_02",
+    "n_concrete_states": 105,
+    "n_zone_states": 257,
+    "concrete_truncated": false,
+    "explore_wall_s": 0.019183874130249023,
+    "qualifies_for_exact_dp": true,
+    "n_concrete_states_explored": 105,
+    "n_states_with_optimal_action": 81,
+    "dp_wall_s": 0.00025582313537597656,
+    "n_multi_state_locations": 17,
+    "n_conflicting_locations": 0,
+    "conflict_fraction": 0.0,
+    "example_conflict": null,
+    "n_locations_total": 25,
+    "zone_to_concrete_is_function_check_size": 257
+  },
+  {
+    "instance": "PJS_03",
+    "n_concrete_states": 667,
+    "n_zone_states": 1617,
+    "concrete_truncated": false,
+    "explore_wall_s": 0.13081789016723633,
+    "qualifies_for_exact_dp": true,
+    "n_concrete_states_explored": 667,
+    "n_states_with_optimal_action": 505,
+    "dp_wall_s": 0.002147197723388672,
+    "n_multi_state_locations": 54,
+    "n_conflicting_locations": 0,
+    "conflict_fraction": 0.0,
+    "example_conflict": null,
+    "n_locations_total": 66,
+    "zone_to_concrete_is_function_check_size": 1617
+  },
+  {
+    "instance": "PJS_04",
+    "n_concrete_states": 1605,
+    "n_zone_states": 4470,
+    "concrete_truncated": false,
+    "explore_wall_s": 0.4122500419616699,
+    "qualifies_for_exact_dp": true,
+    "n_concrete_states_explored": 1605,
+    "n_states_with_optimal_action": 1393,
+    "dp_wall_s": 0.0077860355377197266,
+    "n_multi_state_locations": 141,
+    "n_conflicting_locations": 2,
+    "conflict_fraction": 0.014184397163120567,
+    "example_conflict": {
+      "location": [
+        "done",
+        "done",
+        "waiting",
+        "done",
+        "done",
+        "active_d4",
+        "done",
+        "done",
+        "waiting"
+      ],
+      "states_and_actions": [
+        {
+          "vc": [
+            [
+              "J1",
+              5.0
+            ],
+            [
+              "J2",
+              3.0
+            ],
+            [
+              "J3",
+              5.0
+            ]
+          ],
+          "optimal_action": "J1_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              5.0
+            ],
+            [
+              "J2",
+              2.0
+            ],
+            [
+              "J3",
+              5.0
+            ]
+          ],
+          "optimal_action": "J1_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              5.0
+            ],
+            [
+              "J2",
+              0.0
+            ],
+            [
+              "J3",
+              4.0
+            ]
+          ],
+          "optimal_action": "J1_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              5.0
+            ],
+            [
+              "J2",
+              0.0
+            ],
+            [
+              "J3",
+              2.0
+            ]
+          ],
+          "optimal_action": "J1_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              5.0
+            ],
+            [
+              "J2",
+              1.0
+            ],
+            [
+              "J3",
+              4.0
+            ]
+          ],
+          "optimal_action": "J3_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              6.0
+            ],
+            [
+              "J2",
+              0.0
+            ],
+            [
+              "J3",
+              2.0
+            ]
+          ],
+          "optimal_action": "J1_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              4.0
+            ],
+            [
+              "J2",
+              3.0
+            ],
+            [
+              "J3",
+              5.0
+            ]
+          ],
+          "optimal_action": "J1_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              4.0
+            ],
+            [
+              "J2",
+              2.0
+            ],
+            [
+              "J3",
+              6.0
+            ]
+          ],
+          "optimal_action": "J1_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              4.0
+            ],
+            [
+              "J2",
+              1.0
+            ],
+            [
+              "J3",
+              3.0
+            ]
+          ],
+          "optimal_action": "J3_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              5.0
+            ],
+            [
+              "J2",
+              2.0
+            ],
+            [
+              "J3",
+              4.0
+            ]
+          ],
+          "optimal_action": "J1_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              3.0
+            ],
+            [
+              "J2",
+              1.0
+            ],
+            [
+              "J3",
+              5.0
+            ]
+          ],
+          "optimal_action": "J3_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              5.0
+            ],
+            [
+              "J2",
+              3.0
+            ],
+            [
+              "J3",
+              6.0
+            ]
+          ],
+          "optimal_action": "J1_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              7.0
+            ],
+            [
+              "J2",
+              0.0
+            ],
+            [
+              "J3",
+              3.0
+            ]
+          ],
+          "optimal_action": "J1_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              4.0
+            ],
+            [
+              "J2",
+              1.0
+            ],
+            [
+              "J3",
+              4.0
+            ]
+          ],
+          "optimal_action": "J3_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              3.0
+            ],
+            [
+              "J2",
+              1.0
+            ],
+            [
+              "J3",
+              3.0
+            ]
+          ],
+          "optimal_action": "J3_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              4.0
+            ],
+            [
+              "J2",
+              1.0
+            ],
+            [
+              "J3",
+              5.0
+            ]
+          ],
+          "optimal_action": "J3_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              5.0
+            ],
+            [
+              "J2",
+              3.0
+            ],
+            [
+              "J3",
+              7.0
+            ]
+          ],
+          "optimal_action": "J1_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              3.0
+            ],
+            [
+              "J2",
+              0.0
+            ],
+            [
+              "J3",
+              3.0
+            ]
+          ],
+          "optimal_action": "J1_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              4.0
+            ],
+            [
+              "J2",
+              0.0
+            ],
+            [
+              "J3",
+              3.0
+            ]
+          ],
+          "optimal_action": "J1_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              3.0
+            ],
+            [
+              "J2",
+              1.0
+            ],
+            [
+              "J3",
+              4.0
+            ]
+          ],
+          "optimal_action": "J3_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              3.0
+            ],
+            [
+              "J2",
+              2.0
+            ],
+            [
+              "J3",
+              5.0
+            ]
+          ],
+          "optimal_action": "J1_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              3.0
+            ],
+            [
+              "J2",
+              0.0
+            ],
+            [
+              "J3",
+              4.0
+            ]
+          ],
+          "optimal_action": "J1_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              4.0
+            ],
+            [
+              "J2",
+              2.0
+            ],
+            [
+              "J3",
+              5.0
+            ]
+          ],
+          "optimal_action": "J1_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              4.0
+            ],
+            [
+              "J2",
+              0.0
+            ],
+            [
+              "J3",
+              4.0
+            ]
+          ],
+          "optimal_action": "J1_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              3.0
+            ],
+            [
+              "J2",
+              0.0
+            ],
+            [
+              "J3",
+              5.0
+            ]
+          ],
+          "optimal_action": "J1_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              5.0
+            ],
+            [
+              "J2",
+              2.0
+            ],
+            [
+              "J3",
+              6.0
+            ]
+          ],
+          "optimal_action": "J1_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              5.0
+            ],
+            [
+              "J2",
+              1.0
+            ],
+            [
+              "J3",
+              3.0
+            ]
+          ],
+          "optimal_action": "J3_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              4.0
+            ],
+            [
+              "J2",
+              0.0
+            ],
+            [
+              "J3",
+              2.0
+            ]
+          ],
+          "optimal_action": "J1_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              3.0
+            ],
+            [
+              "J2",
+              0.0
+            ],
+            [
+              "J3",
+              2.0
+            ]
+          ],
+          "optimal_action": "J1_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              4.0
+            ],
+            [
+              "J2",
+              1.0
+            ],
+            [
+              "J3",
+              6.0
+            ]
+          ],
+          "optimal_action": "J3_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              3.0
+            ],
+            [
+              "J2",
+              2.0
+            ],
+            [
+              "J3",
+              4.0
+            ]
+          ],
+          "optimal_action": "J1_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              5.0
+            ],
+            [
+              "J2",
+              2.0
+            ],
+            [
+              "J3",
+              7.0
+            ]
+          ],
+          "optimal_action": "J1_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              4.0
+            ],
+            [
+              "J2",
+              2.0
+            ],
+            [
+              "J3",
+              4.0
+            ]
+          ],
+          "optimal_action": "J1_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              4.0
+            ],
+            [
+              "J2",
+              3.0
+            ],
+            [
+              "J3",
+              6.0
+            ]
+          ],
+          "optimal_action": "J1_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              5.0
+            ],
+            [
+              "J2",
+              0.0
+            ],
+            [
+              "J3",
+              3.0
+            ]
+          ],
+          "optimal_action": "J1_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              5.0
+            ],
+            [
+              "J2",
+              1.0
+            ],
+            [
+              "J3",
+              5.0
+            ]
+          ],
+          "optimal_action": "J3_T3",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              6.0
+            ],
+            [
+              "J2",
+              0.0
+            ],
+            [
+              "J3",
+              3.0
+            ]
+          ],
+          "optimal_action": "J1_T3",
+          "V": 0.0
+        }
+      ]
+    },
+    "n_locations_total": 214,
+    "zone_to_concrete_is_function_check_size": 4470
+  },
+  {
+    "instance": "PJS_05",
+    "n_concrete_states": 95632,
+    "n_zone_states": 269718,
+    "concrete_truncated": false,
+    "explore_wall_s": 36.930140256881714,
+    "qualifies_for_exact_dp": true,
+    "n_concrete_states_explored": 95632,
+    "n_states_with_optimal_action": 84777,
+    "dp_wall_s": 1.1334812641143799,
+    "n_multi_state_locations": 1538,
+    "n_conflicting_locations": 40,
+    "conflict_fraction": 0.02600780234070221,
+    "example_conflict": {
+      "location": [
+        "active_d3",
+        "waiting",
+        "waiting",
+        "done",
+        "waiting",
+        "waiting",
+        "done",
+        "waiting",
+        "waiting",
+        "done",
+        "waiting",
+        "waiting"
+      ],
+      "states_and_actions": [
+        {
+          "vc": [
+            [
+              "J1",
+              1.0
+            ],
+            [
+              "J2",
+              5.0
+            ],
+            [
+              "J3",
+              5.0
+            ],
+            [
+              "J4",
+              5.0
+            ]
+          ],
+          "optimal_action": "J3_T2",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              0.0
+            ],
+            [
+              "J2",
+              2.0
+            ],
+            [
+              "J3",
+              2.0
+            ],
+            [
+              "J4",
+              2.0
+            ]
+          ],
+          "optimal_action": "J4_T2",
+          "V": 0.0
+        },
+        {
+          "vc": [
+            [
+              "J1",
+              0.0
+            ],
+            [
+              "J2",
+              7.0
+            ],
+            [
+              "J3",
+              7.0
+            ],
+            [
+              "J4",
+              7.0
+            ]
+          ],
+          "optimal_action": "J4_T2",
+          "V": 0.0
+        }
+      ]
+    },
+    "n_locations_total": 1678,
+    "zone_to_concrete_is_function_check_size": 269718
+  }
+]

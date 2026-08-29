@@ -1,0 +1,289 @@
+{
+  "instance_w": 0.25,
+  "exclusions": {
+    "n_states_total": 3438,
+    "n_terminal_excluded": 2,
+    "n_deadlock_excluded": 0,
+    "n_usable": 3436
+  },
+  "measurement1": {
+    "n_usable_states": 3436,
+    "n_classes": 64,
+    "class_size_mean": 53.6875,
+    "class_size_median": 16.0,
+    "class_size_max": 594,
+    "singleton_class_fraction": 0.109375
+  },
+  "n_locations": 8,
+  "measurement2": {
+    "a_concrete_state": {
+      "n_cells": 3436,
+      "soundness_fraction": 1.0,
+      "mean_cell_size": 1,
+      "max_cell_size": 1,
+      "singleton_fraction": 1.0
+    },
+    "b_location_plus_activated": {
+      "n_cells": 23,
+      "soundness_fraction": 0.5217391304347826,
+      "mean_cell_size": 149.3913043478261,
+      "max_cell_size": 810,
+      "singleton_fraction": 0.043478260869565216
+    },
+    "c_current_zone_construction": {
+      "n_cells": 3436,
+      "soundness_fraction": 1.0,
+      "mean_cell_size": 1,
+      "max_cell_size": 1,
+      "singleton_fraction": 1.0
+    },
+    "d_gate_passability_bits": {
+      "n_cells": 23,
+      "soundness_fraction": 0.43478260869565216,
+      "mean_cell_size": 149.3913043478261,
+      "max_cell_size": 533,
+      "singleton_fraction": 0.0
+    },
+    "e_gate_reachability_bits": {
+      "n_cells": 13,
+      "soundness_fraction": 0.5384615384615384,
+      "mean_cell_size": 264.3076923076923,
+      "max_cell_size": 555,
+      "singleton_fraction": 0.0
+    },
+    "f_discretized_clocks_g1": {
+      "n_cells": 3436,
+      "soundness_fraction": 1.0,
+      "mean_cell_size": 1,
+      "max_cell_size": 1,
+      "singleton_fraction": 1.0
+    },
+    "f_discretized_clocks_g2": {
+      "n_cells": 820,
+      "soundness_fraction": 0.8768292682926829,
+      "mean_cell_size": 4.190243902439025,
+      "max_cell_size": 8,
+      "singleton_fraction": 0.0475609756097561
+    },
+    "f_discretized_clocks_g4": {
+      "n_cells": 212,
+      "soundness_fraction": 0.7358490566037735,
+      "mean_cell_size": 16.20754716981132,
+      "max_cell_size": 52,
+      "singleton_fraction": 0.02358490566037736
+    },
+    "g_window_relative_position": {
+      "n_cells": 44,
+      "soundness_fraction": 0.5681818181818182,
+      "mean_cell_size": 78.0909090909091,
+      "max_cell_size": 184,
+      "singleton_fraction": 0.0
+    }
+  },
+  "measurement3": {
+    "per_class": [
+      {
+        "class_size": 594,
+        "action_set": [
+          "d0_DOWN"
+        ],
+        "contamination_count": 1945,
+        "clean": false,
+        "contaminating_examples": [
+          "GridState(pos=(0, 1), clocks=(0, 2), y=2)",
+          "GridState(pos=(2, 0), clocks=(2, 1), y=2)",
+          "GridState(pos=(1, 1), clocks=(2, 1), y=2)"
+        ]
+      },
+      {
+        "class_size": 525,
+        "action_set": [
+          "d0_RIGHT"
+        ],
+        "contamination_count": 1860,
+        "clean": false,
+        "contaminating_examples": [
+          "GridState(pos=(0, 0), clocks=(2, 1), y=2)",
+          "GridState(pos=(2, 0), clocks=(2, 1), y=2)",
+          "GridState(pos=(1, 1), clocks=(2, 1), y=2)"
+        ]
+      },
+      {
+        "class_size": 170,
+        "action_set": [
+          "d0_UP",
+          "d1_UP",
+          "d2_UP"
+        ],
+        "contamination_count": 939,
+        "clean": false,
+        "contaminating_examples": [
+          "GridState(pos=(0, 0), clocks=(10, 3), y=10)",
+          "GridState(pos=(2, 0), clocks=(10, 3), y=10)",
+          "GridState(pos=(1, 1), clocks=(10, 3), y=10)"
+        ]
+      },
+      {
+        "class_size": 166,
+        "action_set": [
+          "d0_UP"
+        ],
+        "contamination_count": 2171,
+        "clean": false,
+        "contaminating_examples": [
+          "GridState(pos=(0, 0), clocks=(2, 1), y=2)",
+          "GridState(pos=(1, 1), clocks=(2, 1), y=2)",
+          "GridState(pos=(0, 0), clocks=(3, 2), y=3)"
+        ]
+      },
+      {
+        "class_size": 141,
+        "action_set": [
+          "d0_DOWN",
+          "d0_RIGHT"
+        ],
+        "contamination_count": 3052,
+        "clean": false,
+        "contaminating_examples": [
+          "GridState(pos=(0, 0), clocks=(2, 1), y=2)",
+          "GridState(pos=(2, 0), clocks=(2, 1), y=2)",
+          "GridState(pos=(1, 1), clocks=(2, 1), y=2)"
+        ]
+      },
+      {
+        "class_size": 137,
+        "action_set": [
+          "d0_LEFT",
+          "d0_UP",
+          "d1_LEFT",
+          "d1_UP",
+          "d2_LEFT",
+          "d2_UP"
+        ],
+        "contamination_count": 595,
+        "clean": false,
+        "contaminating_examples": [
+          "GridState(pos=(0, 0), clocks=(11, 3), y=11)",
+          "GridState(pos=(2, 0), clocks=(11, 3), y=11)",
+          "GridState(pos=(1, 1), clocks=(11, 3), y=11)"
+        ]
+      },
+      {
+        "class_size": 135,
+        "action_set": [
+          "d0_DOWN",
+          "d0_RIGHT",
+          "d1_DOWN",
+          "d1_RIGHT",
+          "d2_DOWN",
+          "d2_RIGHT"
+        ],
+        "contamination_count": 954,
+        "clean": false,
+        "contaminating_examples": [
+          "GridState(pos=(0, 0), clocks=(12, 3), y=12)",
+          "GridState(pos=(2, 0), clocks=(12, 3), y=12)",
+          "GridState(pos=(1, 1), clocks=(12, 3), y=12)"
+        ]
+      },
+      {
+        "class_size": 133,
+        "action_set": [
+          "d0_LEFT"
+        ],
+        "contamination_count": 1912,
+        "clean": false,
+        "contaminating_examples": [
+          "GridState(pos=(0, 0), clocks=(6, 3), y=6)",
+          "GridState(pos=(2, 0), clocks=(6, 3), y=6)",
+          "GridState(pos=(1, 1), clocks=(6, 3), y=6)"
+        ]
+      },
+      {
+        "class_size": 110,
+        "action_set": [
+          "d0_LEFT",
+          "d0_UP"
+        ],
+        "contamination_count": 385,
+        "clean": false,
+        "contaminating_examples": [
+          "GridState(pos=(0, 0), clocks=(16, 3), y=16)",
+          "GridState(pos=(2, 0), clocks=(16, 3), y=16)",
+          "GridState(pos=(1, 1), clocks=(3, 9), y=16)"
+        ]
+      },
+      {
+        "class_size": 103,
+        "action_set": [
+          "d1_DOWN"
+        ],
+        "contamination_count": 1335,
+        "clean": false,
+        "contaminating_examples": [
+          "GridState(pos=(0, 0), clocks=(4, 3), y=4)",
+          "GridState(pos=(2, 0), clocks=(4, 3), y=4)",
+          "GridState(pos=(1, 1), clocks=(4, 3), y=4)"
+        ]
+      }
+    ],
+    "n_clean_of_top": 0,
+    "top_n": 10
+  },
+  "measurement4": {
+    "a_concrete_state": {
+      "is_refinement_of_action_partition": true,
+      "cells_failing_fraction": 0.0,
+      "mean_cell_size": 1,
+      "abstracts_at_all": false
+    },
+    "b_location_plus_activated": {
+      "is_refinement_of_action_partition": false,
+      "cells_failing_fraction": 0.8695652173913043,
+      "mean_cell_size": 149.3913043478261,
+      "abstracts_at_all": true
+    },
+    "c_current_zone_construction": {
+      "is_refinement_of_action_partition": true,
+      "cells_failing_fraction": 0.0,
+      "mean_cell_size": 1,
+      "abstracts_at_all": false
+    },
+    "d_gate_passability_bits": {
+      "is_refinement_of_action_partition": false,
+      "cells_failing_fraction": 1.0,
+      "mean_cell_size": 149.3913043478261,
+      "abstracts_at_all": true
+    },
+    "e_gate_reachability_bits": {
+      "is_refinement_of_action_partition": false,
+      "cells_failing_fraction": 1.0,
+      "mean_cell_size": 264.3076923076923,
+      "abstracts_at_all": true
+    },
+    "f_discretized_clocks_g1": {
+      "is_refinement_of_action_partition": true,
+      "cells_failing_fraction": 0.0,
+      "mean_cell_size": 1,
+      "abstracts_at_all": false
+    },
+    "f_discretized_clocks_g2": {
+      "is_refinement_of_action_partition": false,
+      "cells_failing_fraction": 0.40487804878048783,
+      "mean_cell_size": 4.190243902439025,
+      "abstracts_at_all": true
+    },
+    "f_discretized_clocks_g4": {
+      "is_refinement_of_action_partition": false,
+      "cells_failing_fraction": 0.6273584905660378,
+      "mean_cell_size": 16.20754716981132,
+      "abstracts_at_all": true
+    },
+    "g_window_relative_position": {
+      "is_refinement_of_action_partition": false,
+      "cells_failing_fraction": 1.0,
+      "mean_cell_size": 78.0909090909091,
+      "abstracts_at_all": true
+    }
+  }
+}

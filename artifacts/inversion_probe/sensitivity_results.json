@@ -1,0 +1,168 @@
+[
+  {
+    "deadline": 10.0,
+    "slow_buckets": [
+      1,
+      2
+    ],
+    "fast_buckets": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "threshold_tau": 2,
+    "n_multi_zone_locations": 1,
+    "n_decision_relevant_locations": 1,
+    "frac_decision_relevant": 1.0,
+    "distinct_concrete": 384,
+    "distinct_zone": 20,
+    "distinct_loc": 3,
+    "aggregation_ratio_zone": 19.2,
+    "aggregation_ratio_loc_control": 128.0,
+    "per_location": {
+      "('waiting', 'waiting')": {
+        "distinct_concrete": 1,
+        "distinct_zone": 1,
+        "ratio": 1.0
+      },
+      "('done', 'waiting')": {
+        "distinct_concrete": 200,
+        "distinct_zone": 9,
+        "ratio": 22.22222222222222
+      },
+      "('done', 'done')": {
+        "distinct_concrete": 183,
+        "distinct_zone": 10,
+        "ratio": 18.3
+      }
+    }
+  },
+  {
+    "deadline": 12.0,
+    "slow_buckets": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "fast_buckets": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "threshold_tau": 4,
+    "n_multi_zone_locations": 1,
+    "n_decision_relevant_locations": 1,
+    "frac_decision_relevant": 1.0,
+    "distinct_concrete": 401,
+    "distinct_zone": 23,
+    "distinct_loc": 3,
+    "aggregation_ratio_zone": 17.434782608695652,
+    "aggregation_ratio_loc_control": 133.66666666666666,
+    "per_location": {
+      "('waiting', 'waiting')": {
+        "distinct_concrete": 1,
+        "distinct_zone": 1,
+        "ratio": 1.0
+      },
+      "('done', 'waiting')": {
+        "distinct_concrete": 200,
+        "distinct_zone": 9,
+        "ratio": 22.22222222222222
+      },
+      "('done', 'done')": {
+        "distinct_concrete": 200,
+        "distinct_zone": 13,
+        "ratio": 15.384615384615385
+      }
+    }
+  },
+  {
+    "deadline": 16.0,
+    "slow_buckets": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "fast_buckets": [
+      9
+    ],
+    "threshold_tau": 8,
+    "n_multi_zone_locations": 1,
+    "n_decision_relevant_locations": 1,
+    "frac_decision_relevant": 1.0,
+    "distinct_concrete": 401,
+    "distinct_zone": 27,
+    "distinct_loc": 3,
+    "aggregation_ratio_zone": 14.851851851851851,
+    "aggregation_ratio_loc_control": 133.66666666666666,
+    "per_location": {
+      "('waiting', 'waiting')": {
+        "distinct_concrete": 1,
+        "distinct_zone": 1,
+        "ratio": 1.0
+      },
+      "('done', 'waiting')": {
+        "distinct_concrete": 200,
+        "distinct_zone": 9,
+        "ratio": 22.22222222222222
+      },
+      "('done', 'done')": {
+        "distinct_concrete": 200,
+        "distinct_zone": 17,
+        "ratio": 11.764705882352942
+      }
+    }
+  },
+  {
+    "deadline": 24.0,
+    "slow_buckets": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "fast_buckets": [],
+    "threshold_tau": 9,
+    "n_multi_zone_locations": 1,
+    "n_decision_relevant_locations": 0,
+    "frac_decision_relevant": 0.0,
+    "distinct_concrete": 401,
+    "distinct_zone": 28,
+    "distinct_loc": 3,
+    "aggregation_ratio_zone": 14.321428571428571,
+    "aggregation_ratio_loc_control": 133.66666666666666,
+    "per_location": {
+      "('waiting', 'waiting')": {
+        "distinct_concrete": 1,
+        "distinct_zone": 1,
+        "ratio": 1.0
+      },
+      "('done', 'waiting')": {
+        "distinct_concrete": 200,
+        "distinct_zone": 9,
+        "ratio": 22.22222222222222
+      },
+      "('done', 'done')": {
+        "distinct_concrete": 200,
+        "distinct_zone": 18,
+        "ratio": 11.11111111111111
+      }
+    }
+  }
+]

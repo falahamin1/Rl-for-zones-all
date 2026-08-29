@@ -1,0 +1,7 @@
+PJS_01   records=   800 fail=False distinct(concrete/zone/loc)=27/41/14 agg_ratio_zone=0.659 agg_ratio_loc_control=1.929 cluster(mean/median/max)=1.171/1.0/3 frac_size1=0.854
+PJS_02   records=  1000 fail=False distinct(concrete/zone/loc)=79/106/25 agg_ratio_zone=0.745 agg_ratio_loc_control=3.160 cluster(mean/median/max)=1.198/1.0/4 frac_size1=0.849
+PJS_03   records=  1200 fail=False distinct(concrete/zone/loc)=288/444/66 agg_ratio_zone=0.649 agg_ratio_loc_control=4.364 cluster(mean/median/max)=1.023/1.0/3 frac_size1=0.980
+PJS_04   records=  1800 fail=False distinct(concrete/zone/loc)=537/875/168 agg_ratio_zone=0.614 agg_ratio_loc_control=3.196 cluster(mean/median/max)=1.034/1.0/3 frac_size1=0.967
+PJS_05   records=  2400 fail=False distinct(concrete/zone/loc)=1474/1737/704 agg_ratio_zone=0.849 agg_ratio_loc_control=2.094 cluster(mean/median/max)=1.003/1.0/2 frac_size1=0.997
+LJS_01   records=  4800 fail=False distinct(concrete/zone/loc)=4095/4304/3625 agg_ratio_zone=0.951 agg_ratio_loc_control=1.130 cluster(mean/median/max)=1.000/1.0/1 frac_size1=1.000
+Saved /tmp/spike2_taskB_results.json

@@ -1,0 +1,364 @@
+Launching 36 jobs across a pool of 8 workers...
+[LJS_01/cnn_dbm/seed1] upd=   0 steps=   2048 ret= -101.66± 11.86 makespan= 101.66 H=0.491 Vloss=1634.928 EV= 0.00 wall= 9.54s enc_frac=82.4%
+[LJS_01/cnn_dbm/seed1] upd=  10 steps=  22528 ret= -100.36± 10.95 makespan= 100.36 H=0.456 Vloss= 367.753 EV= 0.30 wall= 9.66s enc_frac=81.3%
+[LJS_01/cnn_dbm/seed1] upd=  20 steps=  43008 ret=  -98.35±  9.88 makespan=  98.35 H=0.398 Vloss= 339.091 EV= 0.30 wall=10.21s enc_frac=82.2%
+[LJS_01/cnn_dbm/seed1] upd=  30 steps=  63488 ret=  -98.70±  7.78 makespan=  98.70 H=0.408 Vloss= 312.622 EV= 0.31 wall= 9.89s enc_frac=82.4%
+[LJS_01/cnn_dbm/seed1] upd=  40 steps=  83968 ret=  -96.80±  9.46 makespan=  96.80 H=0.415 Vloss= 327.151 EV= 0.32 wall= 9.54s enc_frac=82.3%
+[LJS_01/cnn_dbm/seed1] upd=  50 steps= 104448 ret=  -98.12±  9.09 makespan=  98.12 H=0.380 Vloss= 326.083 EV= 0.31 wall= 9.29s enc_frac=82.3%
+[LJS_01/cnn_dbm/seed1] upd=  60 steps= 124928 ret=  -96.10±  7.22 makespan=  96.10 H=0.422 Vloss= 295.922 EV= 0.35 wall= 9.05s enc_frac=82.4%
+[LJS_01/cnn_dbm/seed1] upd=  70 steps= 145408 ret=  -97.57±  8.38 makespan=  97.57 H=0.408 Vloss= 330.484 EV= 0.33 wall= 9.49s enc_frac=83.2%
+[LJS_01/cnn_dbm/seed1] upd=  80 steps= 165888 ret=  -97.66±  8.20 makespan=  97.66 H=0.390 Vloss= 307.168 EV= 0.34 wall= 9.71s enc_frac=83.0%
+  early stop: no improvement for 51200 steps
+DONE LJS_01/cnn_dbm/seed1: wall=830.3s updates=86 steps=176128
+[PJS_04/cnn_proj/seed0] upd=   0 steps=   2048 ret=  -12.55±  1.68 makespan=  12.55 H=0.416 Vloss=  54.892 EV= 0.00 wall= 5.33s enc_frac=83.8%
+[PJS_04/cnn_proj/seed0] upd=  10 steps=  22528 ret=  -12.21±  1.50 makespan=  12.21 H=0.341 Vloss=   4.837 EV= 0.52 wall= 5.66s enc_frac=83.1%
+[PJS_04/cnn_proj/seed0] upd=  20 steps=  43008 ret=  -12.12±  1.57 makespan=  12.12 H=0.284 Vloss=   2.830 EV= 0.72 wall= 5.31s enc_frac=82.2%
+[PJS_04/cnn_proj/seed0] upd=  30 steps=  63488 ret=  -12.18±  1.67 makespan=  12.18 H=0.253 Vloss=   2.142 EV= 0.79 wall= 5.61s enc_frac=82.5%
+[PJS_04/cnn_proj/seed0] upd=  40 steps=  83968 ret=  -12.00±  1.85 makespan=  12.00 H=0.234 Vloss=   1.671 EV= 0.85 wall= 5.44s enc_frac=83.5%
+[PJS_04/cnn_proj/seed0] upd=  50 steps= 104448 ret=  -12.01±  1.81 makespan=  12.01 H=0.193 Vloss=   1.293 EV= 0.88 wall= 5.24s enc_frac=83.5%
+[PJS_04/cnn_proj/seed0] upd=  60 steps= 124928 ret=  -11.92±  1.79 makespan=  11.92 H=0.148 Vloss=   1.015 EV= 0.91 wall= 5.47s enc_frac=82.3%
+[PJS_04/cnn_proj/seed0] upd=  70 steps= 145408 ret=  -11.84±  1.76 makespan=  11.84 H=0.110 Vloss=   0.783 EV= 0.93 wall= 5.55s enc_frac=82.4%
+[PJS_04/cnn_proj/seed0] upd=  80 steps= 165888 ret=  -11.79±  1.75 makespan=  11.79 H=0.078 Vloss=   0.549 EV= 0.95 wall= 6.19s enc_frac=83.0%
+[PJS_04/cnn_proj/seed0] upd=  90 steps= 186368 ret=  -11.77±  1.71 makespan=  11.77 H=0.059 Vloss=   0.529 EV= 0.95 wall= 5.39s enc_frac=83.0%
+[PJS_04/cnn_proj/seed0] upd= 100 steps= 206848 ret=  -11.75±  1.72 makespan=  11.75 H=0.038 Vloss=   0.447 EV= 0.96 wall= 5.83s enc_frac=83.2%
+[PJS_04/cnn_proj/seed0] upd= 110 steps= 227328 ret=  -11.77±  1.72 makespan=  11.77 H=0.033 Vloss=   0.490 EV= 0.96 wall= 5.39s enc_frac=82.6%
+  early stop: no improvement for 51200 steps
+DONE PJS_04/cnn_proj/seed0: wall=686.9s updates=120 steps=245760
+[PJS_04/cnn_dbm/seed2] upd=   0 steps=   2048 ret=  -12.73±  1.89 makespan=  12.73 H=0.426 Vloss=  52.910 EV=-0.00 wall= 2.35s enc_frac=64.1%
+[PJS_04/cnn_dbm/seed2] upd=  10 steps=  22528 ret=  -12.62±  1.91 makespan=  12.62 H=0.403 Vloss=  10.684 EV= 0.12 wall= 2.37s enc_frac=60.5%
+[PJS_04/cnn_dbm/seed2] upd=  20 steps=  43008 ret=  -12.68±  1.87 makespan=  12.68 H=0.380 Vloss=   9.710 EV= 0.20 wall= 2.34s enc_frac=63.1%
+[PJS_04/cnn_dbm/seed2] upd=  30 steps=  63488 ret=  -12.70±  1.92 makespan=  12.70 H=0.410 Vloss=   9.638 EV= 0.24 wall= 2.37s enc_frac=62.1%
+  early stop: no improvement for 51200 steps
+DONE PJS_04/cnn_dbm/seed2: wall=74.0s updates=31 steps=63488
+[LJS_01/deepset/seed0] upd=   0 steps=   2048 ret=  -98.55±  9.52 makespan=  98.55 H=0.444 Vloss=1241.596 EV=-0.00 wall= 2.68s enc_frac=68.9%
+[LJS_01/deepset/seed0] upd=  10 steps=  22528 ret=  -96.67±  9.66 makespan=  96.67 H=0.336 Vloss= 363.426 EV= 0.24 wall= 2.60s enc_frac=69.2%
+[LJS_01/deepset/seed0] upd=  20 steps=  43008 ret=  -95.74±  9.67 makespan=  95.74 H=0.298 Vloss= 345.266 EV= 0.27 wall= 3.51s enc_frac=69.6%
+[LJS_01/deepset/seed0] upd=  30 steps=  63488 ret=  -92.60±  8.21 makespan=  92.60 H=0.295 Vloss= 238.785 EV= 0.46 wall= 3.09s enc_frac=65.9%
+[LJS_01/deepset/seed0] upd=  40 steps=  83968 ret=  -92.75±  7.68 makespan=  92.75 H=0.314 Vloss= 245.760 EV= 0.45 wall= 2.89s enc_frac=68.8%
+[LJS_01/deepset/seed0] upd=  50 steps= 104448 ret=  -92.44±  7.98 makespan=  92.44 H=0.279 Vloss= 236.239 EV= 0.47 wall= 2.94s enc_frac=67.6%
+[LJS_01/deepset/seed0] upd=  60 steps= 124928 ret=  -92.91±  7.69 makespan=  92.91 H=0.314 Vloss= 256.549 EV= 0.44 wall= 2.69s enc_frac=68.3%
+[LJS_01/deepset/seed0] upd=  70 steps= 145408 ret=  -92.61±  8.76 makespan=  92.61 H=0.290 Vloss= 254.985 EV= 0.47 wall= 2.96s enc_frac=66.7%
+  early stop: no improvement for 51200 steps
+DONE LJS_01/deepset/seed0: wall=228.8s updates=79 steps=161792
+[LJS_01/mlp/seed1] upd=   0 steps=   2048 ret= -101.55± 10.93 makespan= 101.55 H=0.486 Vloss=1606.390 EV= 0.01 wall= 0.81s enc_frac= 9.8%
+[LJS_01/mlp/seed1] upd=  10 steps=  22528 ret=  -90.00±  7.72 makespan=  90.00 H=0.189 Vloss=  16.829 EV= 0.96 wall= 0.89s enc_frac= 7.2%
+[LJS_01/mlp/seed1] upd=  20 steps=  43008 ret=  -88.23±  7.09 makespan=  88.23 H=0.129 Vloss=  12.074 EV= 0.97 wall= 0.75s enc_frac= 7.3%
+[LJS_01/mlp/seed1] upd=  30 steps=  63488 ret=  -87.79±  7.15 makespan=  87.79 H=0.110 Vloss=  11.517 EV= 0.97 wall= 0.78s enc_frac= 5.8%
+[LJS_01/mlp/seed1] upd=  40 steps=  83968 ret=  -86.42±  5.54 makespan=  86.42 H=0.054 Vloss=   6.547 EV= 0.98 wall= 0.77s enc_frac= 8.5%
+[LJS_01/mlp/seed1] upd=  50 steps= 104448 ret=  -86.01±  6.48 makespan=  86.01 H=0.046 Vloss=   6.944 EV= 0.98 wall= 1.00s enc_frac= 6.3%
+[LJS_01/mlp/seed1] upd=  60 steps= 124928 ret=  -85.44±  5.72 makespan=  85.44 H=0.025 Vloss=   5.098 EV= 0.99 wall= 0.80s enc_frac= 4.8%
+[LJS_01/mlp/seed1] upd=  70 steps= 145408 ret=  -85.61±  5.97 makespan=  85.61 H=0.027 Vloss=   5.331 EV= 0.99 wall= 0.73s enc_frac= 6.6%
+  early stop: no improvement for 51200 steps
+DONE LJS_01/mlp/seed1: wall=64.4s updates=79 steps=161792
+[PJS_05/mlp/seed2] upd=   0 steps=   2048 ret=  -22.16±  4.02 makespan=  22.16 H=0.488 Vloss= 144.219 EV= 0.00 wall= 0.62s enc_frac= 9.3%
+[PJS_05/mlp/seed2] upd=  10 steps=  22528 ret=  -20.71±  3.20 makespan=  20.71 H=0.326 Vloss=   4.713 EV= 0.84 wall= 0.59s enc_frac= 8.2%
+[PJS_05/mlp/seed2] upd=  20 steps=  43008 ret=  -19.86±  2.44 makespan=  19.86 H=0.199 Vloss=   2.319 EV= 0.92 wall= 0.55s enc_frac= 7.4%
+[PJS_05/mlp/seed2] upd=  30 steps=  63488 ret=  -19.80±  2.31 makespan=  19.80 H=0.148 Vloss=   1.599 EV= 0.94 wall= 0.57s enc_frac= 6.4%
+[PJS_05/mlp/seed2] upd=  40 steps=  83968 ret=  -19.82±  2.27 makespan=  19.82 H=0.125 Vloss=   1.394 EV= 0.95 wall= 0.61s enc_frac= 6.8%
+[PJS_05/mlp/seed2] upd=  50 steps= 104448 ret=  -19.65±  2.20 makespan=  19.65 H=0.096 Vloss=   1.252 EV= 0.95 wall= 0.56s enc_frac= 7.5%
+[PJS_05/mlp/seed2] upd=  60 steps= 124928 ret=  -19.68±  2.19 makespan=  19.68 H=0.056 Vloss=   1.201 EV= 0.96 wall= 0.54s enc_frac= 7.1%
+[PJS_05/mlp/seed2] upd=  70 steps= 145408 ret=  -19.66±  2.17 makespan=  19.66 H=0.046 Vloss=   1.095 EV= 0.96 wall= 0.48s enc_frac= 9.1%
+[PJS_05/mlp/seed2] upd=  80 steps= 165888 ret=  -19.65±  2.15 makespan=  19.65 H=0.062 Vloss=   1.108 EV= 0.96 wall= 0.44s enc_frac= 9.6%
+[PJS_05/mlp/seed2] upd=  90 steps= 186368 ret=  -19.64±  2.21 makespan=  19.64 H=0.066 Vloss=   1.278 EV= 0.95 wall= 0.44s enc_frac=10.0%
+[PJS_05/mlp/seed2] upd= 100 steps= 206848 ret=  -19.55±  2.11 makespan=  19.55 H=0.060 Vloss=   1.051 EV= 0.96 wall= 0.43s enc_frac= 8.7%
+[PJS_05/mlp/seed2] upd= 110 steps= 227328 ret=  -19.54±  2.18 makespan=  19.54 H=0.058 Vloss=   1.101 EV= 0.96 wall= 0.43s enc_frac= 5.2%
+[PJS_05/mlp/seed2] upd= 120 steps= 247808 ret=  -19.52±  2.13 makespan=  19.52 H=0.050 Vloss=   1.059 EV= 0.96 wall= 0.43s enc_frac= 9.7%
+[LJS_01/cnn_proj/seed0] upd=   0 steps=   2048 ret= -101.12± 11.38 makespan= 101.12 H=0.496 Vloss=1634.521 EV= 0.00 wall=25.88s enc_frac=94.0%
+[LJS_01/cnn_proj/seed0] upd=  10 steps=  22528 ret=  -91.80±  8.81 makespan=  91.80 H=0.256 Vloss= 268.751 EV= 0.41 wall=26.40s enc_frac=94.3%
+[LJS_01/cnn_proj/seed0] upd=  20 steps=  43008 ret=  -94.14±  7.76 makespan=  94.14 H=0.266 Vloss= 209.450 EV= 0.51 wall=26.61s enc_frac=94.0%
+[LJS_01/cnn_proj/seed0] upd=  30 steps=  63488 ret=  -91.86±  7.20 makespan=  91.86 H=0.228 Vloss= 181.412 EV= 0.57 wall=28.53s enc_frac=94.2%
+[LJS_01/cnn_proj/seed0] upd=  40 steps=  83968 ret=  -90.92±  7.43 makespan=  90.92 H=0.224 Vloss= 187.715 EV= 0.57 wall=22.56s enc_frac=94.2%
+  early stop: no improvement for 51200 steps
+DONE LJS_01/cnn_proj/seed0: wall=1092.6s updates=42 steps=86016
+[PJS_04/cnn_proj/seed2] upd=   0 steps=   2048 ret=  -12.83±  1.94 makespan=  12.83 H=0.423 Vloss=  53.847 EV=-0.00 wall= 4.42s enc_frac=82.5%
+[PJS_04/cnn_proj/seed2] upd=  10 steps=  22528 ret=  -12.56±  1.80 makespan=  12.56 H=0.377 Vloss=   5.509 EV= 0.51 wall= 4.42s enc_frac=83.0%
+[PJS_04/cnn_proj/seed2] upd=  20 steps=  43008 ret=  -12.38±  1.76 makespan=  12.38 H=0.309 Vloss=   3.004 EV= 0.73 wall= 4.42s enc_frac=82.9%
+[PJS_04/cnn_proj/seed2] upd=  30 steps=  63488 ret=  -12.22±  1.88 makespan=  12.22 H=0.231 Vloss=   2.221 EV= 0.80 wall= 4.48s enc_frac=82.2%
+[PJS_04/cnn_proj/seed2] upd=  40 steps=  83968 ret=  -12.38±  1.84 makespan=  12.38 H=0.228 Vloss=   1.811 EV= 0.84 wall= 5.59s enc_frac=81.0%
+[PJS_04/cnn_proj/seed2] upd=  50 steps= 104448 ret=  -12.27±  1.97 makespan=  12.27 H=0.213 Vloss=   1.685 EV= 0.86 wall= 5.68s enc_frac=81.9%
+[PJS_04/cnn_proj/seed2] upd=  60 steps= 124928 ret=  -12.19±  1.98 makespan=  12.19 H=0.239 Vloss=   1.380 EV= 0.88 wall= 4.63s enc_frac=83.2%
+[PJS_04/cnn_proj/seed2] upd=  70 steps= 145408 ret=  -12.21±  1.99 makespan=  12.21 H=0.185 Vloss=   1.143 EV= 0.90 wall= 4.83s enc_frac=81.0%
+[PJS_04/cnn_proj/seed2] upd=  80 steps= 165888 ret=  -12.09±  1.93 makespan=  12.09 H=0.156 Vloss=   0.924 EV= 0.92 wall= 4.52s enc_frac=83.0%
+[PJS_04/cnn_proj/seed2] upd=  90 steps= 186368 ret=  -12.03±  1.95 makespan=  12.03 H=0.154 Vloss=   0.863 EV= 0.93 wall= 4.40s enc_frac=82.9%
+[PJS_04/cnn_proj/seed2] upd= 100 steps= 206848 ret=  -11.99±  1.81 makespan=  11.99 H=0.137 Vloss=   0.706 EV= 0.94 wall= 4.51s enc_frac=82.7%
+[PJS_04/cnn_proj/seed2] upd= 110 steps= 227328 ret=  -11.96±  1.78 makespan=  11.96 H=0.139 Vloss=   0.736 EV= 0.94 wall= 4.65s enc_frac=83.3%
+[PJS_04/cnn_proj/seed2] upd= 120 steps= 247808 ret=  -11.83±  1.73 makespan=  11.83 H=0.137 Vloss=   0.653 EV= 0.94 wall= 4.46s enc_frac=82.7%
+[PJS_04/cnn_proj/seed2] upd= 130 steps= 268288 ret=  -11.88±  1.71 makespan=  11.88 H=0.083 Vloss=   0.580 EV= 0.95 wall= 4.56s enc_frac=82.7%
+[PJS_04/cnn_proj/seed2] upd= 140 steps= 288768 ret=  -11.79±  1.68 makespan=  11.79 H=0.064 Vloss=   0.483 EV= 0.96 wall= 4.84s enc_frac=82.2%
+DONE PJS_04/cnn_proj/seed2: wall=675.6s updates=147 steps=301056
+[PJS_04/deepset/seed0] upd=   0 steps=   2048 ret=  -12.74±  1.85 makespan=  12.74 H=0.406 Vloss=  26.054 EV=-0.00 wall= 0.76s enc_frac=45.3%
+[PJS_04/deepset/seed0] upd=  10 steps=  22528 ret=  -12.24±  1.51 makespan=  12.24 H=0.344 Vloss=   8.269 EV= 0.22 wall= 0.80s enc_frac=41.4%
+[PJS_04/deepset/seed0] upd=  20 steps=  43008 ret=  -12.25±  1.48 makespan=  12.25 H=0.290 Vloss=   6.905 EV= 0.34 wall= 0.79s enc_frac=44.1%
+[PJS_04/deepset/seed0] upd=  30 steps=  63488 ret=  -12.21±  1.63 makespan=  12.21 H=0.253 Vloss=   5.233 EV= 0.52 wall= 0.81s enc_frac=42.9%
+[PJS_04/deepset/seed0] upd=  40 steps=  83968 ret=  -12.19±  1.52 makespan=  12.19 H=0.302 Vloss=   3.512 EV= 0.65 wall= 0.79s enc_frac=46.2%
+[PJS_04/deepset/seed0] upd=  50 steps= 104448 ret=  -12.17±  1.51 makespan=  12.17 H=0.247 Vloss=   3.233 EV= 0.70 wall= 0.83s enc_frac=46.8%
+[PJS_04/deepset/seed0] upd=  60 steps= 124928 ret=  -12.09±  1.54 makespan=  12.09 H=0.239 Vloss=   2.882 EV= 0.71 wall= 0.77s enc_frac=46.3%
+[PJS_04/deepset/seed0] upd=  70 steps= 145408 ret=  -12.14±  1.49 makespan=  12.14 H=0.240 Vloss=   2.689 EV= 0.74 wall= 0.79s enc_frac=45.1%
+[PJS_04/deepset/seed0] upd=  80 steps= 165888 ret=  -12.09±  1.54 makespan=  12.09 H=0.225 Vloss=   2.804 EV= 0.75 wall= 0.74s enc_frac=47.3%
+[PJS_04/deepset/seed0] upd=  90 steps= 186368 ret=  -12.09±  1.41 makespan=  12.09 H=0.214 Vloss=   2.230 EV= 0.79 wall= 0.76s enc_frac=46.1%
+[PJS_04/deepset/seed0] upd= 100 steps= 206848 ret=  -12.03±  1.49 makespan=  12.03 H=0.193 Vloss=   2.529 EV= 0.78 wall= 0.79s enc_frac=43.3%
+  early stop: no improvement for 51200 steps
+DONE PJS_04/deepset/seed0: wall=86.0s updates=108 steps=221184
+[PJS_05/mlp/seed1] upd=   0 steps=   2048 ret=  -22.28±  3.88 makespan=  22.28 H=0.501 Vloss= 147.235 EV=-0.00 wall= 0.44s enc_frac= 7.1%
+[PJS_05/mlp/seed1] upd=  10 steps=  22528 ret=  -21.09±  3.63 makespan=  21.09 H=0.333 Vloss=   5.861 EV= 0.81 wall= 0.51s enc_frac= 5.0%
+[PJS_05/mlp/seed1] upd=  20 steps=  43008 ret=  -19.94±  2.62 makespan=  19.94 H=0.215 Vloss=   2.659 EV= 0.90 wall= 0.45s enc_frac= 8.4%
+[PJS_05/mlp/seed1] upd=  30 steps=  63488 ret=  -19.98±  2.49 makespan=  19.98 H=0.168 Vloss=   1.932 EV= 0.92 wall= 0.42s enc_frac= 4.6%
+[PJS_05/mlp/seed1] upd=  40 steps=  83968 ret=  -19.70±  2.34 makespan=  19.70 H=0.120 Vloss=   1.577 EV= 0.94 wall= 0.51s enc_frac= 7.5%
+[PJS_05/mlp/seed1] upd=  50 steps= 104448 ret=  -19.77±  2.47 makespan=  19.77 H=0.082 Vloss=   1.730 EV= 0.93 wall= 0.49s enc_frac= 9.1%
+[PJS_05/mlp/seed1] upd=  60 steps= 124928 ret=  -19.63±  2.18 makespan=  19.63 H=0.050 Vloss=   1.180 EV= 0.95 wall= 0.46s enc_frac= 6.0%
+[PJS_05/mlp/seed1] upd=  70 steps= 145408 ret=  -19.60±  2.13 makespan=  19.60 H=0.050 Vloss=   1.070 EV= 0.96 wall= 0.46s enc_frac= 7.0%
+[PJS_05/mlp/seed1] upd=  80 steps= 165888 ret=  -19.68±  2.22 makespan=  19.68 H=0.044 Vloss=   1.128 EV= 0.96 wall= 0.44s enc_frac= 7.1%
+[PJS_05/mlp/seed1] upd=  90 steps= 186368 ret=  -19.61±  2.16 makespan=  19.61 H=0.040 Vloss=   1.106 EV= 0.96 wall= 0.45s enc_frac= 4.5%
+[PJS_05/mlp/seed1] upd= 100 steps= 206848 ret=  -19.61±  2.12 makespan=  19.61 H=0.036 Vloss=   1.011 EV= 0.96 wall= 0.51s enc_frac=10.5%
+  early stop: no improvement for 51200 steps
+DONE PJS_05/mlp/seed1: wall=47.8s updates=101 steps=206848
+[PJS_04/mlp/seed2] upd=   0 steps=   2048 ret=  -12.80±  1.98 makespan=  12.80 H=0.431 Vloss=  55.359 EV= 0.00 wall= 0.38s enc_frac= 6.9%
+[PJS_04/mlp/seed2] upd=  10 steps=  22528 ret=  -12.32±  1.82 makespan=  12.32 H=0.312 Vloss=   1.511 EV= 0.86 wall= 0.43s enc_frac= 5.2%
+[PJS_04/mlp/seed2] upd=  20 steps=  43008 ret=  -12.26±  1.98 makespan=  12.26 H=0.218 Vloss=   1.613 EV= 0.86 wall= 0.43s enc_frac= 5.3%
+[PJS_04/mlp/seed2] upd=  30 steps=  63488 ret=  -12.17±  1.99 makespan=  12.17 H=0.227 Vloss=   1.480 EV= 0.87 wall= 0.44s enc_frac= 6.1%
+[PJS_04/mlp/seed2] upd=  40 steps=  83968 ret=  -12.14±  2.09 makespan=  12.14 H=0.216 Vloss=   1.494 EV= 0.88 wall= 0.42s enc_frac= 6.4%
+[PJS_04/mlp/seed2] upd=  50 steps= 104448 ret=  -12.09±  2.11 makespan=  12.09 H=0.179 Vloss=   1.441 EV= 0.88 wall= 0.38s enc_frac= 5.5%
+[PJS_04/mlp/seed2] upd=  60 steps= 124928 ret=  -12.05±  2.12 makespan=  12.05 H=0.140 Vloss=   1.411 EV= 0.89 wall= 0.42s enc_frac= 6.2%
+[PJS_04/mlp/seed2] upd=  70 steps= 145408 ret=  -12.04±  2.13 makespan=  12.04 H=0.116 Vloss=   1.410 EV= 0.88 wall= 0.39s enc_frac= 5.6%
+[PJS_04/mlp/seed2] upd=  80 steps= 165888 ret=  -12.06±  2.13 makespan=  12.06 H=0.078 Vloss=   1.332 EV= 0.89 wall= 0.37s enc_frac= 5.4%
+[PJS_04/mlp/seed2] upd=  90 steps= 186368 ret=  -12.06±  2.14 makespan=  12.06 H=0.071 Vloss=   1.399 EV= 0.88 wall= 0.37s enc_frac= 5.8%
+[PJS_04/mlp/seed2] upd= 100 steps= 206848 ret=  -12.01±  2.09 makespan=  12.01 H=0.072 Vloss=   1.278 EV= 0.89 wall= 0.38s enc_frac= 5.3%
+[PJS_04/mlp/seed2] upd= 110 steps= 227328 ret=  -12.02±  2.12 makespan=  12.02 H=0.050 Vloss=   1.332 EV= 0.89 wall= 0.36s enc_frac= 5.3%
+[PJS_04/mlp/seed2] upd= 120 steps= 247808 ret=  -11.99±  2.09 makespan=  11.99 H=0.050 Vloss=   1.288 EV= 0.89 wall= 0.35s enc_frac= 5.2%
+[PJS_05/cnn_proj/seed0] upd=   0 steps=   2048 ret=  -23.71±  4.04 makespan=  23.71 H=0.494 Vloss= 166.618 EV=-0.00 wall= 9.84s enc_frac=88.9%
+[PJS_05/cnn_proj/seed0] upd=  10 steps=  22528 ret=  -22.82±  4.09 makespan=  22.82 H=0.416 Vloss=  21.061 EV= 0.42 wall= 9.64s enc_frac=89.3%
+[PJS_05/cnn_proj/seed0] upd=  20 steps=  43008 ret=  -21.80±  2.66 makespan=  21.80 H=0.316 Vloss=  13.346 EV= 0.57 wall= 9.63s enc_frac=89.1%
+[PJS_05/cnn_proj/seed0] upd=  30 steps=  63488 ret=  -21.19±  2.01 makespan=  21.19 H=0.178 Vloss=   7.769 EV= 0.72 wall=11.80s enc_frac=89.4%
+[PJS_05/cnn_proj/seed0] upd=  40 steps=  83968 ret=  -20.91±  1.86 makespan=  20.91 H=0.123 Vloss=   4.921 EV= 0.82 wall= 9.80s enc_frac=89.5%
+[PJS_05/cnn_proj/seed0] upd=  50 steps= 104448 ret=  -20.73±  1.78 makespan=  20.73 H=0.115 Vloss=   2.848 EV= 0.90 wall=10.20s enc_frac=88.6%
+[PJS_05/cnn_proj/seed0] upd=  60 steps= 124928 ret=  -20.64±  1.62 makespan=  20.64 H=0.099 Vloss=   1.534 EV= 0.94 wall=10.43s enc_frac=90.1%
+[PJS_05/cnn_proj/seed0] upd=  70 steps= 145408 ret=  -20.57±  1.53 makespan=  20.57 H=0.080 Vloss=   0.961 EV= 0.96 wall= 9.64s enc_frac=88.7%
+[PJS_05/cnn_proj/seed0] upd=  80 steps= 165888 ret=  -20.69±  1.64 makespan=  20.69 H=0.056 Vloss=   1.132 EV= 0.96 wall= 9.64s enc_frac=89.0%
+[PJS_05/cnn_proj/seed0] upd=  90 steps= 186368 ret=  -20.54±  1.44 makespan=  20.54 H=0.043 Vloss=   0.595 EV= 0.98 wall= 9.65s enc_frac=89.3%
+[PJS_05/cnn_proj/seed0] upd= 100 steps= 206848 ret=  -20.72±  1.92 makespan=  20.72 H=0.040 Vloss=   1.082 EV= 0.96 wall=10.00s enc_frac=89.9%
+[PJS_05/cnn_proj/seed0] upd= 110 steps= 227328 ret=  -20.56±  1.43 makespan=  20.56 H=0.030 Vloss=   0.442 EV= 0.98 wall=10.23s enc_frac=89.6%
+[PJS_05/cnn_proj/seed0] upd= 120 steps= 247808 ret=  -20.61±  1.69 makespan=  20.61 H=0.030 Vloss=   0.747 EV= 0.97 wall=10.89s enc_frac=89.7%
+[PJS_05/cnn_proj/seed0] upd= 130 steps= 268288 ret=  -20.50±  1.41 makespan=  20.50 H=0.027 Vloss=   0.362 EV= 0.99 wall=10.61s enc_frac=89.4%
+[PJS_05/cnn_proj/seed0] upd= 140 steps= 288768 ret=  -20.51±  1.41 makespan=  20.51 H=0.025 Vloss=   0.376 EV= 0.99 wall=10.30s enc_frac=89.3%
+  early stop: no improvement for 51200 steps
+DONE PJS_05/cnn_proj/seed0: wall=1506.9s updates=145 steps=296960
+[PJS_04/cnn_dbm/seed1] upd=   0 steps=   2048 ret=  -12.37±  1.75 makespan=  12.37 H=0.423 Vloss=  47.099 EV= 0.00 wall= 2.41s enc_frac=61.8%
+[PJS_04/cnn_dbm/seed1] upd=  10 steps=  22528 ret=  -12.46±  1.69 makespan=  12.46 H=0.378 Vloss=  10.219 EV= 0.15 wall= 2.35s enc_frac=61.5%
+[PJS_04/cnn_dbm/seed1] upd=  20 steps=  43008 ret=  -12.47±  1.75 makespan=  12.47 H=0.366 Vloss=   9.532 EV= 0.19 wall= 2.41s enc_frac=62.3%
+[PJS_04/cnn_dbm/seed1] upd=  30 steps=  63488 ret=  -12.41±  1.56 makespan=  12.41 H=0.335 Vloss=   7.890 EV= 0.29 wall= 2.30s enc_frac=63.3%
+[PJS_04/cnn_dbm/seed1] upd=  40 steps=  83968 ret=  -12.53±  1.65 makespan=  12.53 H=0.356 Vloss=   6.459 EV= 0.43 wall= 2.72s enc_frac=64.0%
+  early stop: no improvement for 51200 steps
+DONE PJS_04/cnn_dbm/seed1: wall=115.1s updates=48 steps=98304
+[LJS_01/deepset/seed2] upd=   0 steps=   2048 ret= -101.74± 13.75 makespan= 101.74 H=0.455 Vloss=1258.516 EV=-0.00 wall= 2.80s enc_frac=72.3%
+[LJS_01/deepset/seed2] upd=  10 steps=  22528 ret=  -95.11± 10.12 makespan=  95.11 H=0.342 Vloss= 363.632 EV= 0.24 wall= 3.01s enc_frac=68.6%
+[LJS_01/deepset/seed2] upd=  20 steps=  43008 ret=  -94.51±  8.79 makespan=  94.51 H=0.289 Vloss= 276.642 EV= 0.39 wall= 3.37s enc_frac=69.3%
+[LJS_01/deepset/seed2] upd=  30 steps=  63488 ret=  -93.08±  8.29 makespan=  93.08 H=0.294 Vloss= 259.662 EV= 0.40 wall= 2.72s enc_frac=69.9%
+[LJS_01/deepset/seed2] upd=  40 steps=  83968 ret=  -96.78±  9.46 makespan=  96.78 H=0.323 Vloss= 267.137 EV= 0.42 wall= 2.73s enc_frac=68.2%
+  early stop: no improvement for 51200 steps
+DONE LJS_01/deepset/seed2: wall=119.0s updates=41 steps=83968
+[PJS_05/deepset/seed2] upd=   0 steps=   2048 ret=  -22.44±  3.83 makespan=  22.44 H=0.431 Vloss=  80.292 EV= 0.00 wall= 1.34s enc_frac=58.0%
+[PJS_05/deepset/seed2] upd=  10 steps=  22528 ret=  -21.92±  4.37 makespan=  21.92 H=0.392 Vloss=  24.587 EV= 0.36 wall= 1.29s enc_frac=50.7%
+[PJS_05/deepset/seed2] upd=  20 steps=  43008 ret=  -20.41±  3.28 makespan=  20.41 H=0.244 Vloss=  15.954 EV= 0.48 wall= 1.32s enc_frac=56.7%
+[PJS_05/deepset/seed2] upd=  30 steps=  63488 ret=  -20.05±  2.82 makespan=  20.05 H=0.198 Vloss=  13.460 EV= 0.54 wall= 1.43s enc_frac=53.2%
+[PJS_05/deepset/seed2] upd=  40 steps=  83968 ret=  -19.85±  2.39 makespan=  19.85 H=0.171 Vloss=  10.455 EV= 0.62 wall= 1.53s enc_frac=52.5%
+[PJS_05/deepset/seed2] upd=  50 steps= 104448 ret=  -20.16±  2.71 makespan=  20.16 H=0.179 Vloss=  11.183 EV= 0.61 wall= 1.35s enc_frac=53.6%
+[PJS_05/deepset/seed2] upd=  60 steps= 124928 ret=  -20.07±  2.83 makespan=  20.07 H=0.235 Vloss=  11.940 EV= 0.58 wall= 1.24s enc_frac=52.2%
+[PJS_05/deepset/seed2] upd=  70 steps= 145408 ret=  -19.90±  2.53 makespan=  19.90 H=0.200 Vloss=  10.467 EV= 0.62 wall= 1.39s enc_frac=53.6%
+  early stop: no improvement for 51200 steps
+DONE PJS_05/deepset/seed2: wall=103.4s updates=78 steps=159744
+[LJS_01/mlp/seed2] upd=   0 steps=   2048 ret= -103.06± 12.33 makespan= 103.06 H=0.489 Vloss=1655.790 EV= 0.00 wall= 0.85s enc_frac=10.8%
+[LJS_01/mlp/seed2] upd=  10 steps=  22528 ret=  -93.36±  7.80 makespan=  93.36 H=0.246 Vloss=  18.148 EV= 0.96 wall= 0.69s enc_frac= 6.7%
+[LJS_01/mlp/seed2] upd=  20 steps=  43008 ret=  -90.97±  9.60 makespan=  90.97 H=0.145 Vloss=  17.183 EV= 0.96 wall= 0.72s enc_frac= 6.2%
+[LJS_01/mlp/seed2] upd=  30 steps=  63488 ret=  -87.08±  7.46 makespan=  87.08 H=0.096 Vloss=  10.652 EV= 0.98 wall= 0.81s enc_frac= 8.3%
+[LJS_01/mlp/seed2] upd=  40 steps=  83968 ret=  -87.23±  8.53 makespan=  87.23 H=0.077 Vloss=  12.222 EV= 0.97 wall= 0.88s enc_frac= 7.2%
+[LJS_01/mlp/seed2] upd=  50 steps= 104448 ret=  -86.15±  6.71 makespan=  86.15 H=0.061 Vloss=   8.307 EV= 0.98 wall= 0.79s enc_frac= 6.6%
+[LJS_01/mlp/seed2] upd=  60 steps= 124928 ret=  -86.25±  6.89 makespan=  86.25 H=0.038 Vloss=   8.321 EV= 0.98 wall= 0.77s enc_frac= 6.0%
+[LJS_01/mlp/seed2] upd=  70 steps= 145408 ret=  -85.50±  5.66 makespan=  85.50 H=0.032 Vloss=   4.980 EV= 0.99 wall= 0.79s enc_frac= 7.9%
+[LJS_01/mlp/seed2] upd=  80 steps= 165888 ret=  -85.53±  5.66 makespan=  85.53 H=0.023 Vloss=   4.134 EV= 0.99 wall= 0.80s enc_frac= 7.6%
+[LJS_01/mlp/seed2] upd=  90 steps= 186368 ret=  -85.50±  5.66 makespan=  85.50 H=0.025 Vloss=   5.756 EV= 0.99 wall= 0.72s enc_frac= 7.2%
+  early stop: no improvement for 51200 steps
+DONE LJS_01/mlp/seed2: wall=73.6s updates=94 steps=192512
+[PJS_05/cnn_proj/seed2] upd=   0 steps=   2048 ret=  -22.55±  3.75 makespan=  22.55 H=0.509 Vloss= 146.474 EV=-0.00 wall= 9.70s enc_frac=89.0%
+[PJS_05/cnn_proj/seed2] upd=  10 steps=  22528 ret=  -21.33±  3.60 makespan=  21.33 H=0.374 Vloss=  17.428 EV= 0.48 wall= 9.69s enc_frac=88.8%
+[PJS_05/cnn_proj/seed2] upd=  20 steps=  43008 ret=  -20.52±  3.13 makespan=  20.52 H=0.294 Vloss=  11.446 EV= 0.63 wall= 9.71s enc_frac=88.8%
+[PJS_05/cnn_proj/seed2] upd=  30 steps=  63488 ret=  -20.07±  2.80 makespan=  20.07 H=0.221 Vloss=   8.389 EV= 0.70 wall=11.78s enc_frac=89.9%
+[PJS_05/cnn_proj/seed2] upd=  40 steps=  83968 ret=  -20.00±  2.51 makespan=  20.00 H=0.162 Vloss=   5.797 EV= 0.79 wall= 9.61s enc_frac=89.2%
+[PJS_05/cnn_proj/seed2] upd=  50 steps= 104448 ret=  -19.72±  2.26 makespan=  19.72 H=0.121 Vloss=   3.501 EV= 0.87 wall=10.53s enc_frac=89.3%
+[PJS_05/cnn_proj/seed2] upd=  60 steps= 124928 ret=  -19.70±  2.36 makespan=  19.70 H=0.114 Vloss=   3.143 EV= 0.88 wall=10.39s enc_frac=89.9%
+[PJS_05/cnn_proj/seed2] upd=  70 steps= 145408 ret=  -19.70±  2.12 makespan=  19.70 H=0.112 Vloss=   1.941 EV= 0.93 wall=10.00s enc_frac=88.5%
+[PJS_05/cnn_proj/seed2] upd=  80 steps= 165888 ret=  -19.69±  2.26 makespan=  19.69 H=0.063 Vloss=   1.880 EV= 0.93 wall= 9.66s enc_frac=89.3%
+[PJS_05/cnn_proj/seed2] upd=  90 steps= 186368 ret=  -19.62±  2.12 makespan=  19.62 H=0.040 Vloss=   1.325 EV= 0.95 wall=10.52s enc_frac=88.4%
+[PJS_05/cnn_proj/seed2] upd= 100 steps= 206848 ret=  -19.68±  2.15 makespan=  19.68 H=0.046 Vloss=   1.316 EV= 0.95 wall= 9.85s enc_frac=89.5%
+  early stop: no improvement for 51200 steps
+DONE PJS_05/cnn_proj/seed2: wall=1042.9s updates=102 steps=208896
+[PJS_04/cnn_proj/seed1] upd=   0 steps=   2048 ret=  -12.55±  1.85 makespan=  12.55 H=0.431 Vloss=  54.967 EV=-0.00 wall= 5.46s enc_frac=84.7%
+[PJS_04/cnn_proj/seed1] upd=  10 steps=  22528 ret=  -12.28±  1.54 makespan=  12.28 H=0.346 Vloss=   4.135 EV= 0.60 wall= 5.33s enc_frac=82.9%
+[PJS_04/cnn_proj/seed1] upd=  20 steps=  43008 ret=  -11.94±  1.52 makespan=  11.94 H=0.285 Vloss=   2.322 EV= 0.77 wall= 5.71s enc_frac=82.3%
+[PJS_04/cnn_proj/seed1] upd=  30 steps=  63488 ret=  -11.93±  1.57 makespan=  11.93 H=0.237 Vloss=   1.739 EV= 0.83 wall= 5.29s enc_frac=84.5%
+[PJS_04/cnn_proj/seed1] upd=  40 steps=  83968 ret=  -11.71±  1.62 makespan=  11.71 H=0.181 Vloss=   1.018 EV= 0.90 wall= 8.24s enc_frac=82.6%
+[PJS_04/cnn_proj/seed1] upd=  50 steps= 104448 ret=  -11.72±  1.61 makespan=  11.72 H=0.131 Vloss=   0.911 EV= 0.91 wall= 5.99s enc_frac=83.0%
+[PJS_04/cnn_proj/seed1] upd=  60 steps= 124928 ret=  -11.72±  1.54 makespan=  11.72 H=0.103 Vloss=   0.651 EV= 0.94 wall= 5.53s enc_frac=83.3%
+[PJS_04/cnn_proj/seed1] upd=  70 steps= 145408 ret=  -11.67±  1.60 makespan=  11.67 H=0.081 Vloss=   0.647 EV= 0.94 wall= 5.70s enc_frac=84.2%
+[PJS_04/cnn_proj/seed1] upd=  80 steps= 165888 ret=  -11.69±  1.55 makespan=  11.69 H=0.075 Vloss=   0.541 EV= 0.95 wall= 5.53s enc_frac=82.7%
+[PJS_04/cnn_proj/seed1] upd=  90 steps= 186368 ret=  -11.62±  1.58 makespan=  11.62 H=0.067 Vloss=   0.522 EV= 0.95 wall= 5.48s enc_frac=82.9%
+[PJS_04/cnn_proj/seed1] upd= 100 steps= 206848 ret=  -11.64±  1.56 makespan=  11.64 H=0.076 Vloss=   0.552 EV= 0.95 wall= 5.47s enc_frac=84.2%
+  early stop: no improvement for 51200 steps
+DONE PJS_04/cnn_proj/seed1: wall=619.3s updates=108 steps=221184
+[PJS_05/deepset/seed0] upd=   0 steps=   2048 ret=  -23.89±  4.59 makespan=  23.89 H=0.466 Vloss= 107.577 EV=-0.00 wall= 1.40s enc_frac=51.6%
+[PJS_05/deepset/seed0] upd=  10 steps=  22528 ret=  -22.29±  4.01 makespan=  22.29 H=0.369 Vloss=  25.577 EV= 0.27 wall= 1.39s enc_frac=54.2%
+[PJS_05/deepset/seed0] upd=  20 steps=  43008 ret=  -21.17±  3.57 makespan=  21.17 H=0.220 Vloss=  16.838 EV= 0.44 wall= 1.35s enc_frac=51.4%
+[PJS_05/deepset/seed0] upd=  30 steps=  63488 ret=  -20.70±  3.05 makespan=  20.70 H=0.150 Vloss=  12.410 EV= 0.54 wall= 1.34s enc_frac=49.2%
+[PJS_05/deepset/seed0] upd=  40 steps=  83968 ret=  -20.42±  2.81 makespan=  20.42 H=0.149 Vloss=  12.104 EV= 0.52 wall= 1.32s enc_frac=52.2%
+[PJS_05/deepset/seed0] upd=  50 steps= 104448 ret=  -20.36±  2.65 makespan=  20.36 H=0.151 Vloss=  11.475 EV= 0.54 wall= 1.28s enc_frac=54.8%
+[PJS_05/deepset/seed0] upd=  60 steps= 124928 ret=  -20.30±  2.59 makespan=  20.30 H=0.141 Vloss=   9.772 EV= 0.61 wall= 1.34s enc_frac=56.8%
+[PJS_05/deepset/seed0] upd=  70 steps= 145408 ret=  -20.30±  2.61 makespan=  20.30 H=0.138 Vloss=  10.112 EV= 0.59 wall= 1.27s enc_frac=52.7%
+[PJS_05/deepset/seed0] upd=  80 steps= 165888 ret=  -20.50±  2.85 makespan=  20.50 H=0.130 Vloss=  10.020 EV= 0.62 wall= 1.23s enc_frac=53.5%
+  early stop: no improvement for 51200 steps
+DONE PJS_05/deepset/seed0: wall=117.2s updates=88 steps=180224
+[PJS_04/deepset/seed1] upd=   0 steps=   2048 ret=  -12.46±  1.64 makespan=  12.46 H=0.402 Vloss=  29.683 EV= 0.00 wall= 0.86s enc_frac=40.4%
+[PJS_04/deepset/seed1] upd=  10 steps=  22528 ret=  -12.67±  1.86 makespan=  12.67 H=0.394 Vloss=  10.131 EV= 0.16 wall= 1.00s enc_frac=43.5%
+[PJS_04/deepset/seed1] upd=  20 steps=  43008 ret=  -12.15±  1.66 makespan=  12.15 H=0.336 Vloss=   8.031 EV= 0.26 wall= 0.94s enc_frac=44.8%
+[PJS_04/deepset/seed1] upd=  30 steps=  63488 ret=  -12.07±  1.63 makespan=  12.07 H=0.275 Vloss=   7.141 EV= 0.35 wall= 1.01s enc_frac=42.4%
+[PJS_04/deepset/seed1] upd=  40 steps=  83968 ret=  -12.02±  1.73 makespan=  12.02 H=0.256 Vloss=   5.298 EV= 0.50 wall= 0.91s enc_frac=41.7%
+[PJS_04/deepset/seed1] upd=  50 steps= 104448 ret=  -12.00±  1.64 makespan=  12.00 H=0.269 Vloss=   4.428 EV= 0.60 wall= 0.88s enc_frac=41.5%
+[PJS_04/deepset/seed1] upd=  60 steps= 124928 ret=  -12.03±  1.59 makespan=  12.03 H=0.244 Vloss=   3.461 EV= 0.68 wall= 0.97s enc_frac=44.7%
+[PJS_04/deepset/seed1] upd=  70 steps= 145408 ret=  -12.02±  1.66 makespan=  12.02 H=0.230 Vloss=   3.351 EV= 0.70 wall= 0.88s enc_frac=44.7%
+  early stop: no improvement for 51200 steps
+DONE PJS_04/deepset/seed1: wall=68.1s updates=71 steps=145408
+[PJS_05/mlp/seed0] upd=   0 steps=   2048 ret=  -23.93±  4.24 makespan=  23.93 H=0.491 Vloss= 171.590 EV=-0.00 wall= 0.50s enc_frac= 9.3%
+[PJS_05/mlp/seed0] upd=  10 steps=  22528 ret=  -22.46±  4.00 makespan=  22.46 H=0.339 Vloss=   6.114 EV= 0.83 wall= 0.54s enc_frac=10.3%
+[PJS_05/mlp/seed0] upd=  20 steps=  43008 ret=  -20.91±  3.41 makespan=  20.91 H=0.176 Vloss=   3.456 EV= 0.88 wall= 0.57s enc_frac= 8.6%
+[PJS_05/mlp/seed0] upd=  30 steps=  63488 ret=  -20.17±  2.48 makespan=  20.17 H=0.062 Vloss=   1.674 EV= 0.94 wall= 0.59s enc_frac=11.1%
+[PJS_05/mlp/seed0] upd=  40 steps=  83968 ret=  -20.17±  2.42 makespan=  20.17 H=0.045 Vloss=   1.421 EV= 0.94 wall= 0.64s enc_frac= 7.2%
+[PJS_05/mlp/seed0] upd=  50 steps= 104448 ret=  -20.19±  2.49 makespan=  20.19 H=0.036 Vloss=   1.367 EV= 0.95 wall= 0.64s enc_frac= 9.9%
+[PJS_05/mlp/seed0] upd=  60 steps= 124928 ret=  -20.12±  2.37 makespan=  20.12 H=0.023 Vloss=   1.314 EV= 0.95 wall= 0.49s enc_frac= 8.7%
+  early stop: no improvement for 51200 steps
+DONE PJS_05/mlp/seed0: wall=40.3s updates=67 steps=137216
+[PJS_04/mlp/seed0] upd=   0 steps=   2048 ret=  -12.68±  1.96 makespan=  12.68 H=0.414 Vloss=  54.208 EV=-0.02 wall= 0.54s enc_frac=12.2%
+[PJS_04/mlp/seed0] upd=  10 steps=  22528 ret=  -12.02±  1.52 makespan=  12.02 H=0.346 Vloss=   1.151 EV= 0.88 wall= 0.52s enc_frac= 9.0%
+[PJS_04/mlp/seed0] upd=  20 steps=  43008 ret=  -12.09±  1.76 makespan=  12.09 H=0.234 Vloss=   1.224 EV= 0.88 wall= 0.54s enc_frac=10.9%
+[PJS_04/mlp/seed0] upd=  30 steps=  63488 ret=  -11.96±  1.75 makespan=  11.96 H=0.173 Vloss=   1.025 EV= 0.90 wall= 0.55s enc_frac= 8.7%
+[PJS_04/mlp/seed0] upd=  40 steps=  83968 ret=  -12.00±  1.83 makespan=  12.00 H=0.152 Vloss=   1.053 EV= 0.90 wall= 0.56s enc_frac= 9.2%
+[PJS_04/mlp/seed0] upd=  50 steps= 104448 ret=  -11.87±  1.78 makespan=  11.87 H=0.141 Vloss=   0.994 EV= 0.91 wall= 0.61s enc_frac=10.4%
+[PJS_04/mlp/seed0] upd=  60 steps= 124928 ret=  -11.92±  1.91 makespan=  11.92 H=0.125 Vloss=   1.123 EV= 0.90 wall= 0.40s enc_frac= 7.1%
+  early stop: no improvement for 51200 steps
+DONE PJS_04/mlp/seed0: wall=35.5s updates=68 steps=139264
+[PJS_05/cnn_proj/seed1] upd=   0 steps=   2048 ret=  -22.36±  3.95 makespan=  22.36 H=0.496 Vloss= 144.881 EV= 0.00 wall= 9.74s enc_frac=89.1%
+[PJS_05/cnn_proj/seed1] upd=  10 steps=  22528 ret=  -21.68±  4.05 makespan=  21.68 H=0.404 Vloss=  17.379 EV= 0.50 wall= 9.74s enc_frac=89.1%
+[PJS_05/cnn_proj/seed1] upd=  20 steps=  43008 ret=  -21.19±  3.52 makespan=  21.19 H=0.350 Vloss=  13.398 EV= 0.56 wall= 9.71s enc_frac=89.4%
+[PJS_05/cnn_proj/seed1] upd=  30 steps=  63488 ret=  -20.58±  3.04 makespan=  20.58 H=0.243 Vloss=   8.890 EV= 0.67 wall=11.70s enc_frac=89.2%
+[PJS_05/cnn_proj/seed1] upd=  40 steps=  83968 ret=  -19.86±  2.50 makespan=  19.86 H=0.150 Vloss=   4.797 EV= 0.80 wall= 9.78s enc_frac=90.0%
+[PJS_05/cnn_proj/seed1] upd=  50 steps= 104448 ret=  -19.78±  2.36 makespan=  19.78 H=0.116 Vloss=   3.238 EV= 0.87 wall=10.14s enc_frac=88.5%
+[PJS_05/cnn_proj/seed1] upd=  60 steps= 124928 ret=  -19.57±  2.17 makespan=  19.57 H=0.098 Vloss=   2.067 EV= 0.92 wall=10.79s enc_frac=88.6%
+[PJS_05/cnn_proj/seed1] upd=  70 steps= 145408 ret=  -19.66±  2.29 makespan=  19.66 H=0.089 Vloss=   2.303 EV= 0.91 wall=10.13s enc_frac=89.2%
+[PJS_05/cnn_proj/seed1] upd=  80 steps= 165888 ret=  -19.41±  2.08 makespan=  19.41 H=0.071 Vloss=   1.418 EV= 0.94 wall= 9.98s enc_frac=89.9%
+[PJS_05/cnn_proj/seed1] upd=  90 steps= 186368 ret=  -19.46±  2.07 makespan=  19.46 H=0.067 Vloss=   1.543 EV= 0.94 wall=10.14s enc_frac=89.9%
+[PJS_05/cnn_proj/seed1] upd= 100 steps= 206848 ret=  -19.37±  2.18 makespan=  19.37 H=0.060 Vloss=   1.179 EV= 0.95 wall=10.21s enc_frac=89.5%
+[PJS_05/cnn_proj/seed1] upd= 110 steps= 227328 ret=  -19.27±  2.06 makespan=  19.27 H=0.053 Vloss=   0.944 EV= 0.96 wall=10.23s enc_frac=89.3%
+[PJS_05/cnn_proj/seed1] upd= 120 steps= 247808 ret=  -19.30±  2.08 makespan=  19.30 H=0.047 Vloss=   1.162 EV= 0.95 wall=11.06s enc_frac=89.9%
+[PJS_05/cnn_proj/seed1] upd= 130 steps= 268288 ret=  -19.27±  2.05 makespan=  19.27 H=0.045 Vloss=   0.936 EV= 0.96 wall=10.59s enc_frac=88.7%
+  early stop: no improvement for 51200 steps
+DONE PJS_05/cnn_proj/seed1: wall=1400.3s updates=135 steps=276480
+[PJS_05/cnn_dbm/seed2] upd=   0 steps=   2048 ret=  -22.35±  4.07 makespan=  22.35 H=0.511 Vloss= 142.633 EV=-0.00 wall= 3.89s enc_frac=69.6%
+[PJS_05/cnn_dbm/seed2] upd=  10 steps=  22528 ret=  -22.57±  4.03 makespan=  22.57 H=0.495 Vloss=  39.552 EV= 0.09 wall= 3.77s enc_frac=69.2%
+[PJS_05/cnn_dbm/seed2] upd=  20 steps=  43008 ret=  -22.12±  3.96 makespan=  22.12 H=0.490 Vloss=  35.837 EV= 0.12 wall= 3.74s enc_frac=72.3%
+[PJS_05/cnn_dbm/seed2] upd=  30 steps=  63488 ret=  -21.76±  3.34 makespan=  21.76 H=0.459 Vloss=  32.121 EV= 0.14 wall= 3.97s enc_frac=70.8%
+[PJS_05/cnn_dbm/seed2] upd=  40 steps=  83968 ret=  -22.48±  3.62 makespan=  22.48 H=0.426 Vloss=  33.343 EV= 0.18 wall= 3.88s enc_frac=70.1%
+[PJS_05/cnn_dbm/seed2] upd=  50 steps= 104448 ret=  -22.12±  3.78 makespan=  22.12 H=0.409 Vloss=  28.746 EV= 0.26 wall= 3.60s enc_frac=69.6%
+  early stop: no improvement for 51200 steps
+DONE PJS_05/cnn_dbm/seed2: wall=198.4s updates=52 steps=106496
+[LJS_01/deepset/seed1] upd=   0 steps=   2048 ret= -102.00± 12.34 makespan= 102.00 H=0.414 Vloss=1233.921 EV=-0.00 wall= 2.63s enc_frac=66.8%
+[LJS_01/deepset/seed1] upd=  10 steps=  22528 ret=  -95.44±  8.01 makespan=  95.44 H=0.277 Vloss= 346.375 EV= 0.27 wall= 3.17s enc_frac=66.6%
+[LJS_01/deepset/seed1] upd=  20 steps=  43008 ret=  -91.86±  8.00 makespan=  91.86 H=0.292 Vloss= 250.929 EV= 0.41 wall= 2.77s enc_frac=67.0%
+[LJS_01/deepset/seed1] upd=  30 steps=  63488 ret=  -93.44±  8.00 makespan=  93.44 H=0.263 Vloss= 259.940 EV= 0.43 wall= 2.76s enc_frac=66.6%
+[LJS_01/deepset/seed1] upd=  40 steps=  83968 ret=  -93.66±  9.61 makespan=  93.66 H=0.264 Vloss= 233.506 EV= 0.49 wall= 2.75s enc_frac=68.8%
+[LJS_01/deepset/seed1] upd=  50 steps= 104448 ret=  -92.76±  7.99 makespan=  92.76 H=0.239 Vloss= 200.627 EV= 0.52 wall= 2.68s enc_frac=66.8%
+[LJS_01/deepset/seed1] upd=  60 steps= 124928 ret=  -90.83±  7.76 makespan=  90.83 H=0.245 Vloss= 192.680 EV= 0.55 wall= 2.70s enc_frac=68.1%
+[LJS_01/deepset/seed1] upd=  70 steps= 145408 ret=  -90.14±  7.56 makespan=  90.14 H=0.259 Vloss= 174.121 EV= 0.60 wall= 3.03s enc_frac=70.0%
+  early stop: no improvement for 51200 steps
+DONE LJS_01/deepset/seed1: wall=214.0s updates=75 steps=153600
+[LJS_01/mlp/seed0] upd=   0 steps=   2048 ret= -100.53± 10.19 makespan= 100.53 H=0.470 Vloss=1547.468 EV=-0.00 wall= 0.76s enc_frac= 7.8%
+[LJS_01/mlp/seed0] upd=  10 steps=  22528 ret=  -97.22±  9.33 makespan=  97.22 H=0.201 Vloss=  29.268 EV= 0.94 wall= 0.82s enc_frac= 4.6%
+[LJS_01/mlp/seed0] upd=  20 steps=  43008 ret=  -90.62±  7.05 makespan=  90.62 H=0.076 Vloss=  12.142 EV= 0.97 wall= 0.79s enc_frac= 5.4%
+[LJS_01/mlp/seed0] upd=  30 steps=  63488 ret=  -90.40±  7.02 makespan=  90.40 H=0.036 Vloss=   9.234 EV= 0.98 wall= 0.77s enc_frac= 6.0%
+[LJS_01/mlp/seed0] upd=  40 steps=  83968 ret=  -90.00±  7.03 makespan=  90.00 H=0.055 Vloss=   9.814 EV= 0.98 wall= 0.85s enc_frac= 6.3%
+[LJS_01/mlp/seed0] upd=  50 steps= 104448 ret=  -88.24±  4.52 makespan=  88.24 H=0.023 Vloss=   3.447 EV= 0.99 wall= 0.79s enc_frac= 5.6%
+[LJS_01/mlp/seed0] upd=  60 steps= 124928 ret=  -88.25±  4.53 makespan=  88.25 H=0.024 Vloss=   3.473 EV= 0.99 wall= 0.73s enc_frac= 7.0%
+[LJS_01/mlp/seed0] upd=  70 steps= 145408 ret=  -88.02±  4.48 makespan=  88.02 H=0.017 Vloss=   2.822 EV= 0.99 wall= 0.76s enc_frac= 5.8%
+[LJS_01/mlp/seed0] upd=  80 steps= 165888 ret=  -87.99±  4.40 makespan=  87.99 H=0.019 Vloss=   2.566 EV= 0.99 wall= 0.81s enc_frac= 5.3%
+[LJS_01/mlp/seed0] upd=  90 steps= 186368 ret=  -88.12±  4.58 makespan=  88.12 H=0.013 Vloss=   2.707 EV= 0.99 wall= 0.75s enc_frac= 3.6%
+[LJS_01/mlp/seed0] upd= 100 steps= 206848 ret=  -88.10±  4.60 makespan=  88.10 H=0.019 Vloss=   3.086 EV= 0.99 wall= 0.72s enc_frac= 4.9%
+[LJS_01/mlp/seed0] upd= 110 steps= 227328 ret=  -87.91±  4.73 makespan=  87.91 H=0.015 Vloss=   3.058 EV= 0.99 wall= 0.84s enc_frac= 6.7%
+[LJS_01/mlp/seed0] upd= 120 steps= 247808 ret=  -88.04±  4.96 makespan=  88.04 H=0.013 Vloss=   3.048 EV= 0.99 wall= 0.82s enc_frac= 4.2%
+[LJS_01/mlp/seed0] upd= 130 steps= 268288 ret=  -87.73±  4.43 makespan=  87.73 H=0.014 Vloss=   2.538 EV= 0.99 wall= 0.75s enc_frac= 4.1%
+[LJS_01/mlp/seed0] upd= 140 steps= 288768 ret=  -87.93±  5.06 makespan=  87.93 H=0.015 Vloss=   2.818 EV= 0.99 wall= 0.68s enc_frac= 5.6%
+DONE LJS_01/mlp/seed0: wall=114.8s updates=147 steps=301056
+[LJS_01/cnn_dbm/seed0] upd=   0 steps=   2048 ret= -101.79± 11.57 makespan= 101.79 H=0.485 Vloss=1655.847 EV= 0.00 wall= 9.42s enc_frac=81.9%
+[LJS_01/cnn_dbm/seed0] upd=  10 steps=  22528 ret=  -98.70± 10.93 makespan=  98.70 H=0.460 Vloss= 380.039 EV= 0.30 wall= 9.72s enc_frac=82.4%
+[LJS_01/cnn_dbm/seed0] upd=  20 steps=  43008 ret=  -97.72±  7.86 makespan=  97.72 H=0.422 Vloss= 356.681 EV= 0.28 wall= 9.83s enc_frac=82.2%
+[LJS_01/cnn_dbm/seed0] upd=  30 steps=  63488 ret=  -99.50± 10.23 makespan=  99.50 H=0.427 Vloss= 335.716 EV= 0.30 wall= 9.41s enc_frac=84.1%
+[LJS_01/cnn_dbm/seed0] upd=  40 steps=  83968 ret=  -98.45±  9.60 makespan=  98.45 H=0.409 Vloss= 339.703 EV= 0.32 wall=10.20s enc_frac=82.2%
+[LJS_01/cnn_dbm/seed0] upd=  50 steps= 104448 ret= -101.20±  9.75 makespan= 101.20 H=0.448 Vloss= 388.798 EV= 0.25 wall= 9.25s enc_frac=82.9%
+[LJS_01/cnn_dbm/seed0] upd=  60 steps= 124928 ret=  -96.39±  8.53 makespan=  96.39 H=0.411 Vloss= 312.818 EV= 0.34 wall= 9.28s enc_frac=83.1%
+[LJS_01/cnn_dbm/seed0] upd=  70 steps= 145408 ret=  -96.76±  9.26 makespan=  96.76 H=0.408 Vloss= 340.370 EV= 0.33 wall= 9.46s enc_frac=83.5%
+  early stop: no improvement for 51200 steps
+DONE LJS_01/cnn_dbm/seed0: wall=697.4s updates=72 steps=147456
+[LJS_01/cnn_dbm/seed2] upd=   0 steps=   2048 ret= -102.42± 11.98 makespan= 102.42 H=0.487 Vloss=1668.493 EV=-0.00 wall=10.10s enc_frac=82.2%
+[LJS_01/cnn_dbm/seed2] upd=  10 steps=  22528 ret= -100.35± 11.83 makespan= 100.35 H=0.456 Vloss= 372.977 EV= 0.28 wall= 9.27s enc_frac=84.0%
+[LJS_01/cnn_dbm/seed2] upd=  20 steps=  43008 ret=  -99.27± 10.78 makespan=  99.27 H=0.402 Vloss= 392.252 EV= 0.26 wall= 9.63s enc_frac=82.9%
+[LJS_01/cnn_dbm/seed2] upd=  30 steps=  63488 ret=  -98.35±  9.68 makespan=  98.35 H=0.443 Vloss= 326.868 EV= 0.30 wall= 9.56s enc_frac=83.7%
+[LJS_01/cnn_dbm/seed2] upd=  40 steps=  83968 ret=  -98.92±  9.54 makespan=  98.92 H=0.445 Vloss= 351.106 EV= 0.31 wall= 9.69s enc_frac=83.9%
+[LJS_01/cnn_dbm/seed2] upd=  50 steps= 104448 ret=  -98.84±  8.79 makespan=  98.84 H=0.395 Vloss= 340.754 EV= 0.30 wall= 9.40s enc_frac=83.1%
+[LJS_01/cnn_dbm/seed2] upd=  60 steps= 124928 ret=  -98.78± 10.01 makespan=  98.78 H=0.438 Vloss= 360.619 EV= 0.28 wall=10.31s enc_frac=82.8%
+  early stop: no improvement for 51200 steps
+DONE LJS_01/cnn_dbm/seed2: wall=640.0s updates=65 steps=133120
+[PJS_05/cnn_dbm/seed1] upd=   0 steps=   2048 ret=  -22.64±  3.72 makespan=  22.64 H=0.513 Vloss= 142.381 EV= 0.00 wall= 4.25s enc_frac=71.5%
+[PJS_05/cnn_dbm/seed1] upd=  10 steps=  22528 ret=  -22.12±  3.50 makespan=  22.12 H=0.487 Vloss=  35.579 EV= 0.04 wall= 3.88s enc_frac=71.1%
+[PJS_05/cnn_dbm/seed1] upd=  20 steps=  43008 ret=  -22.34±  3.70 makespan=  22.34 H=0.488 Vloss=  35.117 EV= 0.09 wall= 3.81s enc_frac=71.6%
+[PJS_05/cnn_dbm/seed1] upd=  30 steps=  63488 ret=  -21.94±  3.55 makespan=  21.94 H=0.467 Vloss=  31.864 EV= 0.13 wall= 3.64s enc_frac=72.2%
+[PJS_05/cnn_dbm/seed1] upd=  40 steps=  83968 ret=  -21.73±  3.86 makespan=  21.73 H=0.451 Vloss=  27.511 EV= 0.23 wall= 3.72s enc_frac=70.8%
+[PJS_05/cnn_dbm/seed1] upd=  50 steps= 104448 ret=  -21.61±  3.74 makespan=  21.61 H=0.422 Vloss=  22.663 EV= 0.33 wall= 3.71s enc_frac=72.0%
+[PJS_05/cnn_dbm/seed1] upd=  60 steps= 124928 ret=  -21.64±  3.71 makespan=  21.64 H=0.429 Vloss=  18.893 EV= 0.40 wall= 3.78s enc_frac=71.0%
+[PJS_05/cnn_dbm/seed1] upd=  70 steps= 145408 ret=  -21.57±  3.51 makespan=  21.57 H=0.417 Vloss=  17.090 EV= 0.46 wall= 4.09s enc_frac=69.8%
+[PJS_05/cnn_dbm/seed1] upd=  80 steps= 165888 ret=  -22.09±  3.49 makespan=  22.09 H=0.405 Vloss=  17.804 EV= 0.49 wall= 3.06s enc_frac=70.2%
+[PJS_05/cnn_dbm/seed1] upd=  90 steps= 186368 ret=  -21.34±  3.36 makespan=  21.34 H=0.408 Vloss=  16.107 EV= 0.51 wall= 3.19s enc_frac=70.7%
+[PJS_05/cnn_dbm/seed1] upd= 100 steps= 206848 ret=  -21.90±  3.49 makespan=  21.90 H=0.388 Vloss=  15.630 EV= 0.53 wall= 3.12s enc_frac=69.1%
+[PJS_05/cnn_dbm/seed1] upd= 110 steps= 227328 ret=  -21.73±  3.52 makespan=  21.73 H=0.380 Vloss=  15.808 EV= 0.52 wall= 3.88s enc_frac=70.9%
+[PJS_05/cnn_dbm/seed1] upd= 120 steps= 247808 ret=  -21.58±  3.64 makespan=  21.58 H=0.375 Vloss=  16.077 EV= 0.54 wall= 3.90s enc_frac=70.4%
+  early stop: no improvement for 51200 steps
+DONE PJS_05/cnn_dbm/seed1: wall=474.7s updates=128 steps=262144
+[PJS_04/deepset/seed2] upd=   0 steps=   2048 ret=  -12.98±  2.00 makespan=  12.98 H=0.411 Vloss=  28.458 EV= 0.00 wall= 0.89s enc_frac=43.6%
+[PJS_04/deepset/seed2] upd=  10 steps=  22528 ret=  -12.43±  1.90 makespan=  12.43 H=0.369 Vloss=   8.750 EV= 0.25 wall= 0.83s enc_frac=39.0%
+[PJS_04/deepset/seed2] upd=  20 steps=  43008 ret=  -12.49±  1.93 makespan=  12.49 H=0.331 Vloss=   7.265 EV= 0.38 wall= 1.01s enc_frac=44.1%
+[PJS_04/deepset/seed2] upd=  30 steps=  63488 ret=  -12.54±  1.86 makespan=  12.54 H=0.297 Vloss=   7.283 EV= 0.40 wall= 0.88s enc_frac=43.3%
+[PJS_04/deepset/seed2] upd=  40 steps=  83968 ret=  -12.26±  1.95 makespan=  12.26 H=0.254 Vloss=   5.199 EV= 0.54 wall= 0.96s enc_frac=37.7%
+[PJS_04/deepset/seed2] upd=  50 steps= 104448 ret=  -12.33±  1.88 makespan=  12.33 H=0.226 Vloss=   4.873 EV= 0.59 wall= 0.99s enc_frac=44.8%
+[PJS_04/deepset/seed2] upd=  60 steps= 124928 ret=  -12.19±  1.98 makespan=  12.19 H=0.179 Vloss=   4.057 EV= 0.65 wall= 0.95s enc_frac=43.8%
+[PJS_04/deepset/seed2] upd=  70 steps= 145408 ret=  -12.12±  1.96 makespan=  12.12 H=0.138 Vloss=   3.470 EV= 0.71 wall= 0.96s enc_frac=44.7%
+[PJS_04/deepset/seed2] upd=  80 steps= 165888 ret=  -12.10±  1.93 makespan=  12.10 H=0.101 Vloss=   3.623 EV= 0.71 wall= 0.93s enc_frac=44.8%
+[PJS_04/deepset/seed2] upd=  90 steps= 186368 ret=  -12.07±  2.00 makespan=  12.07 H=0.074 Vloss=   3.102 EV= 0.74 wall= 0.91s enc_frac=43.4%
+[PJS_04/deepset/seed2] upd= 100 steps= 206848 ret=  -12.03±  1.93 makespan=  12.03 H=0.067 Vloss=   2.846 EV= 0.76 wall= 0.91s enc_frac=45.8%
+[PJS_04/deepset/seed2] upd= 110 steps= 227328 ret=  -12.05±  1.88 makespan=  12.05 H=0.058 Vloss=   2.631 EV= 0.77 wall= 0.88s enc_frac=42.9%
+[PJS_04/deepset/seed2] upd= 120 steps= 247808 ret=  -12.04±  1.97 makespan=  12.04 H=0.045 Vloss=   2.795 EV= 0.77 wall= 0.76s enc_frac=44.1%
+  early stop: no improvement for 51200 steps
+DONE PJS_04/deepset/seed2: wall=115.5s updates=128 steps=262144
+[PJS_04/mlp/seed2] upd= 130 steps= 268288 ret=  -12.01±  2.12 makespan=  12.01 H=0.050 Vloss=   1.301 EV= 0.89 wall= 0.35s enc_frac= 5.1%
+  early stop: no improvement for 51200 steps
+DONE PJS_04/mlp/seed2: wall=54.2s updates=139 steps=284672
+[LJS_01/cnn_proj/seed2] upd=   0 steps=   2048 ret= -100.62± 11.77 makespan= 100.62 H=0.485 Vloss=1625.605 EV=-0.00 wall=25.94s enc_frac=94.2%
+[LJS_01/cnn_proj/seed2] upd=  10 steps=  22528 ret=  -95.60± 10.25 makespan=  95.60 H=0.303 Vloss= 270.886 EV= 0.41 wall=27.24s enc_frac=94.4%
+[LJS_01/cnn_proj/seed2] upd=  20 steps=  43008 ret=  -92.05±  8.77 makespan=  92.05 H=0.252 Vloss= 202.048 EV= 0.52 wall=27.00s enc_frac=94.1%
+[LJS_01/cnn_proj/seed2] upd=  30 steps=  63488 ret=  -90.69±  7.56 makespan=  90.69 H=0.231 Vloss= 176.918 EV= 0.57 wall=30.22s enc_frac=94.9%
+[LJS_01/cnn_proj/seed2] upd=  40 steps=  83968 ret=  -89.62±  6.75 makespan=  89.62 H=0.172 Vloss= 167.561 EV= 0.59 wall=27.36s enc_frac=94.3%
+[LJS_01/cnn_proj/seed2] upd=  50 steps= 104448 ret=  -90.89±  8.97 makespan=  90.89 H=0.185 Vloss= 159.682 EV= 0.61 wall=29.37s enc_frac=94.6%
+[LJS_01/cnn_proj/seed2] upd=  60 steps= 124928 ret=  -89.53±  8.21 makespan=  89.53 H=0.180 Vloss= 140.594 EV= 0.65 wall=29.97s enc_frac=94.5%
+[LJS_01/cnn_proj/seed2] upd=  70 steps= 145408 ret=  -88.27±  7.34 makespan=  88.27 H=0.156 Vloss= 127.569 EV= 0.69 wall=20.36s enc_frac=94.1%
+[LJS_01/cnn_proj/seed2] upd=  80 steps= 165888 ret=  -87.41±  6.72 makespan=  87.41 H=0.127 Vloss= 106.216 EV= 0.73 wall=19.58s enc_frac=94.0%
+[LJS_01/cnn_proj/seed2] upd=  90 steps= 186368 ret=  -87.61±  7.55 makespan=  87.61 H=0.121 Vloss=  85.699 EV= 0.78 wall=19.39s enc_frac=93.8%
+[LJS_01/cnn_proj/seed2] upd= 100 steps= 206848 ret=  -86.59±  6.95 makespan=  86.59 H=0.107 Vloss=  73.628 EV= 0.82 wall=19.49s enc_frac=94.0%
+[LJS_01/cnn_proj/seed2] upd= 110 steps= 227328 ret=  -87.38±  8.74 makespan=  87.38 H=0.090 Vloss=  63.057 EV= 0.85 wall=19.30s enc_frac=94.1%
+[LJS_01/cnn_proj/seed2] upd= 120 steps= 247808 ret=  -86.21±  6.22 makespan=  86.21 H=0.092 Vloss=  51.928 EV= 0.87 wall=19.52s enc_frac=94.2%
+[LJS_01/cnn_proj/seed2] upd= 130 steps= 268288 ret=  -86.10±  6.54 makespan=  86.10 H=0.082 Vloss=  36.247 EV= 0.92 wall=19.20s enc_frac=93.9%
+[LJS_01/cnn_proj/seed2] upd= 140 steps= 288768 ret=  -85.91±  6.19 makespan=  85.91 H=0.073 Vloss=  34.260 EV= 0.92 wall=19.43s enc_frac=94.1%
+DONE LJS_01/cnn_proj/seed2: wall=3449.7s updates=147 steps=301056
+ALL DONE. Total wall-clock: 0.96 hours

@@ -1,0 +1,473 @@
+{
+  "calibrated_t": {
+    "PJS_01": 0.0,
+    "PJS_02": 0.0,
+    "PJS_03": 1.0,
+    "PJS_04": 0.25,
+    "PJS_05": 1.0,
+    "LJS_01": 1.0
+  },
+  "results": {
+    "PJS_01": {
+      "0.0": {
+        "n_zones_sampled": 973,
+        "collect_wall_s": 0.05667025002185255,
+        "affine_dim_distribution": {
+          "0": 973
+        },
+        "affine_dim_0_fraction": 1.0,
+        "affine_dim_ge2_fraction": 0.0,
+        "affine_dim_mean": 0.0,
+        "strict_fraction": 0.0,
+        "facet_count_mean": 6.0,
+        "facet_count_min": 6,
+        "facet_count_max": 6,
+        "bounded_fraction": 1.0,
+        "vertex_count_mean": 1.0,
+        "vertex_count_min": 1,
+        "vertex_count_max": 1,
+        "n_vertices_sampled": 200,
+        "n_vertex_errors": 0,
+        "vertex_error_kinds": {},
+        "total_clocks": 3
+      },
+      "0.1": {
+        "n_zones_sampled": 900,
+        "collect_wall_s": 0.0505382081028074,
+        "affine_dim_distribution": {
+          "0": 500,
+          "1": 400
+        },
+        "affine_dim_0_fraction": 0.5555555555555556,
+        "affine_dim_ge2_fraction": 0.0,
+        "affine_dim_mean": 0.4444444444444444,
+        "strict_fraction": 0.0,
+        "facet_count_mean": 6.0,
+        "facet_count_min": 6,
+        "facet_count_max": 6,
+        "bounded_fraction": 1.0,
+        "vertex_count_mean": 1.45,
+        "vertex_count_min": 1,
+        "vertex_count_max": 2,
+        "n_vertices_sampled": 200,
+        "n_vertex_errors": 0,
+        "vertex_error_kinds": {},
+        "total_clocks": 3
+      },
+      "0.25": {
+        "n_zones_sampled": 899,
+        "collect_wall_s": 0.05344300006981939,
+        "affine_dim_distribution": {
+          "0": 500,
+          "1": 399
+        },
+        "affine_dim_0_fraction": 0.5561735261401557,
+        "affine_dim_ge2_fraction": 0.0,
+        "affine_dim_mean": 0.44382647385984425,
+        "strict_fraction": 0.0,
+        "facet_count_mean": 6.0,
+        "facet_count_min": 6,
+        "facet_count_max": 6,
+        "bounded_fraction": 1.0,
+        "vertex_count_mean": 1.45,
+        "vertex_count_min": 1,
+        "vertex_count_max": 2,
+        "n_vertices_sampled": 200,
+        "n_vertex_errors": 0,
+        "vertex_error_kinds": {},
+        "total_clocks": 3
+      }
+    },
+    "PJS_02": {
+      "0.0": {
+        "n_zones_sampled": 1164,
+        "collect_wall_s": 0.06863795802928507,
+        "affine_dim_distribution": {
+          "0": 1164
+        },
+        "affine_dim_0_fraction": 1.0,
+        "affine_dim_ge2_fraction": 0.0,
+        "affine_dim_mean": 0.0,
+        "strict_fraction": 0.0,
+        "facet_count_mean": 6.0,
+        "facet_count_min": 6,
+        "facet_count_max": 6,
+        "bounded_fraction": 1.0,
+        "vertex_count_mean": 1.0,
+        "vertex_count_min": 1,
+        "vertex_count_max": 1,
+        "n_vertices_sampled": 200,
+        "n_vertex_errors": 0,
+        "vertex_error_kinds": {},
+        "total_clocks": 3
+      },
+      "0.1": {
+        "n_zones_sampled": 1151,
+        "collect_wall_s": 0.0647249169414863,
+        "affine_dim_distribution": {
+          "0": 500,
+          "1": 361,
+          "2": 201,
+          "3": 89
+        },
+        "affine_dim_0_fraction": 0.43440486533449174,
+        "affine_dim_ge2_fraction": 0.2519548218940052,
+        "affine_dim_mean": 0.894874022589053,
+        "strict_fraction": 0.0,
+        "facet_count_mean": 6.05994787141616,
+        "facet_count_min": 6,
+        "facet_count_max": 8,
+        "bounded_fraction": 1.0,
+        "vertex_count_mean": 2.17,
+        "vertex_count_min": 1,
+        "vertex_count_max": 12,
+        "n_vertices_sampled": 200,
+        "n_vertex_errors": 0,
+        "vertex_error_kinds": {},
+        "total_clocks": 3
+      },
+      "0.25": {
+        "n_zones_sampled": 1174,
+        "collect_wall_s": 0.066068458952941,
+        "affine_dim_distribution": {
+          "0": 500,
+          "1": 366,
+          "2": 218,
+          "3": 90
+        },
+        "affine_dim_0_fraction": 0.42589437819420783,
+        "affine_dim_ge2_fraction": 0.262350936967632,
+        "affine_dim_mean": 0.9131175468483816,
+        "strict_fraction": 0.0,
+        "facet_count_mean": 6.127768313458263,
+        "facet_count_min": 5,
+        "facet_count_max": 9,
+        "bounded_fraction": 1.0,
+        "vertex_count_mean": 2.32,
+        "vertex_count_min": 1,
+        "vertex_count_max": 12,
+        "n_vertices_sampled": 200,
+        "n_vertex_errors": 0,
+        "vertex_error_kinds": {},
+        "total_clocks": 3
+      }
+    },
+    "PJS_03": {
+      "0.0": {
+        "n_zones_sampled": 1451,
+        "collect_wall_s": 0.08472062496002764,
+        "affine_dim_distribution": {
+          "0": 1451
+        },
+        "affine_dim_0_fraction": 1.0,
+        "affine_dim_ge2_fraction": 0.0,
+        "affine_dim_mean": 0.0,
+        "strict_fraction": 0.0,
+        "facet_count_mean": 8.0,
+        "facet_count_min": 8,
+        "facet_count_max": 8,
+        "bounded_fraction": 1.0,
+        "vertex_count_mean": 1.0,
+        "vertex_count_min": 1,
+        "vertex_count_max": 1,
+        "n_vertices_sampled": 200,
+        "n_vertex_errors": 0,
+        "vertex_error_kinds": {},
+        "total_clocks": 4
+      },
+      "0.1": {
+        "n_zones_sampled": 1452,
+        "collect_wall_s": 0.0851419159444049,
+        "affine_dim_distribution": {
+          "0": 500,
+          "1": 411,
+          "2": 319,
+          "3": 179,
+          "4": 43
+        },
+        "affine_dim_0_fraction": 0.3443526170798898,
+        "affine_dim_ge2_fraction": 0.3725895316804408,
+        "affine_dim_mean": 1.2107438016528926,
+        "strict_fraction": 0.0,
+        "facet_count_mean": 8.037878787878787,
+        "facet_count_min": 7,
+        "facet_count_max": 10,
+        "bounded_fraction": 1.0,
+        "vertex_count_mean": 3.735,
+        "vertex_count_min": 1,
+        "vertex_count_max": 27,
+        "n_vertices_sampled": 200,
+        "n_vertex_errors": 0,
+        "vertex_error_kinds": {},
+        "total_clocks": 4
+      },
+      "0.25": {
+        "n_zones_sampled": 1451,
+        "collect_wall_s": 0.08032345795072615,
+        "affine_dim_distribution": {
+          "0": 500,
+          "1": 408,
+          "2": 319,
+          "3": 181,
+          "4": 43
+        },
+        "affine_dim_0_fraction": 0.34458993797381116,
+        "affine_dim_ge2_fraction": 0.37422467263955894,
+        "affine_dim_mean": 1.213645761543763,
+        "strict_fraction": 0.0,
+        "facet_count_mean": 8.144727773949,
+        "facet_count_min": 7,
+        "facet_count_max": 11,
+        "bounded_fraction": 1.0,
+        "vertex_count_mean": 4.115,
+        "vertex_count_min": 1,
+        "vertex_count_max": 32,
+        "n_vertices_sampled": 200,
+        "n_vertex_errors": 0,
+        "vertex_error_kinds": {},
+        "total_clocks": 4
+      }
+    },
+    "PJS_04": {
+      "0.0": {
+        "n_zones_sampled": 2000,
+        "collect_wall_s": 0.12385970901232213,
+        "affine_dim_distribution": {
+          "0": 2000
+        },
+        "affine_dim_0_fraction": 1.0,
+        "affine_dim_ge2_fraction": 0.0,
+        "affine_dim_mean": 0.0,
+        "strict_fraction": 0.0,
+        "facet_count_mean": 8.0,
+        "facet_count_min": 8,
+        "facet_count_max": 8,
+        "bounded_fraction": 1.0,
+        "vertex_count_mean": 1.0,
+        "vertex_count_min": 1,
+        "vertex_count_max": 1,
+        "n_vertices_sampled": 200,
+        "n_vertex_errors": 0,
+        "vertex_error_kinds": {},
+        "total_clocks": 4
+      },
+      "0.1": {
+        "n_zones_sampled": 2000,
+        "collect_wall_s": 0.13377237494569272,
+        "affine_dim_distribution": {
+          "0": 675,
+          "1": 227,
+          "2": 450,
+          "3": 524,
+          "4": 124
+        },
+        "affine_dim_0_fraction": 0.3375,
+        "affine_dim_ge2_fraction": 0.549,
+        "affine_dim_mean": 1.5975,
+        "strict_fraction": 0.0,
+        "facet_count_mean": 8.0735,
+        "facet_count_min": 7,
+        "facet_count_max": 11,
+        "bounded_fraction": 1.0,
+        "vertex_count_mean": 4.34,
+        "vertex_count_min": 1,
+        "vertex_count_max": 17,
+        "n_vertices_sampled": 200,
+        "n_vertex_errors": 0,
+        "vertex_error_kinds": {},
+        "total_clocks": 4
+      },
+      "0.25": {
+        "n_zones_sampled": 2000,
+        "collect_wall_s": 0.128066209028475,
+        "affine_dim_distribution": {
+          "0": 675,
+          "1": 223,
+          "2": 452,
+          "3": 517,
+          "4": 133
+        },
+        "affine_dim_0_fraction": 0.3375,
+        "affine_dim_ge2_fraction": 0.551,
+        "affine_dim_mean": 1.605,
+        "strict_fraction": 0.0,
+        "facet_count_mean": 8.4335,
+        "facet_count_min": 7,
+        "facet_count_max": 14,
+        "bounded_fraction": 1.0,
+        "vertex_count_mean": 5.1,
+        "vertex_count_min": 1,
+        "vertex_count_max": 26,
+        "n_vertices_sampled": 200,
+        "n_vertex_errors": 0,
+        "vertex_error_kinds": {},
+        "total_clocks": 4
+      }
+    },
+    "PJS_05": {
+      "0.0": {
+        "n_zones_sampled": 2000,
+        "collect_wall_s": 0.17731966695282608,
+        "affine_dim_distribution": {
+          "0": 2000
+        },
+        "affine_dim_0_fraction": 1.0,
+        "affine_dim_ge2_fraction": 0.0,
+        "affine_dim_mean": 0.0,
+        "strict_fraction": 0.0,
+        "facet_count_mean": 10.0,
+        "facet_count_min": 10,
+        "facet_count_max": 10,
+        "bounded_fraction": 1.0,
+        "vertex_count_mean": 1.0,
+        "vertex_count_min": 1,
+        "vertex_count_max": 1,
+        "n_vertices_sampled": 200,
+        "n_vertex_errors": 0,
+        "vertex_error_kinds": {},
+        "total_clocks": 5
+      },
+      "0.1": {
+        "n_zones_sampled": 2000,
+        "collect_wall_s": 0.18617229198571295,
+        "affine_dim_distribution": {
+          "0": 523,
+          "1": 205,
+          "2": 313,
+          "3": 380,
+          "4": 454,
+          "5": 125
+        },
+        "affine_dim_0_fraction": 0.2615,
+        "affine_dim_ge2_fraction": 0.636,
+        "affine_dim_mean": 2.206,
+        "strict_fraction": 0.0,
+        "facet_count_mean": 10.456,
+        "facet_count_min": 9,
+        "facet_count_max": 16,
+        "bounded_fraction": 1.0,
+        "vertex_count_mean": 9.775,
+        "vertex_count_min": 1,
+        "vertex_count_max": 46,
+        "n_vertices_sampled": 200,
+        "n_vertex_errors": 0,
+        "vertex_error_kinds": {},
+        "total_clocks": 5
+      },
+      "0.25": {
+        "n_zones_sampled": 2000,
+        "collect_wall_s": 0.17843158391769975,
+        "affine_dim_distribution": {
+          "0": 526,
+          "1": 224,
+          "2": 314,
+          "3": 363,
+          "4": 435,
+          "5": 138
+        },
+        "affine_dim_0_fraction": 0.263,
+        "affine_dim_ge2_fraction": 0.625,
+        "affine_dim_mean": 2.1855,
+        "strict_fraction": 0.0,
+        "facet_count_mean": 10.8075,
+        "facet_count_min": 9,
+        "facet_count_max": 18,
+        "bounded_fraction": 1.0,
+        "vertex_count_mean": 10.48,
+        "vertex_count_min": 1,
+        "vertex_count_max": 80,
+        "n_vertices_sampled": 200,
+        "n_vertex_errors": 0,
+        "vertex_error_kinds": {},
+        "total_clocks": 5
+      }
+    },
+    "LJS_01": {
+      "0.0": {
+        "n_zones_sampled": 2000,
+        "collect_wall_s": 0.4498391670640558,
+        "affine_dim_distribution": {
+          "0": 2000
+        },
+        "affine_dim_0_fraction": 1.0,
+        "affine_dim_ge2_fraction": 0.0,
+        "affine_dim_mean": 0.0,
+        "strict_fraction": 0.0,
+        "facet_count_mean": 14.0,
+        "facet_count_min": 14,
+        "facet_count_max": 14,
+        "bounded_fraction": 1.0,
+        "vertex_count_mean": 1.0,
+        "vertex_count_min": 1,
+        "vertex_count_max": 1,
+        "n_vertices_sampled": 200,
+        "n_vertex_errors": 0,
+        "vertex_error_kinds": {},
+        "total_clocks": 7
+      },
+      "0.1": {
+        "n_zones_sampled": 2000,
+        "collect_wall_s": 0.4533992080250755,
+        "affine_dim_distribution": {
+          "0": 325,
+          "1": 94,
+          "2": 103,
+          "3": 121,
+          "4": 221,
+          "5": 354,
+          "6": 623,
+          "7": 159
+        },
+        "affine_dim_0_fraction": 0.1625,
+        "affine_dim_ge2_fraction": 0.7905,
+        "affine_dim_mean": 4.084,
+        "strict_fraction": 0.0,
+        "facet_count_mean": 17.5135,
+        "facet_count_min": 13,
+        "facet_count_max": 29,
+        "bounded_fraction": 1.0,
+        "vertex_count_mean": 60.776649746192895,
+        "vertex_count_min": 1,
+        "vertex_count_max": 277,
+        "n_vertices_sampled": 197,
+        "n_vertex_errors": 3,
+        "vertex_error_kinds": {
+          "VertexEnumerationLimit": 3
+        },
+        "total_clocks": 7
+      },
+      "0.25": {
+        "n_zones_sampled": 2000,
+        "collect_wall_s": 0.4569086669944227,
+        "affine_dim_distribution": {
+          "0": 321,
+          "1": 102,
+          "2": 96,
+          "3": 140,
+          "4": 216,
+          "5": 398,
+          "6": 559,
+          "7": 168
+        },
+        "affine_dim_0_fraction": 0.1605,
+        "affine_dim_ge2_fraction": 0.7885,
+        "affine_dim_mean": 4.049,
+        "strict_fraction": 0.0,
+        "facet_count_mean": 18.269,
+        "facet_count_min": 13,
+        "facet_count_max": 30,
+        "bounded_fraction": 1.0,
+        "vertex_count_mean": 86.34224598930481,
+        "vertex_count_min": 1,
+        "vertex_count_max": 360,
+        "n_vertices_sampled": 187,
+        "n_vertex_errors": 13,
+        "vertex_error_kinds": {
+          "VertexEnumerationLimit": 13
+        },
+        "total_clocks": 7
+      }
+    }
+  },
+  "total_wall_s": 721.1473920410499
+}

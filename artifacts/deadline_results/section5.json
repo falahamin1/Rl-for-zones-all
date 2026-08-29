@@ -1,0 +1,243 @@
+{
+  "PJS_01": {
+    "t": 0.0,
+    "penalty": 18.0,
+    "deadlines": {
+      "J1": 7.0,
+      "J2": 5.0
+    },
+    "n_states": 31,
+    "truncated": false,
+    "multi_zone_locations": 7,
+    "conflicting_locations": 0,
+    "conflict_fraction": 0.0,
+    "no_deadline_baseline_pct": 0.0,
+    "conflict_examples": []
+  },
+  "PJS_02": {
+    "t": 0.0,
+    "penalty": 24.0,
+    "deadlines": {
+      "J1": 9.0,
+      "J2": 10.0
+    },
+    "n_states": 151,
+    "truncated": false,
+    "multi_zone_locations": 17,
+    "conflicting_locations": 0,
+    "conflict_fraction": 0.0,
+    "no_deadline_baseline_pct": 0.0,
+    "conflict_examples": []
+  },
+  "PJS_03": {
+    "t": 1.0,
+    "penalty": 39.3,
+    "deadlines": {
+      "J1": 18.0,
+      "J2": 16.6,
+      "J3": 16.2
+    },
+    "n_states": 1030,
+    "truncated": false,
+    "multi_zone_locations": 54,
+    "conflicting_locations": 1,
+    "conflict_fraction": 0.018518518518518517,
+    "no_deadline_baseline_pct": 0.0,
+    "conflict_examples": [
+      {
+        "loc": [
+          "done",
+          "active_d8",
+          "done",
+          "waiting",
+          "waiting",
+          "waiting"
+        ],
+        "actions_i": [
+          "J3_T1"
+        ],
+        "actions_j": [
+          "J2_T2"
+        ],
+        "jobs": {
+          "I": {
+            "J1": {
+              "g": 1,
+              "D": 18.0,
+              "remaining": [
+                "J1_T2"
+              ],
+              "W": 5.0,
+              "slack": 12.0
+            },
+            "J2": {
+              "g": 1,
+              "D": 16.6,
+              "remaining": [
+                "J2_T2"
+              ],
+              "W": 5.0,
+              "slack": 10.6
+            },
+            "J3": {
+              "g": 1,
+              "D": 16.2,
+              "remaining": [
+                "J3_T1",
+                "J3_T2"
+              ],
+              "W": 8.1,
+              "slack": 7.1
+            }
+          },
+          "J": {
+            "J1": {
+              "g": 8,
+              "D": 18.0,
+              "remaining": [
+                "J1_T2"
+              ],
+              "W": 5.0,
+              "slack": 5.0
+            },
+            "J2": {
+              "g": 8,
+              "D": 16.6,
+              "remaining": [
+                "J2_T2"
+              ],
+              "W": 5.0,
+              "slack": 3.6
+            },
+            "J3": {
+              "g": 8,
+              "D": 16.2,
+              "remaining": [
+                "J3_T1",
+                "J3_T2"
+              ],
+              "W": 8.1,
+              "slack": 0.1
+            }
+          }
+        },
+        "slack_ranking_I": [
+          "J3",
+          "J2",
+          "J1"
+        ],
+        "slack_ranking_J": [
+          "J3",
+          "J2",
+          "J1"
+        ],
+        "ranking_inverted": false
+      },
+      {
+        "loc": [
+          "done",
+          "active_d8",
+          "done",
+          "waiting",
+          "waiting",
+          "waiting"
+        ],
+        "actions_i": [
+          "J3_T1"
+        ],
+        "actions_j": [
+          "J2_T2"
+        ],
+        "jobs": {
+          "I": {
+            "J1": {
+              "g": 4,
+              "D": 18.0,
+              "remaining": [
+                "J1_T2"
+              ],
+              "W": 5.0,
+              "slack": 9.0
+            },
+            "J2": {
+              "g": 4,
+              "D": 16.6,
+              "remaining": [
+                "J2_T2"
+              ],
+              "W": 5.0,
+              "slack": 7.6
+            },
+            "J3": {
+              "g": 4,
+              "D": 16.2,
+              "remaining": [
+                "J3_T1",
+                "J3_T2"
+              ],
+              "W": 8.1,
+              "slack": 4.1
+            }
+          },
+          "J": {
+            "J1": {
+              "g": 8,
+              "D": 18.0,
+              "remaining": [
+                "J1_T2"
+              ],
+              "W": 5.0,
+              "slack": 5.0
+            },
+            "J2": {
+              "g": 8,
+              "D": 16.6,
+              "remaining": [
+                "J2_T2"
+              ],
+              "W": 5.0,
+              "slack": 3.6
+            },
+            "J3": {
+              "g": 8,
+              "D": 16.2,
+              "remaining": [
+                "J3_T1",
+                "J3_T2"
+              ],
+              "W": 8.1,
+              "slack": 0.1
+            }
+          }
+        },
+        "slack_ranking_I": [
+          "J3",
+          "J2",
+          "J1"
+        ],
+        "slack_ranking_J": [
+          "J3",
+          "J2",
+          "J1"
+        ],
+        "ranking_inverted": false
+      }
+    ]
+  },
+  "PJS_04": {
+    "t": 0.25,
+    "penalty": 30.0,
+    "deadlines": {
+      "J1": 11.25,
+      "J2": 11.25,
+      "J3": 12.5
+    },
+    "n_states": 2242,
+    "truncated": false,
+    "multi_zone_locations": 135,
+    "conflicting_locations": 0,
+    "conflict_fraction": 0.0,
+    "no_deadline_baseline_pct": 1.4,
+    "conflict_examples": []
+  }
+}

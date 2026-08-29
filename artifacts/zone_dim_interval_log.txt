@@ -1,0 +1,21 @@
+PJS_01   w=0.00 n_states=   110 trunc=False depth= 3 wall=  0.01s dim(mean/max)=2.85/3 frac_dim>=2=0.991 vert(mean,known;unk_frac)=2.3,0.000 concur_mean=0.409
+PJS_01   w=0.10 n_states=   103 trunc=False depth= 3 wall=  0.01s dim(mean/max)=2.92/3 frac_dim>=2=0.990 vert(mean,known;unk_frac)=2.5825242718446604,0.000 concur_mean=0.437
+PJS_01   w=0.25 n_states=    72 trunc=False depth= 3 wall=  0.01s dim(mean/max)=2.89/3 frac_dim>=2=0.986 vert(mean,known;unk_frac)=2.513888888888889,0.000 concur_mean=0.417 corr=-0.211
+PJS_01   w=0.40 n_states=    82 trunc=False depth= 3 wall=  0.01s dim(mean/max)=2.90/3 frac_dim>=2=0.988 vert(mean,known;unk_frac)=2.3658536585365852,0.000 concur_mean=0.439
+PJS_02   w=0.00 n_states=   402 trunc=False depth= 4 wall=  0.02s dim(mean/max)=2.94/3 frac_dim>=2=0.998 vert(mean,known;unk_frac)=2.298507462686567,0.000 concur_mean=0.346
+PJS_02   w=0.10 n_states=   465 trunc=False depth= 4 wall=  0.03s dim(mean/max)=2.97/3 frac_dim>=2=0.998 vert(mean,known;unk_frac)=2.772043010752688,0.000 concur_mean=0.325
+PJS_02   w=0.25 n_states=   423 trunc=False depth= 4 wall=  0.03s dim(mean/max)=2.98/3 frac_dim>=2=0.998 vert(mean,known;unk_frac)=2.784869976359338,0.000 concur_mean=0.343 corr=-0.091
+PJS_02   w=0.40 n_states=   298 trunc=False depth= 4 wall=  0.02s dim(mean/max)=2.97/3 frac_dim>=2=0.997 vert(mean,known;unk_frac)=2.7583892617449663,0.000 concur_mean=0.389
+PJS_03   w=0.00 n_states=  4283 trunc=False depth= 5 wall=  0.31s dim(mean/max)=3.84/4 frac_dim>=2=1.000 vert(mean,known;unk_frac)=3.203666666666667,0.000 concur_mean=0.312
+PJS_03   w=0.10 n_states=  4768 trunc=False depth= 5 wall=  0.32s dim(mean/max)=3.95/4 frac_dim>=2=1.000 vert(mean,known;unk_frac)=4.1066666666666665,0.000 concur_mean=0.284
+PJS_03   w=0.25 n_states=  4872 trunc=False depth= 5 wall=  0.32s dim(mean/max)=3.95/4 frac_dim>=2=1.000 vert(mean,known;unk_frac)=3.9636666666666667,0.000 concur_mean=0.276 corr=-0.140
+PJS_03   w=0.40 n_states=  4398 trunc=False depth= 5 wall=  0.29s dim(mean/max)=3.95/4 frac_dim>=2=1.000 vert(mean,known;unk_frac)=3.8116666666666665,0.000 concur_mean=0.266
+PJS_04   w=0.00 n_states= 15767 trunc=False depth= 8 wall=  1.88s dim(mean/max)=3.82/4 frac_dim>=2=1.000 vert(mean,known;unk_frac)=3.847,0.000 concur_mean=0.740
+PJS_04   w=0.10 n_states= 16059 trunc=False depth= 8 wall=  1.88s dim(mean/max)=3.98/4 frac_dim>=2=1.000 vert(mean,known;unk_frac)=4.849666666666667,0.000 concur_mean=0.678
+PJS_04   w=0.25 n_states= 13584 trunc=False depth= 8 wall=  1.65s dim(mean/max)=3.98/4 frac_dim>=2=1.000 vert(mean,known;unk_frac)=4.8,0.000 concur_mean=0.704 corr=-0.023
+PJS_04   w=0.40 n_states=  6269 trunc=False depth= 8 wall=  0.83s dim(mean/max)=3.99/4 frac_dim>=2=1.000 vert(mean,known;unk_frac)=4.744,0.000 concur_mean=0.785
+LJS_01   w=0.00 n_states= 20000 trunc=True  depth= 4 wall=  3.52s dim(mean/max)=5.00/6 frac_dim>=2=0.998 vert(mean,known;unk_frac)=5.247078464106845,0.800 concur_mean=2.384
+LJS_01   w=0.10 n_states= 20000 trunc=True  depth= 4 wall=  3.42s dim(mean/max)=5.14/6 frac_dim>=2=1.000 vert(mean,known;unk_frac)=5.250614250614251,0.864 concur_mean=2.284
+LJS_01   w=0.25 n_states= 20000 trunc=True  depth= 4 wall=  3.39s dim(mean/max)=5.16/6 frac_dim>=2=1.000 vert(mean,known;unk_frac)=5.32520325203252,0.877 concur_mean=2.238 corr=-0.135
+LJS_01   w=0.40 n_states= 20000 trunc=True  depth= 4 wall=  3.38s dim(mean/max)=5.18/6 frac_dim>=2=1.000 vert(mean,known;unk_frac)=5.235109717868339,0.894 concur_mean=2.227
+Saved /tmp/zone_dim_interval_results.json

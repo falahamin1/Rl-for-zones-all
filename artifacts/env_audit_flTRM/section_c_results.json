@@ -1,0 +1,68 @@
+{
+  "three_goal": {
+    "TRM_01": {
+      "c_min": 2,
+      "D": 200,
+      "d_max": 5,
+      "zone_bfs": 385,
+      "truncated": false
+    },
+    "TRM_03": {
+      "c_min": 10,
+      "D": 200,
+      "d_max": 5,
+      "zone_bfs": 385,
+      "truncated": false
+    },
+    "TRM_06": {
+      "c_min": 25,
+      "D": 200,
+      "d_max": 5,
+      "zone_bfs": 385,
+      "truncated": false
+    }
+  },
+  "single_goal": {
+    "SG_01": {
+      "c_min": 10,
+      "D": 30,
+      "zone_bfs": 100,
+      "truncated": false
+    },
+    "SG_03": {
+      "c_min": 10,
+      "D": 100,
+      "zone_bfs": 100,
+      "truncated": false
+    },
+    "SG_05": {
+      "c_min": 10,
+      "D": 400,
+      "zone_bfs": 100,
+      "truncated": false
+    }
+  },
+  "hole": {
+    "HOLE_01": {
+      "c_min": 10,
+      "D": 200,
+      "x_h": 5,
+      "zone_bfs": 1905,
+      "truncated": false
+    },
+    "HOLE_03": {
+      "c_min": 10,
+      "D": 200,
+      "x_h": 20,
+      "zone_bfs": 1905,
+      "truncated": false
+    },
+    "HOLE_05": {
+      "c_min": 10,
+      "D": 200,
+      "x_h": 50,
+      "zone_bfs": 1905,
+      "truncated": false
+    }
+  }
+}

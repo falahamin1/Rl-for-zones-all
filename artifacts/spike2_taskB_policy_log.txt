@@ -1,0 +1,4 @@
+PJS_01   n_concrete_states=    31 trunc=False unresolved_V=0 multi_clusters=6 missing_from_dp=0 consistent=6 inconsistent=0 frac_consistent=1.0
+PJS_02   n_concrete_states=   105 trunc=False unresolved_V=0 multi_clusters=16 missing_from_dp=0 consistent=16 inconsistent=0 frac_consistent=1.0
+PJS_03   n_concrete_states=   667 trunc=False unresolved_V=0 multi_clusters=9 missing_from_dp=0 consistent=9 inconsistent=0 frac_consistent=1.0
+Saved /tmp/spike2_taskB_policy_results.json

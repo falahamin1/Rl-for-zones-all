@@ -1,0 +1,82 @@
+[
+  {
+    "instance": "PJS_01",
+    "n_states": 110,
+    "truncated": false,
+    "max_depth": 3,
+    "wall_s": 0.008622169494628906,
+    "affine_dim_hist": {
+      "1": 1,
+      "2": 14,
+      "3": 95
+    },
+    "affine_dim_mean": 2.8545454545454545,
+    "affine_dim_max": 3,
+    "mean_concurrent_active": 0.4090909090909091
+  },
+  {
+    "instance": "PJS_02",
+    "n_states": 402,
+    "truncated": false,
+    "max_depth": 4,
+    "wall_s": 0.024419069290161133,
+    "affine_dim_hist": {
+      "1": 1,
+      "2": 23,
+      "3": 378
+    },
+    "affine_dim_mean": 2.9378109452736316,
+    "affine_dim_max": 3,
+    "mean_concurrent_active": 0.34577114427860695
+  },
+  {
+    "instance": "PJS_03",
+    "n_states": 4283,
+    "truncated": false,
+    "max_depth": 5,
+    "wall_s": 0.3089008331298828,
+    "affine_dim_hist": {
+      "1": 1,
+      "2": 69,
+      "3": 564,
+      "4": 3649
+    },
+    "affine_dim_mean": 3.8353957506420735,
+    "affine_dim_max": 4,
+    "mean_concurrent_active": 0.3121643707681532
+  },
+  {
+    "instance": "PJS_04",
+    "n_states": 15767,
+    "truncated": false,
+    "max_depth": 8,
+    "wall_s": 1.873049020767212,
+    "affine_dim_hist": {
+      "1": 1,
+      "2": 281,
+      "3": 2217,
+      "4": 13268
+    },
+    "affine_dim_mean": 3.823555527367286,
+    "affine_dim_max": 4,
+    "mean_concurrent_active": 0.7397095198833006
+  },
+  {
+    "instance": "LJS_01",
+    "n_states": 20000,
+    "truncated": true,
+    "max_depth": 4,
+    "wall_s": 3.594452142715454,
+    "affine_dim_hist": {
+      "1": 38,
+      "2": 162,
+      "3": 786,
+      "4": 3243,
+      "5": 10262,
+      "6": 5509
+    },
+    "affine_dim_mean": 5.0028,
+    "affine_dim_max": 6,
+    "mean_concurrent_active": 2.38385
+  }
+]

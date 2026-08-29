@@ -1,0 +1,41 @@
+=== PJS_01 ===
+  n_states=110 truncated=False max_depth=3 wall=0.01s box_frac=0.000 off_diag(mean/max)=3.66/6 vertices(mean/max)=1.66/2 [took 1.3s total]
+=== PJS_02 ===
+  n_states=402 truncated=False max_depth=4 wall=0.02s box_frac=0.000 off_diag(mean/max)=3.68/6 vertices(mean/max)=1.77/3 [took 2.6s total]
+=== PJS_03 ===
+  n_states=4283 truncated=False max_depth=5 wall=0.30s box_frac=0.000 off_diag(mean/max)=7.20/12 vertices(mean/max)=2.32/5 [took 2.9s total]
+=== PJS_04 ===
+  n_states=15767 truncated=False max_depth=8 wall=1.83s box_frac=0.000 off_diag(mean/max)=7.52/9 vertices(mean/max)=2.35/6 [took 4.4s total]
+=== PJS_05 ===
+  n_states=200000 truncated=True max_depth=8 wall=27.40s box_frac=0.000 off_diag(mean/max)=12.78/16 vertices(mean/max)=2.90/7 [took 30.9s total]
+=== PJS_06 ===
+  n_states=200000 truncated=True max_depth=8 wall=39.97s box_frac=0.000 off_diag(mean/max)=23.36/25 vertices(mean/max)=4.00/10 [took 44.1s total]
+=== PJS_07 ===
+  n_states=200000 truncated=True max_depth=9 wall=31.83s box_frac=0.000 off_diag(mean/max)=22.03/25 vertices(mean/max)=4.04/11 [took 35.8s total]
+=== PJS_08 ===
+  n_states=200000 truncated=True max_depth=6 wall=38.25s box_frac=0.000 off_diag(mean/max)=29.18/32 vertices(mean/max)=3.46/9 [took 43.2s total]
+=== PJS_09 ===
+  n_states=200000 truncated=True max_depth=4 wall=45.87s box_frac=0.000 off_diag(mean/max)=52.08/58 vertices(mean/max)=3.53/6 [took 53.6s total]
+=== PJS_10 ===
+  n_states=200000 truncated=True max_depth=5 wall=140.90s box_frac=0.000 off_diag(mean/max)=80.78/92 vertices(mean/max)=4.43/9 [took 154.5s total]
+=== LJS_01 ===
+  n_states=200000 truncated=True max_depth=7 wall=37.41s box_frac=0.000 off_diag(mean/max)=32.43/36 vertices(mean/max)=4.68/11 [took 42.0s total]
+=== LJS_02 ===
+  n_states=200000 truncated=True max_depth=5 wall=44.46s box_frac=0.000 off_diag(mean/max)=41.49/44 vertices(mean/max)=4.18/10 [took 49.8s total]
+=== LJS_03 ===
+  n_states=200000 truncated=True max_depth=4 wall=47.69s box_frac=0.000 off_diag(mean/max)=52.09/58 vertices(mean/max)=3.58/6 [took 54.0s total]
+=== LJS_04 ===
+  n_states=200000 truncated=True max_depth=4 wall=46.37s box_frac=0.000 off_diag(mean/max)=52.09/58 vertices(mean/max)=3.48/7 [took 53.8s total]
+=== LJS_05 ===
+  n_states=200000 truncated=True max_depth=4 wall=46.48s box_frac=0.000 off_diag(mean/max)=65.85/74 vertices(mean/max)=3.37/7 [took 55.7s total]
+=== LJS_06 ===
+  n_states=200000 truncated=True max_depth=3 wall=52.94s box_frac=0.000 off_diag(mean/max)=82.32/92 vertices(mean/max)=3.11/5 [took 65.5s total]
+=== LJS_07 ===
+  n_states=200000 truncated=True max_depth=3 wall=70.90s box_frac=0.000 off_diag(mean/max)=82.35/100 vertices(mean/max)=3.24/6 [took 85.5s total]
+=== LJS_08 ===
+  n_states=200000 truncated=True max_depth=3 wall=78.21s box_frac=0.000 off_diag(mean/max)=100.66/112 vertices(mean/max)=2.98/6 [took 100.0s total]
+=== LJS_09 ===
+  n_states=200000 truncated=True max_depth=3 wall=106.10s box_frac=0.000 off_diag(mean/max)=120.97/134 vertices(mean/max)=3.08/6 [took 126.1s total]
+=== LJS_10 ===
+  n_states=200000 truncated=True max_depth=3 wall=146.81s box_frac=0.000 off_diag(mean/max)=168.09/184 vertices(mean/max)=3.06/6 [took 170.9s total]
+Saved /tmp/zone_audit_results.json

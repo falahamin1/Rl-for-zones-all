@@ -1,0 +1,89 @@
+{
+  "three_goal": [
+    {
+      "instance": "TRM_01",
+      "n_concrete": 1605,
+      "n_zone": 83,
+      "agg_ratio": 19.337349397590362,
+      "n_loc_only": 56,
+      "loc_ratio": 28.660714285714285,
+      "frac_singleton_zone": 0.1927710843373494
+    },
+    {
+      "instance": "TRM_03",
+      "n_concrete": 1518,
+      "n_zone": 103,
+      "agg_ratio": 14.737864077669903,
+      "n_loc_only": 50,
+      "loc_ratio": 30.36,
+      "frac_singleton_zone": 0.27184466019417475
+    },
+    {
+      "instance": "TRM_06",
+      "n_concrete": 1543,
+      "n_zone": 110,
+      "agg_ratio": 14.027272727272727,
+      "n_loc_only": 55,
+      "loc_ratio": 28.054545454545455,
+      "frac_singleton_zone": 0.2545454545454545
+    }
+  ],
+  "single_goal": [
+    {
+      "instance": "SG_01",
+      "n_concrete": 981,
+      "n_zone": 86,
+      "agg_ratio": 11.406976744186046,
+      "n_loc_only": 31,
+      "loc_ratio": 31.64516129032258,
+      "frac_singleton_zone": 0.05813953488372093
+    },
+    {
+      "instance": "SG_03",
+      "n_concrete": 845,
+      "n_zone": 57,
+      "agg_ratio": 14.824561403508772,
+      "n_loc_only": 30,
+      "loc_ratio": 28.166666666666668,
+      "frac_singleton_zone": 0.10526315789473684
+    },
+    {
+      "instance": "SG_05",
+      "n_concrete": 722,
+      "n_zone": 53,
+      "agg_ratio": 13.622641509433961,
+      "n_loc_only": 30,
+      "loc_ratio": 24.066666666666666,
+      "frac_singleton_zone": 0.03773584905660377
+    }
+  ],
+  "hole": [
+    {
+      "instance": "HOLE_01",
+      "n_concrete": 61399,
+      "n_zone": 1002,
+      "agg_ratio": 61.27644710578842,
+      "n_loc_only": 93,
+      "loc_ratio": 660.2043010752689,
+      "frac_singleton_zone": 0.11477045908183632
+    },
+    {
+      "instance": "HOLE_03",
+      "n_concrete": 58376,
+      "n_zone": 1018,
+      "agg_ratio": 57.343811394891944,
+      "n_loc_only": 93,
+      "loc_ratio": 627.6989247311828,
+      "frac_singleton_zone": 0.0756385068762279
+    },
+    {
+      "instance": "HOLE_05",
+      "n_concrete": 61380,
+      "n_zone": 989,
+      "agg_ratio": 62.06268958543984,
+      "n_loc_only": 92,
+      "loc_ratio": 667.1739130434783,
+      "frac_singleton_zone": 0.11122345803842265
+    }
+  ]
+}

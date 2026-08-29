@@ -1,0 +1,4 @@
+PJS_01   n_concrete_states=    31 trunc=False pruned_branches=0 unresolved_V=0 multi_clusters=3 missing_from_dp=0 consistent=3 inconsistent=0 frac_consistent=1.0 | multi_zone_locs=7 decision_relevant=0 frac_relevant=0.0
+PJS_02   n_concrete_states=   105 trunc=False pruned_branches=0 unresolved_V=0 multi_clusters=13 missing_from_dp=6 consistent=7 inconsistent=0 frac_consistent=1.0 | multi_zone_locs=17 decision_relevant=0 frac_relevant=0.0
+PJS_03   n_concrete_states=   667 trunc=False pruned_branches=0 unresolved_V=0 multi_clusters=70 missing_from_dp=14 consistent=56 inconsistent=0 frac_consistent=1.0 | multi_zone_locs=54 decision_relevant=0 frac_relevant=0.0
+Saved /tmp/spike3_policy_results.json

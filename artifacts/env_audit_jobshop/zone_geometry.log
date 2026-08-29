@@ -1,0 +1,349 @@
+=== PJS_01 ===
+  BFS: 110 states, truncated=False, max_fed_dbms=1, wall=0.01s
+{
+  "instance": "PJS_01",
+  "n_clocks": 3,
+  "clock_names": [
+    "c_J1",
+    "c_J2",
+    "delta"
+  ],
+  "n_states_bfs": 110,
+  "bfs_truncated": false,
+  "bfs_wall_s": 0.010092020034790039,
+  "max_fed_dbms_ever": 1,
+  "max_fed_dbms_sample": 1,
+  "sample_size": 110,
+  "affine_dim_stats": {
+    "mean": 2.8545454545454545,
+    "min": 1,
+    "max": 3
+  },
+  "affine_dim_hist": {
+    "1": 1,
+    "2": 14,
+    "3": 95
+  },
+  "frac_bounded": 0.0,
+  "frac_strict": 0.0,
+  "facet_count_stats": {
+    "mean": 4.009090909090909,
+    "min": 0,
+    "max": 5
+  },
+  "facet_count_hist": {
+    "0": 1,
+    "2": 8,
+    "4": 80,
+    "5": 21
+  },
+  "frac_single_concrete": 0.0,
+  "vertex_sample_size": 110,
+  "vertex_counts_computed": 110,
+  "vertex_truncated_zones": 0,
+  "vertex_count_stats": {
+    "mean": 2.109090909090909,
+    "min": 0,
+    "max": 4
+  },
+  "vertex_count_hist": {
+    "0": 15,
+    "2": 74,
+    "4": 21
+  },
+  "vertex_wall_s": 0.044463157653808594,
+  "vertex_mean_per_zone_s": 0.00029115460135719994
+}
+=== PJS_02 ===
+  BFS: 391 states, truncated=False, max_fed_dbms=1, wall=0.03s
+{
+  "instance": "PJS_02",
+  "n_clocks": 3,
+  "clock_names": [
+    "c_J1",
+    "c_J2",
+    "delta"
+  ],
+  "n_states_bfs": 391,
+  "bfs_truncated": false,
+  "bfs_wall_s": 0.02851104736328125,
+  "max_fed_dbms_ever": 1,
+  "max_fed_dbms_sample": 1,
+  "sample_size": 391,
+  "affine_dim_stats": {
+    "mean": 2.9053708439897696,
+    "min": 1,
+    "max": 3
+  },
+  "affine_dim_hist": {
+    "1": 1,
+    "2": 35,
+    "3": 355
+  },
+  "frac_bounded": 0.0,
+  "frac_strict": 0.0,
+  "facet_count_stats": {
+    "mean": 4.289002557544757,
+    "min": 0,
+    "max": 6
+  },
+  "facet_count_hist": {
+    "0": 1,
+    "2": 29,
+    "3": 30,
+    "4": 155,
+    "5": 147,
+    "6": 29
+  },
+  "frac_single_concrete": 0.0,
+  "vertex_sample_size": 200,
+  "vertex_counts_computed": 200,
+  "vertex_truncated_zones": 0,
+  "vertex_count_stats": {
+    "mean": 2.64,
+    "min": 0,
+    "max": 6
+  },
+  "vertex_count_hist": {
+    "0": 19,
+    "1": 14,
+    "2": 65,
+    "3": 59,
+    "4": 23,
+    "5": 5,
+    "6": 15
+  },
+  "vertex_wall_s": 0.10695004463195801,
+  "vertex_mean_per_zone_s": 0.0004221045970916748
+}
+=== PJS_03 ===
+  BFS: 4470 states, truncated=False, max_fed_dbms=1, wall=0.37s
+{
+  "instance": "PJS_03",
+  "n_clocks": 4,
+  "clock_names": [
+    "c_J1",
+    "c_J2",
+    "c_J3",
+    "delta"
+  ],
+  "n_states_bfs": 4470,
+  "bfs_truncated": false,
+  "bfs_wall_s": 0.37044191360473633,
+  "max_fed_dbms_ever": 1,
+  "max_fed_dbms_sample": 1,
+  "sample_size": 2000,
+  "affine_dim_stats": {
+    "mean": 3.8525,
+    "min": 1,
+    "max": 4
+  },
+  "affine_dim_hist": {
+    "1": 1,
+    "2": 11,
+    "3": 270,
+    "4": 1718
+  },
+  "frac_bounded": 0.0,
+  "frac_strict": 0.0,
+  "facet_count_stats": {
+    "mean": 5.4855,
+    "min": 0,
+    "max": 8
+  },
+  "facet_count_hist": {
+    "0": 2,
+    "2": 7,
+    "3": 134,
+    "4": 41,
+    "5": 820,
+    "6": 757,
+    "7": 163,
+    "8": 76
+  },
+  "frac_single_concrete": 0.0,
+  "vertex_sample_size": 200,
+  "vertex_counts_computed": 200,
+  "vertex_truncated_zones": 0,
+  "vertex_count_stats": {
+    "mean": 3.53,
+    "min": 0,
+    "max": 12
+  },
+  "vertex_count_hist": {
+    "0": 23,
+    "2": 56,
+    "3": 17,
+    "4": 62,
+    "5": 5,
+    "6": 19,
+    "8": 14,
+    "10": 2,
+    "12": 2
+  },
+  "vertex_wall_s": 0.32708096504211426,
+  "vertex_mean_per_zone_s": 0.0014134991168975831
+}
+=== PJS_04 ===
+  BFS: 12290 states, truncated=False, max_fed_dbms=1, wall=1.98s
+{
+  "instance": "PJS_04",
+  "n_clocks": 4,
+  "clock_names": [
+    "c_J1",
+    "c_J2",
+    "c_J3",
+    "delta"
+  ],
+  "n_states_bfs": 12290,
+  "bfs_truncated": false,
+  "bfs_wall_s": 1.9754819869995117,
+  "max_fed_dbms_ever": 1,
+  "max_fed_dbms_sample": 1,
+  "sample_size": 2000,
+  "affine_dim_stats": {
+    "mean": 3.849,
+    "min": 2,
+    "max": 4
+  },
+  "affine_dim_hist": {
+    "2": 25,
+    "3": 252,
+    "4": 1723
+  },
+  "frac_bounded": 0.0,
+  "frac_strict": 0.0,
+  "facet_count_stats": {
+    "mean": 6.21,
+    "min": 0,
+    "max": 10
+  },
+  "facet_count_hist": {
+    "0": 23,
+    "2": 27,
+    "3": 113,
+    "4": 103,
+    "5": 241,
+    "6": 582,
+    "7": 528,
+    "8": 254,
+    "9": 100,
+    "10": 29
+  },
+  "frac_single_concrete": 0.0,
+  "vertex_sample_size": 200,
+  "vertex_counts_computed": 200,
+  "vertex_truncated_zones": 0,
+  "vertex_count_stats": {
+    "mean": 5.805,
+    "min": 0,
+    "max": 16
+  },
+  "vertex_count_hist": {
+    "0": 31,
+    "2": 11,
+    "3": 15,
+    "4": 30,
+    "5": 8,
+    "6": 19,
+    "7": 8,
+    "8": 32,
+    "9": 8,
+    "10": 11,
+    "11": 10,
+    "12": 12,
+    "13": 2,
+    "14": 1,
+    "16": 2
+  },
+  "vertex_wall_s": 0.6421847343444824,
+  "vertex_mean_per_zone_s": 0.0029913604259490965
+}
+=== PJS_05 ===
+  BFS: 50000 states, truncated=True, max_fed_dbms=1, wall=7.32s
+{
+  "instance": "PJS_05",
+  "n_clocks": 5,
+  "clock_names": [
+    "c_J1",
+    "c_J2",
+    "c_J3",
+    "c_J4",
+    "delta"
+  ],
+  "n_states_bfs": 50000,
+  "bfs_truncated": true,
+  "bfs_wall_s": 7.319267988204956,
+  "max_fed_dbms_ever": 1,
+  "max_fed_dbms_sample": 1,
+  "sample_size": 2000,
+  "affine_dim_stats": {
+    "mean": 4.621,
+    "min": 2,
+    "max": 5
+  },
+  "affine_dim_hist": {
+    "2": 7,
+    "3": 70,
+    "4": 597,
+    "5": 1326
+  },
+  "frac_bounded": 0.0,
+  "frac_strict": 0.0,
+  "facet_count_stats": {
+    "mean": 7.473,
+    "min": 0,
+    "max": 13
+  },
+  "facet_count_hist": {
+    "0": 3,
+    "1": 23,
+    "2": 17,
+    "3": 15,
+    "4": 79,
+    "5": 189,
+    "6": 184,
+    "7": 403,
+    "8": 487,
+    "9": 342,
+    "10": 174,
+    "11": 68,
+    "12": 12,
+    "13": 4
+  },
+  "frac_single_concrete": 0.0,
+  "vertex_sample_size": 200,
+  "vertex_counts_computed": 200,
+  "vertex_truncated_zones": 0,
+  "vertex_count_stats": {
+    "mean": 8.11,
+    "min": 0,
+    "max": 29
+  },
+  "vertex_count_hist": {
+    "0": 70,
+    "4": 2,
+    "6": 20,
+    "8": 19,
+    "9": 7,
+    "10": 7,
+    "11": 2,
+    "12": 24,
+    "13": 1,
+    "14": 5,
+    "15": 3,
+    "16": 12,
+    "18": 9,
+    "19": 1,
+    "20": 8,
+    "21": 2,
+    "22": 4,
+    "25": 1,
+    "26": 1,
+    "28": 1,
+    "29": 1
+  },
+  "vertex_wall_s": 2.451929807662964,
+  "vertex_mean_per_zone_s": 0.011847752332687377
+}
+DONE
