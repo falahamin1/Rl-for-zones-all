@@ -1,0 +1,107 @@
+{
+  "w0.25": {
+    "label": "T_large",
+    "w": 0.25,
+    "n_states": 90864,
+    "dp_truncated": false,
+    "n_zones_total": 90862,
+    "n_zones": 4000,
+    "zones_sampled": true,
+    "n_locations": 36,
+    "dp_plus_zone_wall_s": 3.6941237079445273,
+    "pinned_subgoal_pair_fraction": {
+      "t_A_t_B": 0.3125,
+      "t_A_t_C": 0.2865,
+      "t_B_t_C": 0.2795
+    },
+    "pinned_subgoal_pair_mean": 0.29283333333333333,
+    "pinned_subgoal_pair_max": 0.3125,
+    "pinned_g_subgoal_fraction": {
+      "t_A": 0.518,
+      "t_B": 0.45725,
+      "t_C": 0.39275
+    },
+    "affine_dim_distribution": {
+      "0": 996,
+      "1": 32,
+      "2": 457,
+      "3": 1536,
+      "4": 979
+    },
+    "affine_dim_0_fraction": 0.249,
+    "affine_dim_0_or_1_fraction": 0.257,
+    "affine_dim_ge2_fraction": 0.743,
+    "facet_count_mean": 10.9885,
+    "facet_count_min": 9,
+    "facet_count_max": 14,
+    "vertex_count_mean": 7.6425,
+    "vertex_count_min": 1,
+    "vertex_count_max": 21,
+    "n_vertices_computed": 400,
+    "n_vertices_attempted": 400,
+    "vertices_sampled": true,
+    "n_vertex_errors": 0,
+    "vertex_error_rate": 0.0,
+    "vertex_error_kinds": {},
+    "bounded_fraction": 1.0,
+    "strict_fraction": 0.0,
+    "allowed_delays": [
+      0,
+      1,
+      2
+    ]
+  },
+  "w0": {
+    "label": "T_large_w0",
+    "w": 0.0,
+    "n_states": 90864,
+    "dp_truncated": false,
+    "n_zones_total": 90862,
+    "n_zones": 4000,
+    "zones_sampled": true,
+    "n_locations": 36,
+    "dp_plus_zone_wall_s": 3.176643874961883,
+    "pinned_subgoal_pair_fraction": {
+      "t_A_t_B": 1.0,
+      "t_A_t_C": 1.0,
+      "t_B_t_C": 1.0
+    },
+    "pinned_subgoal_pair_mean": 1.0,
+    "pinned_subgoal_pair_max": 1.0,
+    "pinned_g_subgoal_fraction": {
+      "t_A": 1.0,
+      "t_B": 1.0,
+      "t_C": 1.0
+    },
+    "affine_dim_distribution": {
+      "0": 4000
+    },
+    "affine_dim_0_fraction": 1.0,
+    "affine_dim_0_or_1_fraction": 1.0,
+    "affine_dim_ge2_fraction": 0.0,
+    "facet_count_mean": 10.0,
+    "facet_count_min": 10,
+    "facet_count_max": 10,
+    "vertex_count_mean": 1.0,
+    "vertex_count_min": 1,
+    "vertex_count_max": 1,
+    "n_vertices_computed": 400,
+    "n_vertices_attempted": 400,
+    "vertices_sampled": true,
+    "n_vertex_errors": 0,
+    "vertex_error_rate": 0.0,
+    "vertex_error_kinds": {},
+    "bounded_fraction": 1.0,
+    "strict_fraction": 0.0,
+    "allowed_delays": [
+      0,
+      1,
+      2
+    ]
+  },
+  "gate": {
+    "passed": true,
+    "reasons": []
+  },
+  "gen_info": "GenerationInfo(seed=1, label='T_large', attempts=1, accepted=True, rejected_unsolvable=0, rejected_inconclusive=0)"
+}

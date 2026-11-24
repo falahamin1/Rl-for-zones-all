@@ -27,16 +27,40 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from itertools import combinations
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
 import numpy as np
+
+# Local-environment compatibility only: older numpy (<2.0) lacks the
+# numpy._core submodule path newer numpy uses internally, which the
+# checkpoints (written on Alpine, numpy>=2) were pickled under. No-op
+# wherever numpy._core already exists for real or numpy.core doesn't exist
+# at all. Same shim as RL-for-Polytopes/tangram-intermediate/train_single.py.
+try:
+    import numpy._core  # noqa: F401  -- already real, nothing to shim
+except ImportError:
+    try:
+        import numpy.core as _np_core
+        import numpy.core.multiarray as _np_multiarray
+        sys.modules.setdefault("numpy._core", _np_core)
+        sys.modules.setdefault("numpy._core.multiarray", _np_multiarray)
+    except ImportError:
+        pass
+
 import torch
 
-from run_one import CKPT_DIR, ENCODERS, RunSpec, build_trainer
+from run_one import CKPT_DIR, ENCODERS, NEW_ENCODERS, RunSpec, build_trainer
 
-DOMAINS_INSTANCES = {"modesel": ("M3", "M4"), "gridtimed": ("T2", "T3")}
+DOMAINS_INSTANCES = {"modesel": ("M3", "M4"), "gridtimed": ("T2", "T3"), "trmgrid": ("G_SMALL", "G_LARGE")}
+#: Extended to cover trmgrid and the v_rep/GNN pair (deepset_v, gnn) -- the
+#: original probe only ever covered modesel/gridtimed x the first 4
+#: encoders (ENCODERS alone), leaving deepset_v and gnn's R^2 unmeasured
+#: on every domain, and trmgrid unmeasured on every encoder. Appendix data
+#: report needs both, per the "R^2 for all six encoders" ask.
+ALL_ENCODERS = ENCODERS + NEW_ENCODERS
 
 
 # ----------------------------------------------------------------------
@@ -54,6 +78,12 @@ def concrete_clocks(domain: str, env: Any) -> np.ndarray:
         # 0 by the time any concrete state is read out (see gym_env.py).
         state = env._state
         return np.concatenate([np.asarray(state.clocks, dtype=np.float64), [state.y, 0.0]])
+    if domain == "trmgrid":
+        # TRMGridZoneContext._clock_names = sub-goal clocks + [g] + [e],
+        # identical pattern to gridtimed's (trmgrid/zone_ops.py:42) -- e is
+        # likewise always 0 by observation time.
+        state = env._state
+        return np.concatenate([np.asarray(state.clocks, dtype=np.float64), [state.g, 0.0]])
     raise ValueError(domain)
 
 
@@ -124,7 +154,11 @@ def load_frozen_head(domain: str, instance: str, encoder: str, seed: int, quick_
     trainer = build_trainer(spec)
     ckpt_path = CKPT_DIR / f"{spec.run_id}.pt"
     if ckpt_path.exists():
-        ckpt = torch.load(ckpt_path, map_location="cpu")
+        # weights_only=False: checkpoints are always self-written (see the
+        # matching fix/comment in run_one.py and check_status.py -- PyTorch
+        # >=2.6's stricter default unpickler rejects the RNG-state payload
+        # otherwise).
+        ckpt = torch.load(ckpt_path, map_location="cpu", weights_only=False)
         trainer.load_state_dict(ckpt["trainer"])
         source = f"checkpoint ({trainer.total_env_steps} env_steps trained)"
     elif quick_train_steps > 0:
@@ -182,7 +216,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--domain", choices=list(DOMAINS_INSTANCES), default=None)
     parser.add_argument("--instance", default=None)
-    parser.add_argument("--encoder", choices=list(ENCODERS), default=None)
+    parser.add_argument("--encoder", choices=list(ALL_ENCODERS), default=None)
     parser.add_argument("--seed", type=int, default=0)
     parser.add_argument("--n-samples", type=int, default=2000)
     parser.add_argument(
@@ -199,7 +233,7 @@ def main() -> None:
     for domain in domains:
         instances = [args.instance] if args.instance else DOMAINS_INSTANCES[domain]
         for instance in instances:
-            encoders = [args.encoder] if args.encoder else list(ENCODERS)
+            encoders = [args.encoder] if args.encoder else list(ALL_ENCODERS)
             for encoder in encoders:
                 targets.append((domain, instance, encoder))
 

@@ -42,10 +42,43 @@ except ImportError:
 DOMAINS_INSTANCES = {
     "modesel": ("M3", "M4"),
     "gridtimed": ("T2", "T3"),
+    #: trmgrid extension (artifacts/TRMGRID_SWEEP.md) -- run_one.TARGET_RUNS
+    #: indices 168-287, a brand-new domain string appended after the
+    #: shaping experiment. Folded in here (previously analyzed via a
+    #: one-off script reusing this module's functions) so trmgrid gets the
+    #: same curves/CSV treatment as everything else, not a separate path.
+    "trmgrid": ("G_SMALL", "G_LARGE"),
 }
-ENCODERS = ("mlp_point", "deepset_h", "cnn_dbm", "cnn_proj")
+#: Extended for the v_rep/GNN addition (/tmp/VREP_FEASIBILITY.md) -- six
+#: encoders now, same DOMAINS_INSTANCES/SEEDS, run_one.TARGET_RUNS indices
+#: 48-71 for the two new ones. This is the one intentional, explicitly-
+#: requested modification to analyze.py (Step 3); everything else in this
+#: file that loops over ENCODERS picks the six up automatically.
+ENCODERS = ("mlp_point", "deepset_h", "cnn_dbm", "cnn_proj", "deepset_v", "gnn")
 SEEDS = (0, 1, 2)
+#: Gridtimed seed extension (/tmp/SWEEP_FINAL.md Task C): gridtimed grew
+#: to 10 seeds (0-9) across all six encoders to characterize the bimodal
+#: deepset_v/gnn outcomes; modesel stayed at 3. A single flat SEEDS tuple
+#: can no longer describe both -- _seeds_for_domain below is the one other
+#: intentional modification this extension requires (a hardcoded SEEDS=
+#: (0,1,2) would silently under-report gridtimed the moment the new runs
+#: land, which is a correctness bug, not just an incomplete manifest).
+_GRIDTIMED_EXTRA_SEEDS = (3, 4, 5, 6, 7, 8, 9)
+#: trmgrid was swept at 10 seeds from the start (TRMGRID_SEEDS in
+#: run_one.py), not grown from a 3-seed base like gridtimed was -- same
+#: resulting 0-9 range, kept as its own name rather than reusing
+#: _GRIDTIMED_EXTRA_SEEDS so this doesn't imply a shared extension history
+#: the two domains don't actually have.
+_TRMGRID_SEEDS = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
 THRESHOLDS = (0.5, 0.75, 0.9)
+
+
+def _seeds_for_domain(domain: str) -> Tuple[int, ...]:
+    if domain == "gridtimed":
+        return SEEDS + _GRIDTIMED_EXTRA_SEEDS
+    if domain == "trmgrid":
+        return _TRMGRID_SEEDS
+    return SEEDS
 
 
 def _run_id(domain: str, instance: str, encoder: str, seed: int) -> str:
@@ -107,6 +140,29 @@ def load_run(domain: str, instance: str, encoder: str, seed: int, results_dir: P
     ep_return_mean = np.array([r["ep_return_mean"] for r in records], dtype=np.float64)
     wall_s = np.array([r["wall_s"] for r in records], dtype=np.float64)
     cum_wall_s = np.cumsum(wall_s)
+    encoder_forward_s = np.array([r.get("encoder_forward_s", np.nan) for r in records], dtype=np.float64)
+    raster_s = np.array([r.get("raster_s", np.nan) for r in records], dtype=np.float64)
+    vrep_fallback_frac = np.array(
+        [r["vrep_fallback_frac"] if r.get("vrep_fallback_frac") is not None else np.nan for r in records],
+        dtype=np.float64,
+    )
+    # Dual-metric eval (/tmp/PART1_FINAL.md item 2), gridtimed only, null
+    # except every EVAL_EVERY_K_UPDATES-th update -- same ".get(...) is not
+    # None else nan" tolerance as vrep_fallback_frac, so jsonl files written
+    # before this field existed (every run prior to this extension) load
+    # cleanly with all-nan columns rather than a KeyError.
+    greedy_success_rate = np.array(
+        [r["greedy_success_rate"] if r.get("greedy_success_rate") is not None else np.nan for r in records],
+        dtype=np.float64,
+    )
+    greedy_cycling_frac = np.array(
+        [r["greedy_cycling_frac"] if r.get("greedy_cycling_frac") is not None else np.nan for r in records],
+        dtype=np.float64,
+    )
+    stochastic_success_rate = np.array(
+        [r["stochastic_success_rate"] if r.get("stochastic_success_rate") is not None else np.nan for r in records],
+        dtype=np.float64,
+    )
     # Drop NaN-return updates (no episode completed that update) for
     # curve-fitting purposes, but keep alignment by forward-filling from
     # the last valid value -- a flat segment is a more honest depiction of
@@ -121,7 +177,18 @@ def load_run(domain: str, instance: str, encoder: str, seed: int, results_dir: P
             last = ffilled[i]
         else:
             ffilled[i] = last
-    return {"env_steps": env_steps, "ep_return_mean": ffilled, "cum_wall_s": cum_wall_s}
+    return {
+        "env_steps": env_steps, "ep_return_mean": ffilled, "cum_wall_s": cum_wall_s,
+        "wall_s": wall_s, "encoder_forward_s": encoder_forward_s, "raster_s": raster_s,
+        "vrep_fallback_frac": vrep_fallback_frac,
+        "greedy_success_rate": greedy_success_rate, "greedy_cycling_frac": greedy_cycling_frac,
+        "stochastic_success_rate": stochastic_success_rate,
+    }
+
+
+def load_episodes(domain: str, instance: str, encoder: str, seed: int, results_dir: Path) -> List[Dict[str, Any]]:
+    path = results_dir / f"{_run_id(domain, instance, encoder, seed)}__episodes.jsonl"
+    return load_jsonl(path)
 
 
 def collect(results_dir: Path) -> Tuple[Dict[Tuple[str, str, str], List[Dict[str, np.ndarray]]], List[str]]:
@@ -131,7 +198,7 @@ def collect(results_dir: Path) -> Tuple[Dict[Tuple[str, str, str], List[Dict[str
     for domain, instances in DOMAINS_INSTANCES.items():
         for instance in instances:
             for encoder in ENCODERS:
-                for seed in SEEDS:
+                for seed in _seeds_for_domain(domain):
                     run = load_run(domain, instance, encoder, seed, results_dir)
                     if run is None:
                         missing.append(_run_id(domain, instance, encoder, seed))
@@ -216,6 +283,98 @@ def compute_steps_to_threshold_table(
     return rows
 
 
+def compute_encoder_stats_table(results_dir: Path) -> List[Dict[str, Any]]:
+    """Per (domain, instance, encoder), mean +/- std across seeds:
+    success rate (overall and last-200 episodes, from the episodes.jsonl
+    -- the "true" per-episode outcome, not derived from return sign, same
+    convention used throughout this project's diagnostics), final return,
+    encoder_forward_s as a fraction of wall_s (with raster_s -- which
+    ALSO carries deepset_v's v_rep enumeration time, see
+    zoneviews.raster.cached_v_rep -- broken out as its own fraction, same
+    idea as cnn_proj's raster_s), and vrep_fallback_frac (deepset_v only,
+    None for the other five encoders -- not a spurious 0.0)."""
+    rows = []
+    for domain, instances in DOMAINS_INSTANCES.items():
+        for instance in instances:
+            for encoder in ENCODERS:
+                seed_rows = []
+                for seed in _seeds_for_domain(domain):
+                    run = load_run(domain, instance, encoder, seed, results_dir)
+                    episodes = load_episodes(domain, instance, encoder, seed, results_dir)
+                    if run is None or not episodes:
+                        continue
+                    last200 = episodes[-200:]
+                    overall_sr = sum(1 for e in episodes if e["success"]) / len(episodes)
+                    last200_sr = sum(1 for e in last200 if e["success"]) / len(last200)
+                    wall = run["wall_s"]
+                    enc_fwd = run["encoder_forward_s"]
+                    raster = run["raster_s"]
+                    valid_w = wall > 0
+                    enc_frac = float(np.nanmean(enc_fwd[valid_w] / wall[valid_w])) if valid_w.any() else float("nan")
+                    raster_frac = float(np.nanmean(raster[valid_w] / wall[valid_w])) if valid_w.any() else float("nan")
+                    vff = run["vrep_fallback_frac"]
+                    vff_valid = vff[~np.isnan(vff)]
+                    vrep_frac = float(vff_valid.mean()) if len(vff_valid) else None
+                    # Dual-metric eval (item 2): the LAST valid (non-nan)
+                    # periodic eval, not a mean across training -- unlike
+                    # vrep_fallback_frac (a stable property throughout),
+                    # success rate improves over training, so averaging
+                    # early-training evals in with the final one would
+                    # understate the trained policy's actual quality.
+                    # None (not nan) when this run has no eval data at all
+                    # (non-gridtimed rows, or a jsonl written before this
+                    # field existed) -- the "null where undefined"
+                    # convention, tolerated by write_csv/DictWriter either way.
+                    def _last_valid(arr: np.ndarray) -> Optional[float]:
+                        valid_vals = arr[~np.isnan(arr)]
+                        return float(valid_vals[-1]) if len(valid_vals) else None
+
+                    seed_rows.append({
+                        "final_return": run["ep_return_mean"][-1],
+                        "overall_success_rate": overall_sr,
+                        "last200_success_rate": last200_sr,
+                        "encoder_forward_frac": enc_frac,
+                        "raster_frac": raster_frac,
+                        "vrep_fallback_frac": vrep_frac,
+                        "greedy_success_rate": _last_valid(run["greedy_success_rate"]),
+                        "greedy_cycling_frac": _last_valid(run["greedy_cycling_frac"]),
+                        "stochastic_success_rate": _last_valid(run["stochastic_success_rate"]),
+                        "n_episodes": len(episodes),
+                    })
+                if not seed_rows:
+                    rows.append({
+                        "domain": domain, "instance": instance, "encoder": encoder, "n_seeds": 0,
+                        "final_return_mean": None, "final_return_std": None,
+                        "overall_success_rate_mean": None, "overall_success_rate_std": None,
+                        "last200_success_rate_mean": None, "last200_success_rate_std": None,
+                        "encoder_forward_frac_mean": None, "raster_frac_mean": None,
+                        "vrep_fallback_frac_mean": None,
+                        "greedy_success_rate_mean": None, "greedy_cycling_frac_mean": None,
+                        "stochastic_success_rate_mean": None,
+                    })
+                    continue
+                vrep_vals = [r["vrep_fallback_frac"] for r in seed_rows if r["vrep_fallback_frac"] is not None]
+                greedy_sr_vals = [r["greedy_success_rate"] for r in seed_rows if r["greedy_success_rate"] is not None]
+                greedy_cyc_vals = [r["greedy_cycling_frac"] for r in seed_rows if r["greedy_cycling_frac"] is not None]
+                stoch_sr_vals = [r["stochastic_success_rate"] for r in seed_rows if r["stochastic_success_rate"] is not None]
+                rows.append({
+                    "domain": domain, "instance": instance, "encoder": encoder, "n_seeds": len(seed_rows),
+                    "final_return_mean": float(np.mean([r["final_return"] for r in seed_rows])),
+                    "final_return_std": float(np.std([r["final_return"] for r in seed_rows])),
+                    "overall_success_rate_mean": float(np.mean([r["overall_success_rate"] for r in seed_rows])),
+                    "overall_success_rate_std": float(np.std([r["overall_success_rate"] for r in seed_rows])),
+                    "last200_success_rate_mean": float(np.mean([r["last200_success_rate"] for r in seed_rows])),
+                    "last200_success_rate_std": float(np.std([r["last200_success_rate"] for r in seed_rows])),
+                    "encoder_forward_frac_mean": float(np.mean([r["encoder_forward_frac"] for r in seed_rows])),
+                    "raster_frac_mean": float(np.mean([r["raster_frac"] for r in seed_rows])),
+                    "vrep_fallback_frac_mean": float(np.mean(vrep_vals)) if vrep_vals else None,
+                    "greedy_success_rate_mean": float(np.mean(greedy_sr_vals)) if greedy_sr_vals else None,
+                    "greedy_cycling_frac_mean": float(np.mean(greedy_cyc_vals)) if greedy_cyc_vals else None,
+                    "stochastic_success_rate_mean": float(np.mean(stoch_sr_vals)) if stoch_sr_vals else None,
+                })
+    return rows
+
+
 def write_csv(rows: List[Dict[str, Any]], path: Path) -> None:
     if not rows:
         return
@@ -286,9 +445,13 @@ def main() -> None:
     steps_rows = compute_steps_to_threshold_table(grouped, args.smooth_window)
     write_csv(steps_rows, args.out_dir / "steps_to_threshold.csv")
 
+    encoder_stats_rows = compute_encoder_stats_table(args.results_dir)
+    write_csv(encoder_stats_rows, args.out_dir / "encoder_stats.csv")
+
     write_summary_table(grouped, missing, args.out_dir / "summary.txt")
 
-    print(f"\nWrote analysis to {args.out_dir}/ (steps_to_threshold.csv, summary.txt" + (", *.png" if HAVE_MPL else "") + ")")
+    print(f"\nWrote analysis to {args.out_dir}/ (steps_to_threshold.csv, encoder_stats.csv, summary.txt"
+          + (", *.png" if HAVE_MPL else "") + ")")
 
 
 if __name__ == "__main__":

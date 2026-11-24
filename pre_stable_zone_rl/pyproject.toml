@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prestable"
+version = "0.1.0"
+description = "Pre-stable zone graphs for (priced) timed automata"
+requires-python = ">=3.10"
+# pyudbm has no PyPI release for every platform; install it from source
+# (https://github.com/HansBug/pyudbm) if `pip install pyudbm` fails.
+dependencies = ["pyudbm"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+markers = ["slow: long-running randomised tests (deselect with -m 'not slow')"]

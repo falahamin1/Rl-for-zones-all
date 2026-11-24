@@ -1,0 +1,300 @@
+{
+  "instance_label": "chosen_best",
+  "w": 0.25,
+  "exclusions": {
+    "n_states_total": 176391,
+    "n_terminal_excluded": 2,
+    "n_deadlock_excluded": 0,
+    "n_usable": 176389
+  },
+  "measurement_3a": {
+    "n_usable_states": 176389,
+    "n_locations": 25,
+    "n_classes": 89,
+    "class_size_mean": 1981.8988764044943,
+    "class_size_median": 56,
+    "class_size_max": 25856,
+    "singleton_class_fraction": 0.1348314606741573
+  },
+  "measurement_3b": {
+    "a_concrete_state": {
+      "n_cells": 176389,
+      "soundness_fraction": 1.0,
+      "mean_cell_size": 1,
+      "max_cell_size": 1,
+      "singleton_fraction": 1.0
+    },
+    "b_location_only": {
+      "n_cells": 180,
+      "soundness_fraction": 0.2722222222222222,
+      "mean_cell_size": 979.9388888888889,
+      "max_cell_size": 8192,
+      "singleton_fraction": 0.0
+    },
+    "c_zone_construction": {
+      "n_cells": 176389,
+      "soundness_fraction": 1.0,
+      "mean_cell_size": 1,
+      "max_cell_size": 1,
+      "singleton_fraction": 1.0
+    },
+    "d_guard_satisfiability_bits": {
+      "n_cells": 379,
+      "soundness_fraction": 0.45910290237467016,
+      "mean_cell_size": 465.4063324538259,
+      "max_cell_size": 6162,
+      "singleton_fraction": 0.0
+    },
+    "e_discretized_clocks_b1": {
+      "n_cells": 176389,
+      "soundness_fraction": 1.0,
+      "mean_cell_size": 1,
+      "max_cell_size": 1,
+      "singleton_fraction": 1.0
+    },
+    "e_discretized_clocks_b2": {
+      "n_cells": 34225,
+      "soundness_fraction": 0.9693791088385683,
+      "mean_cell_size": 5.1538056975894815,
+      "max_cell_size": 16,
+      "singleton_fraction": 0.0664426588750913
+    },
+    "e_discretized_clocks_b4": {
+      "n_cells": 7956,
+      "soundness_fraction": 0.8950477626948216,
+      "mean_cell_size": 22.170563097033686,
+      "max_cell_size": 192,
+      "singleton_fraction": 0.05593262946204123
+    }
+  },
+  "measurement_3c_3d": {
+    "n_containment_ok": 176389,
+    "n_containment_bad": 0,
+    "n_deadlock_excluded": 0,
+    "multi_zone_locations": 180,
+    "conflicting_locations": 131,
+    "conflict_fraction": 0.7277777777777777,
+    "conflict_examples": [
+      {
+        "loc": [
+          [
+            2,
+            1
+          ],
+          []
+        ],
+        "state_i": "TRMState(phase=(), pos=(2, 1), clocks=(24, 24, 24), g=24)",
+        "state_j": "TRMState(phase=(), pos=(2, 1), clocks=(25, 25, 25), g=25)",
+        "actions_i": [
+          "d0_DOWN"
+        ],
+        "actions_j": [
+          "d0_RIGHT"
+        ]
+      },
+      {
+        "loc": [
+          [
+            3,
+            2
+          ],
+          []
+        ],
+        "state_i": "TRMState(phase=(), pos=(3, 2), clocks=(24, 24, 24), g=24)",
+        "state_j": "TRMState(phase=(), pos=(3, 2), clocks=(25, 25, 25), g=25)",
+        "actions_i": [
+          "d0_DOWN",
+          "d0_LEFT"
+        ],
+        "actions_j": [
+          "d0_UP"
+        ]
+      },
+      {
+        "loc": [
+          [
+            1,
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        "state_i": "TRMState(phase=(1,), pos=(1, 2), clocks=(5, 1, 5), g=5)",
+        "state_j": "TRMState(phase=(1,), pos=(1, 2), clocks=(13, 9, 13), g=13)",
+        "actions_i": [
+          "d0_LEFT",
+          "d0_RIGHT"
+        ],
+        "actions_j": [
+          "d0_DOWN"
+        ]
+      },
+      {
+        "loc": [
+          [
+            1,
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        "state_i": "TRMState(phase=(1,), pos=(1, 2), clocks=(5, 1, 5), g=5)",
+        "state_j": "TRMState(phase=(1,), pos=(1, 2), clocks=(27, 23, 27), g=27)",
+        "actions_i": [
+          "d0_LEFT",
+          "d0_RIGHT"
+        ],
+        "actions_j": [
+          "d1_LEFT",
+          "d1_RIGHT",
+          "d1_UP"
+        ]
+      },
+      {
+        "loc": [
+          [
+            1,
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        "state_i": "TRMState(phase=(1,), pos=(1, 2), clocks=(13, 9, 13), g=13)",
+        "state_j": "TRMState(phase=(1,), pos=(1, 2), clocks=(25, 6, 25), g=25)",
+        "actions_i": [
+          "d0_DOWN"
+        ],
+        "actions_j": [
+          "d0_RIGHT"
+        ]
+      },
+      {
+        "loc": [
+          [
+            1,
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        "state_i": "TRMState(phase=(1,), pos=(1, 2), clocks=(13, 9, 13), g=13)",
+        "state_j": "TRMState(phase=(1,), pos=(1, 2), clocks=(28, 1, 28), g=28)",
+        "actions_i": [
+          "d0_DOWN"
+        ],
+        "actions_j": [
+          "d0_LEFT",
+          "d0_RIGHT",
+          "d0_UP"
+        ]
+      },
+      {
+        "loc": [
+          [
+            1,
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        "state_i": "TRMState(phase=(1,), pos=(1, 2), clocks=(13, 9, 13), g=13)",
+        "state_j": "TRMState(phase=(1,), pos=(1, 2), clocks=(26, 22, 26), g=26)",
+        "actions_i": [
+          "d0_DOWN"
+        ],
+        "actions_j": [
+          "d0_LEFT",
+          "d0_RIGHT",
+          "d0_UP",
+          "d2_LEFT",
+          "d2_RIGHT",
+          "d2_UP"
+        ]
+      },
+      {
+        "loc": [
+          [
+            1,
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        "state_i": "TRMState(phase=(1,), pos=(1, 2), clocks=(13, 9, 13), g=13)",
+        "state_j": "TRMState(phase=(1,), pos=(1, 2), clocks=(27, 23, 27), g=27)",
+        "actions_i": [
+          "d0_DOWN"
+        ],
+        "actions_j": [
+          "d1_LEFT",
+          "d1_RIGHT",
+          "d1_UP"
+        ]
+      },
+      {
+        "loc": [
+          [
+            1,
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        "state_i": "TRMState(phase=(1,), pos=(1, 2), clocks=(24, 9, 24), g=24)",
+        "state_j": "TRMState(phase=(1,), pos=(1, 2), clocks=(25, 6, 25), g=25)",
+        "actions_i": [
+          "d0_DOWN",
+          "d0_LEFT"
+        ],
+        "actions_j": [
+          "d0_RIGHT"
+        ]
+      },
+      {
+        "loc": [
+          [
+            1,
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        "state_i": "TRMState(phase=(1,), pos=(1, 2), clocks=(24, 9, 24), g=24)",
+        "state_j": "TRMState(phase=(1,), pos=(1, 2), clocks=(27, 23, 27), g=27)",
+        "actions_i": [
+          "d0_DOWN",
+          "d0_LEFT"
+        ],
+        "actions_j": [
+          "d1_LEFT",
+          "d1_RIGHT",
+          "d1_UP"
+        ]
+      }
+    ],
+    "n_multistate_zones": 0,
+    "n_nonuniform_zones": 0,
+    "within_zone_nonuniform_fraction": NaN,
+    "within_zone_examples": [],
+    "n_concrete_states_in_multistate_zones": 0,
+    "mean_concrete_states_per_zone": 1.0
+  },
+  "random_policy_outcomes": {
+    "n_episodes": 500,
+    "success_rate": 0.01,
+    "guard_pair_fail_rate": 0.022,
+    "guard_goal_fail_rate": 0.0,
+    "deadline_fail_rate": 0.968,
+    "total_fail_rate": 0.99,
+    "horizon_truncated_rate": 0.0,
+    "degenerate": false
+  }
+}

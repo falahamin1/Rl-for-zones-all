@@ -1,0 +1,48 @@
+
+=== modesel/M3 ===
+  mlp_point     n_seeds=3  final_ep_return_mean=  -68.229+/-  2.157  max_env_steps_seen=   301056
+  deepset_h     n_seeds=3  final_ep_return_mean=  -56.250+/-  1.653  max_env_steps_seen=   301056
+  cnn_dbm       n_seeds=3  final_ep_return_mean=  -55.862+/-  0.079  max_env_steps_seen=   301056
+  cnn_proj      n_seeds=3  final_ep_return_mean=  -66.942+/-  0.953  max_env_steps_seen=   301056
+  deepset_v     n_seeds=3  final_ep_return_mean=  -65.163+/-  1.314  max_env_steps_seen=   301056
+  gnn           n_seeds=3  final_ep_return_mean=  -64.778+/-  2.146  max_env_steps_seen=   301056
+
+=== modesel/M4 ===
+  mlp_point     n_seeds=3  final_ep_return_mean=  -89.679+/-  1.244  max_env_steps_seen=   301056
+  deepset_h     n_seeds=3  final_ep_return_mean=  -71.419+/-  1.459  max_env_steps_seen=   301056
+  cnn_dbm       n_seeds=3  final_ep_return_mean=  -71.201+/-  0.742  max_env_steps_seen=   301056
+  cnn_proj      n_seeds=3  final_ep_return_mean=  -88.965+/-  1.794  max_env_steps_seen=   301056
+  deepset_v     n_seeds=3  final_ep_return_mean=  -89.803+/-  2.120  max_env_steps_seen=   301056
+  gnn           n_seeds=3  final_ep_return_mean=  -90.568+/-  4.103  max_env_steps_seen=   301056
+
+=== gridtimed/T2 ===
+  mlp_point     n_seeds=10  final_ep_return_mean=  -71.185+/-  2.192  max_env_steps_seen=   301056
+  deepset_h     n_seeds=10  final_ep_return_mean=   56.308+/- 56.471  max_env_steps_seen=   301056
+  cnn_dbm       n_seeds=10  final_ep_return_mean=   75.724+/- 32.970  max_env_steps_seen=   301056
+  cnn_proj      n_seeds=10  final_ep_return_mean=   77.322+/-  2.043  max_env_steps_seen=   301056
+  deepset_v     n_seeds=10  final_ep_return_mean=    3.129+/- 81.583  max_env_steps_seen=   301056
+  gnn           n_seeds=10  final_ep_return_mean=   89.202+/-  3.598  max_env_steps_seen=   301056
+
+=== gridtimed/T3 ===
+  mlp_point     n_seeds=10  final_ep_return_mean=  -77.539+/-  3.845  max_env_steps_seen=   301056
+  deepset_h     n_seeds=10  final_ep_return_mean=   66.403+/- 50.460  max_env_steps_seen=   301056
+  cnn_dbm       n_seeds=10  final_ep_return_mean=   43.868+/- 65.467  max_env_steps_seen=   301056
+  cnn_proj      n_seeds=10  final_ep_return_mean=   72.000+/-  2.449  max_env_steps_seen=   301056
+  deepset_v     n_seeds=10  final_ep_return_mean=  -51.293+/- 66.797  max_env_steps_seen=   301056
+  gnn           n_seeds=10  final_ep_return_mean=   68.436+/- 51.437  max_env_steps_seen=   301056
+
+=== trmgrid/G_SMALL ===
+  mlp_point     n_seeds=10  final_ep_return_mean=  -31.087+/-  8.895  max_env_steps_seen=   301056
+  deepset_h     n_seeds=10  final_ep_return_mean=   43.639+/- 59.008  max_env_steps_seen=   301056
+  cnn_dbm       n_seeds=10  final_ep_return_mean=    5.249+/- 12.103  max_env_steps_seen=   301056
+  cnn_proj      n_seeds=10  final_ep_return_mean=  -18.590+/- 18.605  max_env_steps_seen=   301056
+  deepset_v     n_seeds=10  final_ep_return_mean=  -79.228+/-  7.465  max_env_steps_seen=   301056
+  gnn           n_seeds=10  final_ep_return_mean=   40.521+/- 29.668  max_env_steps_seen=   301056
+
+=== trmgrid/G_LARGE ===
+  mlp_point     n_seeds=10  final_ep_return_mean=  -32.049+/-  7.227  max_env_steps_seen=   301056
+  deepset_h     n_seeds=10  final_ep_return_mean=   28.412+/- 54.949  max_env_steps_seen=   301056
+  cnn_dbm       n_seeds=10  final_ep_return_mean=   37.629+/- 40.500  max_env_steps_seen=   301056
+  cnn_proj      n_seeds=10  final_ep_return_mean=   40.802+/- 16.582  max_env_steps_seen=   301056
+  deepset_v     n_seeds=10  final_ep_return_mean=  -81.322+/-  0.355  max_env_steps_seen=   301056
+  gnn           n_seeds=10  final_ep_return_mean=    3.509+/- 56.157  max_env_steps_seen=   301056

@@ -1,0 +1,282 @@
+{
+  "instance_label": "T_large",
+  "w": 0.25,
+  "exclusions": {
+    "n_states_total": 90864,
+    "n_terminal_excluded": 2,
+    "n_deadlock_excluded": 0,
+    "n_usable": 90862
+  },
+  "measurement_3a": {
+    "n_usable_states": 90862,
+    "n_locations": 36,
+    "n_classes": 41,
+    "class_size_mean": 2216.1463414634145,
+    "class_size_median": 1156,
+    "class_size_max": 17043,
+    "singleton_class_fraction": 0.0
+  },
+  "measurement_3b": {
+    "a_concrete_state": {
+      "n_cells": 90862,
+      "soundness_fraction": 1.0,
+      "mean_cell_size": 1,
+      "max_cell_size": 1,
+      "singleton_fraction": 1.0
+    },
+    "b_location_only": {
+      "n_cells": 105,
+      "soundness_fraction": 0.9428571428571428,
+      "mean_cell_size": 865.3523809523809,
+      "max_cell_size": 3195,
+      "singleton_fraction": 0.0
+    },
+    "c_zone_construction": {
+      "n_cells": 90862,
+      "soundness_fraction": 1.0,
+      "mean_cell_size": 1,
+      "max_cell_size": 1,
+      "singleton_fraction": 1.0
+    },
+    "d_guard_satisfiability_bit": {
+      "n_cells": 128,
+      "soundness_fraction": 0.9140625,
+      "mean_cell_size": 709.859375,
+      "max_cell_size": 2420,
+      "singleton_fraction": 0.0
+    },
+    "e_discretized_clocks_b1": {
+      "n_cells": 90862,
+      "soundness_fraction": 1.0,
+      "mean_cell_size": 1,
+      "max_cell_size": 1,
+      "singleton_fraction": 1.0
+    },
+    "e_discretized_clocks_b2": {
+      "n_cells": 23290,
+      "soundness_fraction": 0.9961356805495921,
+      "mean_cell_size": 3.901331043366252,
+      "max_cell_size": 16,
+      "singleton_fraction": 0.14731644482610562
+    },
+    "e_discretized_clocks_b4": {
+      "n_cells": 6778,
+      "soundness_fraction": 0.9904101504868693,
+      "mean_cell_size": 13.405429330185896,
+      "max_cell_size": 169,
+      "singleton_fraction": 0.07907937444673944
+    }
+  },
+  "measurement_3c_3d": {
+    "n_containment_ok": 90862,
+    "n_containment_bad": 0,
+    "n_deadlock_excluded": 0,
+    "multi_zone_locations": 105,
+    "conflicting_locations": 6,
+    "conflict_fraction": 0.05714285714285714,
+    "conflict_examples": [
+      {
+        "loc": [
+          [
+            4,
+            4
+          ],
+          "gotA"
+        ],
+        "state_i": "TRMState(phase='gotA', pos=(4, 4), t_A=1, t_B=10, t_C=10, g=10)",
+        "state_j": "TRMState(phase='gotA', pos=(4, 4), t_A=9, t_B=18, t_C=18, g=18)",
+        "actions_i": [
+          "d0_LEFT",
+          "d0_RIGHT",
+          "d0_UP",
+          "d1_LEFT",
+          "d1_RIGHT",
+          "d1_UP",
+          "d2_RIGHT",
+          "d2_UP"
+        ],
+        "actions_j": [
+          "d0_DOWN"
+        ]
+      },
+      {
+        "loc": [
+          [
+            4,
+            4
+          ],
+          "gotA"
+        ],
+        "state_i": "TRMState(phase='gotA', pos=(4, 4), t_A=2, t_B=11, t_C=11, g=11)",
+        "state_j": "TRMState(phase='gotA', pos=(4, 4), t_A=9, t_B=18, t_C=18, g=18)",
+        "actions_i": [
+          "d0_LEFT",
+          "d0_RIGHT",
+          "d0_UP",
+          "d1_RIGHT",
+          "d1_UP",
+          "d2_RIGHT",
+          "d2_UP"
+        ],
+        "actions_j": [
+          "d0_DOWN"
+        ]
+      },
+      {
+        "loc": [
+          [
+            4,
+            4
+          ],
+          "gotA"
+        ],
+        "state_i": "TRMState(phase='gotA', pos=(4, 4), t_A=3, t_B=12, t_C=12, g=12)",
+        "state_j": "TRMState(phase='gotA', pos=(4, 4), t_A=9, t_B=18, t_C=18, g=18)",
+        "actions_i": [
+          "d0_RIGHT",
+          "d0_UP",
+          "d1_RIGHT",
+          "d1_UP"
+        ],
+        "actions_j": [
+          "d0_DOWN"
+        ]
+      },
+      {
+        "loc": [
+          [
+            4,
+            4
+          ],
+          "gotA"
+        ],
+        "state_i": "TRMState(phase='gotA', pos=(4, 4), t_A=1, t_B=15, t_C=15, g=15)",
+        "state_j": "TRMState(phase='gotA', pos=(4, 4), t_A=9, t_B=18, t_C=18, g=18)",
+        "actions_i": [
+          "d0_RIGHT",
+          "d0_UP"
+        ],
+        "actions_j": [
+          "d0_DOWN"
+        ]
+      },
+      {
+        "loc": [
+          [
+            5,
+            3
+          ],
+          "gotA"
+        ],
+        "state_i": "TRMState(phase='gotA', pos=(5, 3), t_A=1, t_B=10, t_C=10, g=10)",
+        "state_j": "TRMState(phase='gotA', pos=(5, 3), t_A=3, t_B=16, t_C=16, g=16)",
+        "actions_i": [
+          "d0_UP",
+          "d1_UP"
+        ],
+        "actions_j": [
+          "d0_RIGHT"
+        ]
+      },
+      {
+        "loc": [
+          [
+            5,
+            3
+          ],
+          "gotA"
+        ],
+        "state_i": "TRMState(phase='gotA', pos=(5, 3), t_A=2, t_B=11, t_C=11, g=11)",
+        "state_j": "TRMState(phase='gotA', pos=(5, 3), t_A=3, t_B=16, t_C=16, g=16)",
+        "actions_i": [
+          "d0_UP"
+        ],
+        "actions_j": [
+          "d0_RIGHT"
+        ]
+      },
+      {
+        "loc": [
+          [
+            5,
+            5
+          ],
+          "gotA"
+        ],
+        "state_i": "TRMState(phase='gotA', pos=(5, 5), t_A=1, t_B=10, t_C=10, g=10)",
+        "state_j": "TRMState(phase='gotA', pos=(5, 5), t_A=9, t_B=18, t_C=18, g=18)",
+        "actions_i": [
+          "d0_UP",
+          "d1_UP",
+          "d2_UP"
+        ],
+        "actions_j": [
+          "d0_LEFT"
+        ]
+      },
+      {
+        "loc": [
+          [
+            5,
+            5
+          ],
+          "gotA"
+        ],
+        "state_i": "TRMState(phase='gotA', pos=(5, 5), t_A=3, t_B=12, t_C=12, g=12)",
+        "state_j": "TRMState(phase='gotA', pos=(5, 5), t_A=9, t_B=18, t_C=18, g=18)",
+        "actions_i": [
+          "d0_UP",
+          "d1_UP"
+        ],
+        "actions_j": [
+          "d0_LEFT"
+        ]
+      },
+      {
+        "loc": [
+          [
+            5,
+            5
+          ],
+          "gotA"
+        ],
+        "state_i": "TRMState(phase='gotA', pos=(5, 5), t_A=1, t_B=15, t_C=15, g=15)",
+        "state_j": "TRMState(phase='gotA', pos=(5, 5), t_A=9, t_B=18, t_C=18, g=18)",
+        "actions_i": [
+          "d0_UP"
+        ],
+        "actions_j": [
+          "d0_LEFT"
+        ]
+      },
+      {
+        "loc": [
+          [
+            3,
+            4
+          ],
+          "gotA"
+        ],
+        "state_i": "TRMState(phase='gotA', pos=(3, 4), t_A=2, t_B=11, t_C=11, g=11)",
+        "state_j": "TRMState(phase='gotA', pos=(3, 4), t_A=4, t_B=13, t_C=13, g=13)",
+        "actions_i": [
+          "d0_DOWN",
+          "d0_LEFT",
+          "d0_UP",
+          "d1_DOWN",
+          "d1_LEFT",
+          "d1_UP"
+        ],
+        "actions_j": [
+          "d1_RIGHT"
+        ]
+      }
+    ],
+    "n_multistate_zones": 0,
+    "n_nonuniform_zones": 0,
+    "within_zone_nonuniform_fraction": NaN,
+    "within_zone_examples": [],
+    "n_concrete_states_in_multistate_zones": 0,
+    "mean_concrete_states_per_zone": 1.0
+  }
+}

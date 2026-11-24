@@ -1,0 +1,272 @@
+[
+  {
+    "alpha": 0.0,
+    "width": 2,
+    "seed": 0,
+    "n_popped": 27538,
+    "truncated": false,
+    "n_horizon_fallback_refs": 0,
+    "deadline": 18,
+    "wall_s": 2.532117333030328
+  },
+  {
+    "alpha": 0.0,
+    "width": 2,
+    "seed": 1,
+    "n_popped": 31462,
+    "truncated": false,
+    "n_horizon_fallback_refs": 0,
+    "deadline": 16,
+    "wall_s": 2.7823152078781277
+  },
+  {
+    "alpha": 0.0,
+    "width": 2,
+    "seed": 2,
+    "n_popped": 33993,
+    "truncated": false,
+    "n_horizon_fallback_refs": 0,
+    "deadline": 16,
+    "wall_s": 3.1789431248325855
+  },
+  {
+    "alpha": 0.0,
+    "width": 4,
+    "seed": 0,
+    "n_popped": 134681,
+    "truncated": false,
+    "n_horizon_fallback_refs": 0,
+    "deadline": 22,
+    "wall_s": 11.991603957954794
+  },
+  {
+    "alpha": 0.0,
+    "width": 4,
+    "seed": 1,
+    "n_popped": 183939,
+    "truncated": false,
+    "n_horizon_fallback_refs": 0,
+    "deadline": 20,
+    "wall_s": 19.466219499940053
+  },
+  {
+    "alpha": 0.0,
+    "width": 4,
+    "seed": 2,
+    "n_popped": 184718,
+    "truncated": false,
+    "n_horizon_fallback_refs": 0,
+    "deadline": 20,
+    "wall_s": 22.175957374973223
+  },
+  {
+    "alpha": 0.0,
+    "width": 8,
+    "seed": 0,
+    "n_popped": 181591,
+    "truncated": true,
+    "n_horizon_fallback_refs": 460290,
+    "deadline": 30,
+    "wall_s": 17.35897050006315
+  },
+  {
+    "alpha": 0.0,
+    "width": 8,
+    "seed": 1,
+    "n_popped": 137178,
+    "truncated": true,
+    "n_horizon_fallback_refs": 585968,
+    "deadline": 28,
+    "wall_s": 11.083635417046025
+  },
+  {
+    "alpha": 0.0,
+    "width": 8,
+    "seed": 2,
+    "n_popped": 150670,
+    "truncated": true,
+    "n_horizon_fallback_refs": 534992,
+    "deadline": 28,
+    "wall_s": 12.73862108308822
+  },
+  {
+    "alpha": 0.25,
+    "width": 2,
+    "seed": 0,
+    "n_popped": 43213,
+    "truncated": false,
+    "n_horizon_fallback_refs": 0,
+    "deadline": 20,
+    "wall_s": 3.568173832958564
+  },
+  {
+    "alpha": 0.25,
+    "width": 2,
+    "seed": 1,
+    "n_popped": 54980,
+    "truncated": false,
+    "n_horizon_fallback_refs": 0,
+    "deadline": 18,
+    "wall_s": 3.9680023749824613
+  },
+  {
+    "alpha": 0.25,
+    "width": 2,
+    "seed": 2,
+    "n_popped": 61693,
+    "truncated": false,
+    "n_horizon_fallback_refs": 0,
+    "deadline": 18,
+    "wall_s": 4.3670196670573205
+  },
+  {
+    "alpha": 0.25,
+    "width": 4,
+    "seed": 0,
+    "n_popped": 197397,
+    "truncated": false,
+    "n_horizon_fallback_refs": 0,
+    "deadline": 24,
+    "wall_s": 15.965589583152905
+  },
+  {
+    "alpha": 0.25,
+    "width": 4,
+    "seed": 1,
+    "n_popped": 281711,
+    "truncated": false,
+    "n_horizon_fallback_refs": 0,
+    "deadline": 22,
+    "wall_s": 33.256227457895875
+  },
+  {
+    "alpha": 0.25,
+    "width": 4,
+    "seed": 2,
+    "n_popped": 298831,
+    "truncated": false,
+    "n_horizon_fallback_refs": 0,
+    "deadline": 22,
+    "wall_s": 42.86047283303924
+  },
+  {
+    "alpha": 0.25,
+    "width": 8,
+    "seed": 0,
+    "n_popped": 176391,
+    "truncated": true,
+    "n_horizon_fallback_refs": 495941,
+    "deadline": 32,
+    "wall_s": 25.934705208986998
+  },
+  {
+    "alpha": 0.25,
+    "width": 8,
+    "seed": 1,
+    "n_popped": 129389,
+    "truncated": true,
+    "n_horizon_fallback_refs": 604953,
+    "deadline": 30,
+    "wall_s": 9.100744500057772
+  },
+  {
+    "alpha": 0.25,
+    "width": 8,
+    "seed": 2,
+    "n_popped": 140586,
+    "truncated": true,
+    "n_horizon_fallback_refs": 568070,
+    "deadline": 30,
+    "wall_s": 12.391719750128686
+  },
+  {
+    "alpha": 0.5,
+    "width": 2,
+    "seed": 0,
+    "n_popped": 44398,
+    "truncated": false,
+    "n_horizon_fallback_refs": 0,
+    "deadline": 21,
+    "wall_s": 2.9935058341361582
+  },
+  {
+    "alpha": 0.5,
+    "width": 2,
+    "seed": 1,
+    "n_popped": 54980,
+    "truncated": false,
+    "n_horizon_fallback_refs": 0,
+    "deadline": 18,
+    "wall_s": 4.161254792008549
+  },
+  {
+    "alpha": 0.5,
+    "width": 2,
+    "seed": 2,
+    "n_popped": 61693,
+    "truncated": false,
+    "n_horizon_fallback_refs": 0,
+    "deadline": 18,
+    "wall_s": 4.710731541970745
+  },
+  {
+    "alpha": 0.5,
+    "width": 4,
+    "seed": 0,
+    "n_popped": 200926,
+    "truncated": false,
+    "n_horizon_fallback_refs": 0,
+    "deadline": 25,
+    "wall_s": 15.342837915988639
+  },
+  {
+    "alpha": 0.5,
+    "width": 4,
+    "seed": 1,
+    "n_popped": 281711,
+    "truncated": false,
+    "n_horizon_fallback_refs": 0,
+    "deadline": 22,
+    "wall_s": 38.38628025003709
+  },
+  {
+    "alpha": 0.5,
+    "width": 4,
+    "seed": 2,
+    "n_popped": 298831,
+    "truncated": false,
+    "n_horizon_fallback_refs": 0,
+    "deadline": 22,
+    "wall_s": 49.243493458023295
+  },
+  {
+    "alpha": 0.5,
+    "width": 8,
+    "seed": 0,
+    "n_popped": 171278,
+    "truncated": true,
+    "n_horizon_fallback_refs": 501103,
+    "deadline": 33,
+    "wall_s": 22.319227166008204
+  },
+  {
+    "alpha": 0.5,
+    "width": 8,
+    "seed": 1,
+    "n_popped": 129389,
+    "truncated": true,
+    "n_horizon_fallback_refs": 604953,
+    "deadline": 30,
+    "wall_s": 19.767425667028874
+  },
+  {
+    "alpha": 0.5,
+    "width": 8,
+    "seed": 2,
+    "n_popped": 140429,
+    "truncated": true,
+    "n_horizon_fallback_refs": 567141,
+    "deadline": 30,
+    "wall_s": 11.478802083060145
+  }
+]

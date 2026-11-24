@@ -1,0 +1,1855 @@
+{
+ "E1": {
+  "actions": 7,
+  "first": {
+   "cost": "2",
+   "delay": 1,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 8,
+  "value": "2.0"
+ },
+ "E2": {
+  "actions": 6,
+  "first": {
+   "cost": "2",
+   "delay": 1,
+   "edge": 0,
+   "kind": "after",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 7,
+  "value": "2.0"
+ },
+ "E3": {
+  "actions": 15,
+  "first": {
+   "cost": "1",
+   "delay": 1,
+   "edge": 1,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 9,
+  "value": "2.25"
+ },
+ "E4": {
+  "actions": 17,
+  "first": {
+   "cost": "2",
+   "delay": 2,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     6
+    ]
+   ]
+  },
+  "states": 18,
+  "value": "3.5"
+ },
+ "E5": {
+  "actions": 30,
+  "first": {
+   "cost": "2",
+   "delay": 2,
+   "edge": 0,
+   "kind": "before",
+   "successors": [
+    [
+     "1",
+     6
+    ]
+   ]
+  },
+  "states": 11,
+  "value": "2.0"
+ },
+ "E6": {
+  "actions": 9,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 0,
+   "kind": "after",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 9,
+  "value": "0.0"
+ },
+ "E7": {
+  "actions": 12,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 0,
+   "kind": "after",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 8,
+  "value": "1.0"
+ },
+ "P3": {
+  "actions": 135,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 99,
+  "value": "0.4999999990686774"
+ },
+ "R0000": {
+  "actions": 3,
+  "first": {
+   "cost": "5",
+   "delay": 1,
+   "edge": 6,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 4,
+  "value": "5.0"
+ },
+ "R0001": {
+  "actions": 62,
+  "first": {
+   "cost": "1",
+   "delay": 0,
+   "edge": 1,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 15,
+  "value": "1.9999999990686774"
+ },
+ "R0002": {
+  "actions": 120,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 21,
+  "value": "0.0"
+ },
+ "R0003": {
+  "actions": 50,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 22,
+  "value": "0.0"
+ },
+ "R0004": {
+  "actions": 7,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 8,
+  "value": "0.0"
+ },
+ "R0006": {
+  "actions": 14,
+  "first": {
+   "cost": "1",
+   "delay": 0,
+   "edge": 2,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 11,
+  "value": "1.0"
+ },
+ "R0007": {
+  "actions": 11,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 2,
+  "value": "0.0"
+ },
+ "R0008": {
+  "actions": 10,
+  "first": {
+   "cost": "2",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 8,
+  "value": "2.0"
+ },
+ "R0009": {
+  "actions": 114,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 22,
+  "value": "0.0"
+ },
+ "R0010": {
+  "actions": 3,
+  "first": {
+   "cost": "1",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 2,
+  "value": "1.0"
+ },
+ "R0012": {
+  "actions": 27,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 21,
+  "value": "0.0"
+ },
+ "R0013": {
+  "actions": 33,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 4,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     0
+    ]
+   ]
+  },
+  "states": 12,
+  "value": "0.0"
+ },
+ "R0015": {
+  "actions": 60,
+  "first": {
+   "cost": "1",
+   "delay": 1,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     3
+    ]
+   ]
+  },
+  "states": 22,
+  "value": "1.0"
+ },
+ "R0016": {
+  "actions": 55,
+  "first": {
+   "cost": "1",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 54,
+  "value": "1.0"
+ },
+ "R0017": {
+  "actions": 14,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 1,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     0
+    ]
+   ]
+  },
+  "states": 11,
+  "value": "0.0"
+ },
+ "R0019": {
+  "actions": 16,
+  "first": {
+   "cost": "2",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 17,
+  "value": "2.0"
+ },
+ "R0020": {
+  "actions": 31,
+  "first": {
+   "cost": "2",
+   "delay": 0,
+   "edge": 3,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 15,
+  "value": "2.0"
+ },
+ "R0021": {
+  "actions": 5,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 3,
+  "value": "0.0"
+ },
+ "R0022": {
+  "actions": 11,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 4,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     3
+    ]
+   ]
+  },
+  "states": 12,
+  "value": "0.0"
+ },
+ "R0023": {
+  "actions": 8,
+  "first": {
+   "cost": "1",
+   "delay": 0,
+   "edge": 1,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 2,
+  "value": "1.0"
+ },
+ "R0024": {
+  "actions": 56,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 2,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     0
+    ]
+   ]
+  },
+  "states": 14,
+  "value": "0.0"
+ },
+ "R0027": {
+  "actions": 11,
+  "first": {
+   "cost": "1",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 8,
+  "value": "1.0"
+ },
+ "R0028": {
+  "actions": 17,
+  "first": {
+   "cost": "2",
+   "delay": 0,
+   "edge": 2,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     3
+    ]
+   ]
+  },
+  "states": 16,
+  "value": "3.0"
+ },
+ "R0029": {
+  "actions": 16,
+  "first": {
+   "cost": "1",
+   "delay": 0,
+   "edge": 2,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 10,
+  "value": "1.0"
+ },
+ "R0030": {
+  "actions": 106,
+  "first": {
+   "cost": "1",
+   "delay": 0,
+   "edge": 3,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     3
+    ]
+   ]
+  },
+  "states": 50,
+  "value": "1.5"
+ },
+ "R0032": {
+  "actions": 112,
+  "first": {
+   "cost": "1",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 27,
+  "value": "1.0"
+ },
+ "R0033": {
+  "actions": 6,
+  "first": {
+   "cost": "2",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 2,
+  "value": "1.9999999990686774"
+ },
+ "R0036": {
+  "actions": 4,
+  "first": {
+   "cost": "1",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 5,
+  "value": "1.0"
+ },
+ "R0038": {
+  "actions": 34,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 2,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 8,
+  "value": "0.0"
+ },
+ "R0041": {
+  "actions": 9,
+  "first": {
+   "cost": "1",
+   "delay": 2,
+   "edge": 2,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 9,
+  "value": "1.5"
+ },
+ "R0042": {
+  "actions": 59,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 3,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     0
+    ]
+   ]
+  },
+  "states": 31,
+  "value": "0.0"
+ },
+ "R0043": {
+  "actions": 58,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 3,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 13,
+  "value": "0.0"
+ },
+ "R0044": {
+  "actions": 3,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 2,
+  "value": "0.0"
+ },
+ "R0048": {
+  "actions": 92,
+  "first": {
+   "cost": "2",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 50,
+  "value": "1.9999999990686774"
+ },
+ "R0049": {
+  "actions": 30,
+  "first": {
+   "cost": "1",
+   "delay": 0,
+   "edge": 2,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 14,
+  "value": "2.0"
+ },
+ "R0051": {
+  "actions": 2,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 0,
+   "kind": "after",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 3,
+  "value": "0.0"
+ },
+ "R0054": {
+  "actions": 14,
+  "first": {
+   "cost": "1",
+   "delay": 0,
+   "edge": 4,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 8,
+  "value": "1.0"
+ },
+ "R0055": {
+  "actions": 4,
+  "first": {
+   "cost": "1",
+   "delay": 1,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 5,
+  "value": "1.0"
+ },
+ "R0057": {
+  "actions": 31,
+  "first": {
+   "cost": "2",
+   "delay": 0,
+   "edge": 2,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     3
+    ]
+   ]
+  },
+  "states": 12,
+  "value": "2.0"
+ },
+ "R0059": {
+  "actions": 20,
+  "first": {
+   "cost": "1",
+   "delay": 0,
+   "edge": 1,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 11,
+  "value": "1.0"
+ },
+ "R0060": {
+  "actions": 20,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 6,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 8,
+  "value": "0.0"
+ },
+ "R0061": {
+  "actions": 64,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 3,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     0
+    ]
+   ]
+  },
+  "states": 19,
+  "value": "0.0"
+ },
+ "R0062": {
+  "actions": 110,
+  "first": {
+   "cost": "2",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 20,
+  "value": "2.0"
+ },
+ "R0065": {
+  "actions": 7,
+  "first": {
+   "cost": "4",
+   "delay": 1,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     2
+    ]
+   ]
+  },
+  "states": 6,
+  "value": "4.0"
+ },
+ "R0067": {
+  "actions": 7,
+  "first": {
+   "cost": "2",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 8,
+  "value": "2.0"
+ },
+ "R0069": {
+  "actions": 31,
+  "first": {
+   "cost": "1",
+   "delay": 0,
+   "edge": 3,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 9,
+  "value": "1.5"
+ },
+ "R0071": {
+  "actions": 56,
+  "first": {
+   "cost": "2",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 18,
+  "value": "2.0"
+ },
+ "R0074": {
+  "actions": 257,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 6,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     0
+    ]
+   ]
+  },
+  "states": 63,
+  "value": "0.0"
+ },
+ "R0076": {
+  "actions": 50,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 4,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     0
+    ]
+   ]
+  },
+  "states": 14,
+  "value": "0.0"
+ },
+ "R0078": {
+  "actions": 14,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 14,
+  "value": "0.0"
+ },
+ "R0079": {
+  "actions": 10,
+  "first": {
+   "cost": "2",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 11,
+  "value": "2.0"
+ },
+ "R0082": {
+  "actions": 38,
+  "first": {
+   "cost": "1",
+   "delay": 0,
+   "edge": 5,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     5
+    ]
+   ]
+  },
+  "states": 28,
+  "value": "1.0"
+ },
+ "R0083": {
+  "actions": 24,
+  "first": {
+   "cost": "2",
+   "delay": 0,
+   "edge": 4,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     3
+    ]
+   ]
+  },
+  "states": 13,
+  "value": "3.0"
+ },
+ "R0087": {
+  "actions": 4,
+  "first": {
+   "cost": "1",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 2,
+  "value": "1.0"
+ },
+ "R0088": {
+  "actions": 117,
+  "first": {
+   "cost": "2",
+   "delay": 0,
+   "edge": 2,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 39,
+  "value": "2.5"
+ },
+ "R0089": {
+  "actions": 142,
+  "first": {
+   "cost": "1",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 22,
+  "value": "1.0"
+ },
+ "R0090": {
+  "actions": 786,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 5,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     3
+    ]
+   ]
+  },
+  "states": 120,
+  "value": "0.0"
+ },
+ "R0091": {
+  "actions": 4,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 5,
+  "value": "0.0"
+ },
+ "R0092": {
+  "actions": 818,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 1,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     0
+    ]
+   ]
+  },
+  "states": 130,
+  "value": "0.0"
+ },
+ "R0093": {
+  "actions": 3,
+  "first": {
+   "cost": "4",
+   "delay": 2,
+   "edge": 2,
+   "kind": "after",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 4,
+  "value": "4.0"
+ },
+ "R0094": {
+  "actions": 137,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 4,
+   "kind": "after",
+   "successors": [
+    [
+     "1",
+     3
+    ]
+   ]
+  },
+  "states": 47,
+  "value": "0.666666666045785"
+ },
+ "R0095": {
+  "actions": 7,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 2,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 8,
+  "value": "0.0"
+ },
+ "R0096": {
+  "actions": 118,
+  "first": {
+   "cost": "1",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 30,
+  "value": "1.0"
+ },
+ "R0097": {
+  "actions": 2,
+  "first": {
+   "cost": "2",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 2,
+  "value": "2.0"
+ },
+ "R0098": {
+  "actions": 3,
+  "first": {
+   "cost": "1",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 2,
+  "value": "1.0"
+ },
+ "R0099": {
+  "actions": 24,
+  "first": {
+   "cost": "2",
+   "delay": 0,
+   "edge": 3,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 12,
+  "value": "2.0"
+ },
+ "R0100": {
+  "actions": 161,
+  "first": {
+   "cost": "2",
+   "delay": 0,
+   "edge": 1,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 72,
+  "value": "2.5"
+ },
+ "R0101": {
+  "actions": 22,
+  "first": {
+   "cost": "0",
+   "delay": 1,
+   "edge": 3,
+   "kind": "after",
+   "successors": [
+    [
+     "1",
+     6
+    ]
+   ]
+  },
+  "states": 11,
+  "value": "0.0"
+ },
+ "R0102": {
+  "actions": 90,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 3,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 34,
+  "value": "0.0"
+ },
+ "R0105": {
+  "actions": 7,
+  "first": {
+   "cost": "1",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 8,
+  "value": "1.0"
+ },
+ "R0106": {
+  "actions": 9,
+  "first": {
+   "cost": "2",
+   "delay": 0,
+   "edge": 0,
+   "kind": "after",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 10,
+  "value": "2.0"
+ },
+ "R0107": {
+  "actions": 32,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 0,
+   "kind": "after",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 12,
+  "value": "0.0"
+ },
+ "R0110": {
+  "actions": 35,
+  "first": {
+   "cost": "1",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 21,
+  "value": "0.9999999990686774"
+ },
+ "R0111": {
+  "actions": 19,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 3,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 10,
+  "value": "0.0"
+ },
+ "R0112": {
+  "actions": 193,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 4,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     3
+    ]
+   ]
+  },
+  "states": 37,
+  "value": "0.666666666045785"
+ },
+ "R0114": {
+  "actions": 10,
+  "first": {
+   "cost": "1",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 11,
+  "value": "1.0"
+ },
+ "R0115": {
+  "actions": 3,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 4,
+  "value": "0.0"
+ },
+ "R0117": {
+  "actions": 10,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 11,
+  "value": "0.0"
+ },
+ "R0119": {
+  "actions": 178,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 4,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 23,
+  "value": "0.0"
+ },
+ "R0120": {
+  "actions": 7,
+  "first": {
+   "cost": "2",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 8,
+  "value": "2.0"
+ },
+ "R0121": {
+  "actions": 80,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 11,
+  "value": "0.0"
+ },
+ "R0123": {
+  "actions": 3,
+  "first": {
+   "cost": "1",
+   "delay": 0,
+   "edge": 4,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 2,
+  "value": "1.0"
+ },
+ "R0124": {
+  "actions": 7,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 8,
+  "value": "0.0"
+ },
+ "R0127": {
+  "actions": 73,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 3,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 21,
+  "value": "1.0"
+ },
+ "R0128": {
+  "actions": 7,
+  "first": {
+   "cost": "2",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 8,
+  "value": "2.0"
+ },
+ "R0129": {
+  "actions": 7,
+  "first": {
+   "cost": "2",
+   "delay": 0,
+   "edge": 2,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 8,
+  "value": "2.0"
+ },
+ "R0130": {
+  "actions": 10,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 11,
+  "value": "0.0"
+ },
+ "R0131": {
+  "actions": 5,
+  "first": {
+   "cost": "1",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 2,
+  "value": "1.0"
+ },
+ "R0134": {
+  "actions": 47,
+  "first": {
+   "cost": "1",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 21,
+  "value": "1.0"
+ },
+ "R0137": {
+  "actions": 9,
+  "first": {
+   "cost": "1",
+   "delay": 0,
+   "edge": 3,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     3
+    ]
+   ]
+  },
+  "states": 9,
+  "value": "1.0"
+ },
+ "R0138": {
+  "actions": 10,
+  "first": {
+   "cost": "1",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 11,
+  "value": "1.0"
+ },
+ "R0143": {
+  "actions": 15,
+  "first": {
+   "cost": "2",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 6,
+  "value": "2.0"
+ },
+ "R0144": {
+  "actions": 2,
+  "first": {
+   "cost": "2",
+   "delay": 1,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 2,
+  "value": "2.0"
+ },
+ "R0146": {
+  "actions": 28,
+  "first": {
+   "cost": "2",
+   "delay": 0,
+   "edge": 1,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 15,
+  "value": "2.5"
+ },
+ "R0147": {
+  "actions": 23,
+  "first": {
+   "cost": "1",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 14,
+  "value": "1.0"
+ },
+ "R0148": {
+  "actions": 120,
+  "first": {
+   "cost": "1",
+   "delay": 0,
+   "edge": 5,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     3
+    ]
+   ]
+  },
+  "states": 50,
+  "value": "1.0"
+ },
+ "R0149": {
+  "actions": 13,
+  "first": {
+   "cost": "1",
+   "delay": 0,
+   "edge": 3,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 11,
+  "value": "1.0"
+ },
+ "R0150": {
+  "actions": 8,
+  "first": {
+   "cost": "2",
+   "delay": 0,
+   "edge": 0,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 8,
+  "value": "1.9999999990686774"
+ },
+ "R0151": {
+  "actions": 7,
+  "first": {
+   "cost": "1",
+   "delay": 0,
+   "edge": 3,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 8,
+  "value": "1.0"
+ },
+ "R0155": {
+  "actions": 8,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 2,
+   "kind": "thin",
+   "successors": [
+    [
+     "1",
+     1
+    ]
+   ]
+  },
+  "states": 2,
+  "value": "0.0"
+ },
+ "R072": {
+  "actions": 111,
+  "first": {
+   "cost": "0",
+   "delay": 0,
+   "edge": 2,
+   "kind": "after",
+   "successors": [
+    [
+     "1",
+     3
+    ]
+   ]
+  },
+  "states": 15,
+  "value": "0.0"
+ }
+}

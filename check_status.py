@@ -21,7 +21,11 @@ def _load_ckpt_summary(ckpt_path: Path) -> Optional[Dict[str, Any]]:
     if not ckpt_path.exists():
         return None
     try:
-        ckpt = torch.load(ckpt_path, map_location="cpu")
+        # weights_only=False: see the matching comment in run_one.py --
+        # these checkpoints are always self-written, never from an
+        # untrusted source, so PyTorch >=2.6's stricter default unpickler
+        # (which rejects our RNG-state payload) isn't needed here.
+        ckpt = torch.load(ckpt_path, map_location="cpu", weights_only=False)
     except Exception as e:
         return {"error": f"failed to load checkpoint: {e}"}
     trainer_state = ckpt["trainer"]

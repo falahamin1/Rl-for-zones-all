@@ -1,0 +1,160 @@
+{
+  "results": {
+    "w0.0": {
+      "label": "hand_built",
+      "w": 0.0,
+      "n_states": 66935,
+      "dp_truncated": false,
+      "n_zones_total": 66933,
+      "n_zones": 4000,
+      "zones_sampled": true,
+      "n_locations": 16,
+      "dp_plus_zone_wall_s": 7.321864833123982,
+      "pinned_subgoal_pair_fraction": {
+        "t_A_t_B": 1.0,
+        "t_A_t_C": 1.0,
+        "t_B_t_C": 1.0
+      },
+      "pinned_subgoal_pair_mean": 1.0,
+      "pinned_subgoal_pair_max": 1.0,
+      "pinned_g_subgoal_fraction": {
+        "t_A": 1.0,
+        "t_B": 1.0,
+        "t_C": 1.0
+      },
+      "affine_dim_distribution": {
+        "0": 4000
+      },
+      "affine_dim_0_fraction": 1.0,
+      "affine_dim_0_or_1_fraction": 1.0,
+      "affine_dim_ge2_fraction": 0.0,
+      "facet_count_mean": 10.0,
+      "facet_count_min": 10,
+      "facet_count_max": 10,
+      "vertex_count_mean": 1.0,
+      "vertex_count_min": 1,
+      "vertex_count_max": 1,
+      "n_vertices_computed": 400,
+      "n_vertices_attempted": 400,
+      "vertices_sampled": true,
+      "n_vertex_errors": 0,
+      "vertex_error_rate": 0.0,
+      "vertex_error_kinds": {},
+      "bounded_fraction": 1.0,
+      "strict_fraction": 0.0,
+      "allowed_delays": [
+        0,
+        1,
+        2
+      ]
+    },
+    "w0.25": {
+      "label": "hand_built",
+      "w": 0.25,
+      "n_states": 66935,
+      "dp_truncated": false,
+      "n_zones_total": 66933,
+      "n_zones": 4000,
+      "zones_sampled": true,
+      "n_locations": 16,
+      "dp_plus_zone_wall_s": 7.374431707896292,
+      "pinned_subgoal_pair_fraction": {
+        "t_A_t_B": 0.27075,
+        "t_A_t_C": 0.27575,
+        "t_B_t_C": 0.288
+      },
+      "pinned_subgoal_pair_mean": 0.2781666666666667,
+      "pinned_subgoal_pair_max": 0.288,
+      "pinned_g_subgoal_fraction": {
+        "t_A": 0.388,
+        "t_B": 0.37175,
+        "t_C": 0.44375
+      },
+      "affine_dim_distribution": {
+        "0": 1028,
+        "1": 14,
+        "2": 254,
+        "3": 1301,
+        "4": 1403
+      },
+      "affine_dim_0_fraction": 0.257,
+      "affine_dim_0_or_1_fraction": 0.2605,
+      "affine_dim_ge2_fraction": 0.7395,
+      "facet_count_mean": 11.1725,
+      "facet_count_min": 9,
+      "facet_count_max": 14,
+      "vertex_count_mean": 8.69,
+      "vertex_count_min": 1,
+      "vertex_count_max": 21,
+      "n_vertices_computed": 400,
+      "n_vertices_attempted": 400,
+      "vertices_sampled": true,
+      "n_vertex_errors": 0,
+      "vertex_error_rate": 0.0,
+      "vertex_error_kinds": {},
+      "bounded_fraction": 1.0,
+      "strict_fraction": 0.0,
+      "allowed_delays": [
+        0,
+        1,
+        2
+      ]
+    },
+    "w0.5": {
+      "label": "hand_built",
+      "w": 0.5,
+      "n_states": 66935,
+      "dp_truncated": false,
+      "n_zones_total": 66933,
+      "n_zones": 4000,
+      "zones_sampled": true,
+      "n_locations": 16,
+      "dp_plus_zone_wall_s": 8.228371792007238,
+      "pinned_subgoal_pair_fraction": {
+        "t_A_t_B": 0.27075,
+        "t_A_t_C": 0.27575,
+        "t_B_t_C": 0.288
+      },
+      "pinned_subgoal_pair_mean": 0.2781666666666667,
+      "pinned_subgoal_pair_max": 0.288,
+      "pinned_g_subgoal_fraction": {
+        "t_A": 0.388,
+        "t_B": 0.37175,
+        "t_C": 0.44375
+      },
+      "affine_dim_distribution": {
+        "0": 1028,
+        "1": 14,
+        "2": 254,
+        "3": 1301,
+        "4": 1403
+      },
+      "affine_dim_0_fraction": 0.257,
+      "affine_dim_0_or_1_fraction": 0.2605,
+      "affine_dim_ge2_fraction": 0.7395,
+      "facet_count_mean": 10.68125,
+      "facet_count_min": 8,
+      "facet_count_max": 13,
+      "vertex_count_mean": 7.405,
+      "vertex_count_min": 1,
+      "vertex_count_max": 21,
+      "n_vertices_computed": 400,
+      "n_vertices_attempted": 400,
+      "vertices_sampled": true,
+      "n_vertex_errors": 0,
+      "vertex_error_rate": 0.0,
+      "vertex_error_kinds": {},
+      "bounded_fraction": 1.0,
+      "strict_fraction": 0.0,
+      "allowed_delays": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "gate": {
+    "passed": true,
+    "reasons": []
+  }
+}

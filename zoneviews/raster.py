@@ -22,6 +22,7 @@ __all__ = [
     "dbm_tensor", "projection_stack", "graph_image",
     "projection_cache_stats", "clear_projection_cache",
     "raster_wall_time", "reset_raster_wall_time",
+    "cached_v_rep", "vrep_cache_stats", "clear_vrep_cache",
 ]
 
 #: Cumulative wall-clock spent actually rasterizing (dbm_tensor +
@@ -151,6 +152,68 @@ def _dbm_tensor_impl(zone: Zone) -> np.ndarray:
             clipped = max(-cap, min(cap, bound))
             out[i, j] = (clipped / cap, 1.0 if dbm.is_strict(i, j) else 0.0, 1.0)
     return out
+
+
+#: LRU cache on Zone.v_rep(), same content-based keying as
+#: _projection_cache above (see /tmp/PRESUBMIT.md: str(zone) was
+#: address-based and produced a real, reproduced cache-corruption bug --
+#: never repeat that mistake here). Exact vertex enumeration is the
+#: single most expensive thing any encoder in this repo does (exact
+#: Fraction Gauss-Jordan over C(m', affine_dim) subsets), and like
+#: projection_stack, PPO revisits the same concrete decision points
+#: (hence identical zones) repeatedly across rollout epochs -- see
+#: /tmp/VREP_FEASIBILITY.md for measured hit rates.
+_VREP_CACHE_MAXSIZE = 8192
+_vrep_cache: "OrderedDict[tuple, object]" = OrderedDict()
+_vrep_cache_hits = 0
+_vrep_cache_misses = 0
+
+
+def clear_vrep_cache() -> None:
+    global _vrep_cache_hits, _vrep_cache_misses
+    _vrep_cache.clear()
+    _vrep_cache_hits = 0
+    _vrep_cache_misses = 0
+
+
+def vrep_cache_stats() -> dict:
+    total = _vrep_cache_hits + _vrep_cache_misses
+    return {
+        "hits": _vrep_cache_hits,
+        "misses": _vrep_cache_misses,
+        "hit_rate": _vrep_cache_hits / total if total else float("nan"),
+        "size": len(_vrep_cache),
+        "maxsize": _VREP_CACHE_MAXSIZE,
+    }
+
+
+def cached_v_rep(zone: Zone, use_cache: bool = True):
+    """zone.v_rep(), content-cached. Re-raises VertexEnumerationLimit /
+    UnboundedZone on every call for a zone that hits them (cheap to detect
+    -- the C(m', dim) size check happens before any expensive enumeration
+    -- so there's no benefit to caching the failure itself, only successes)."""
+    global _vrep_cache_hits, _vrep_cache_misses, _raster_wall_s
+    if not use_cache:
+        _t0 = _time.perf_counter()
+        try:
+            return zone.v_rep()
+        finally:
+            _raster_wall_s += _time.perf_counter() - _t0
+
+    key = _zone_content_key(zone)
+    cached = _vrep_cache.get(key)
+    if cached is not None:
+        _vrep_cache.move_to_end(key)
+        _vrep_cache_hits += 1
+        return cached
+    _vrep_cache_misses += 1
+    _t0 = _time.perf_counter()
+    result = zone.v_rep()
+    _raster_wall_s += _time.perf_counter() - _t0
+    _vrep_cache[key] = result
+    if len(_vrep_cache) > _VREP_CACHE_MAXSIZE:
+        _vrep_cache.popitem(last=False)
+    return result
 
 
 def projection_stack(zone: Zone, res: int = 64, use_cache: bool = True, per_zone_normalize: bool = False) -> np.ndarray:

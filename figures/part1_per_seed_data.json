@@ -1,0 +1,370 @@
+{
+  "gridtimed/T2": {
+    "deepset_h": {
+      "n_seeds": 10,
+      "per_seed_final_success_rate": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.955,
+        1.0,
+        1.0,
+        0.44
+      ]
+    },
+    "deepset_v": {
+      "n_seeds": 10,
+      "per_seed_final_success_rate": [
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.985,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "gnn": {
+      "n_seeds": 10,
+      "per_seed_final_success_rate": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "cnn_proj": {
+      "n_seeds": 10,
+      "per_seed_final_success_rate": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "cnn_dbm": {
+      "n_seeds": 10,
+      "per_seed_final_success_rate": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.28,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "mlp_point": {
+      "n_seeds": 10,
+      "per_seed_final_success_rate": [
+        0.045,
+        0.07,
+        0.04,
+        0.065,
+        0.06,
+        0.045,
+        0.06,
+        0.04,
+        0.045,
+        0.065
+      ]
+    }
+  },
+  "gridtimed/T3": {
+    "deepset_h": {
+      "n_seeds": 10,
+      "per_seed_final_success_rate": [
+        1.0,
+        0.99,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.005,
+        1.0
+      ]
+    },
+    "deepset_v": {
+      "n_seeds": 10,
+      "per_seed_final_success_rate": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    "gnn": {
+      "n_seeds": 10,
+      "per_seed_final_success_rate": [
+        1.0,
+        0.93,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "cnn_proj": {
+      "n_seeds": 10,
+      "per_seed_final_success_rate": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "cnn_dbm": {
+      "n_seeds": 10,
+      "per_seed_final_success_rate": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.6,
+        0.01,
+        1.0,
+        0.0,
+        1.0
+      ]
+    },
+    "mlp_point": {
+      "n_seeds": 10,
+      "per_seed_final_success_rate": [
+        0.03,
+        0.065,
+        0.035,
+        0.045,
+        0.03,
+        0.035,
+        0.05,
+        0.025,
+        0.04,
+        0.03
+      ]
+    }
+  },
+  "trmgrid/G_SMALL": {
+    "deepset_h": {
+      "n_seeds": 10,
+      "per_seed_final_success_rate": [
+        0.98,
+        0.985,
+        0.79,
+        0.71,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.03,
+        0.815
+      ]
+    },
+    "deepset_v": {
+      "n_seeds": 10,
+      "per_seed_final_success_rate": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.075,
+        0.0,
+        0.0
+      ]
+    },
+    "gnn": {
+      "n_seeds": 10,
+      "per_seed_final_success_rate": [
+        0.42,
+        0.675,
+        0.73,
+        0.71,
+        0.635,
+        0.945,
+        0.47,
+        0.92,
+        0.845,
+        0.98
+      ]
+    },
+    "cnn_proj": {
+      "n_seeds": 10,
+      "per_seed_final_success_rate": [
+        0.415,
+        0.325,
+        0.43,
+        0.41,
+        0.26,
+        0.31,
+        0.39,
+        0.445,
+        0.52,
+        0.245
+      ]
+    },
+    "cnn_dbm": {
+      "n_seeds": 10,
+      "per_seed_final_success_rate": [
+        0.545,
+        0.405,
+        0.545,
+        0.4,
+        0.555,
+        0.63,
+        0.565,
+        0.52,
+        0.675,
+        0.495
+      ]
+    },
+    "mlp_point": {
+      "n_seeds": 10,
+      "per_seed_final_success_rate": [
+        0.3,
+        0.365,
+        0.29,
+        0.285,
+        0.27,
+        0.315,
+        0.33,
+        0.26,
+        0.255,
+        0.4
+      ]
+    }
+  },
+  "trmgrid/G_LARGE": {
+    "deepset_h": {
+      "n_seeds": 10,
+      "per_seed_final_success_rate": [
+        0.0,
+        0.845,
+        0.845,
+        0.815,
+        0.0,
+        0.865,
+        0.82,
+        0.805,
+        0.885,
+        0.83
+      ]
+    },
+    "deepset_v": {
+      "n_seeds": 10,
+      "per_seed_final_success_rate": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.005,
+        0.0,
+        0.0
+      ]
+    },
+    "gnn": {
+      "n_seeds": 10,
+      "per_seed_final_success_rate": [
+        0.635,
+        0.825,
+        0.0,
+        0.8,
+        0.0,
+        0.655,
+        0.795,
+        0.75,
+        0.805,
+        0.0
+      ]
+    },
+    "cnn_proj": {
+      "n_seeds": 10,
+      "per_seed_final_success_rate": [
+        0.7,
+        0.83,
+        0.825,
+        0.43,
+        0.895,
+        0.78,
+        0.855,
+        0.56,
+        0.78,
+        0.705
+      ]
+    },
+    "cnn_dbm": {
+      "n_seeds": 10,
+      "per_seed_final_success_rate": [
+        0.845,
+        0.825,
+        0.825,
+        0.82,
+        0.68,
+        0.0,
+        0.775,
+        0.725,
+        0.85,
+        0.815
+      ]
+    },
+    "mlp_point": {
+      "n_seeds": 10,
+      "per_seed_final_success_rate": [
+        0.245,
+        0.285,
+        0.265,
+        0.385,
+        0.25,
+        0.33,
+        0.265,
+        0.28,
+        0.255,
+        0.26
+      ]
+    }
+  }
+}

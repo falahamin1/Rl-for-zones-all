@@ -1,0 +1,5 @@
+# Experiment output (episode logs, model checkpoints): kept on disk, not in git
+results/
+# Over GitHub's 100 MB limit: kept on disk, not in git
+artifacts/gridsound_results/task_a_sweep.json
+pyudbm_ready.zip

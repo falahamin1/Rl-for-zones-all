@@ -62,10 +62,26 @@ def _move_features(instance: GridInstance, state: GridState, move: str):
 class GridTimedTrainEnv(gym.Env):
     metadata = {"render_modes": []}
 
-    def __init__(self, instance: GridInstance, seed: Optional[int] = None):
+    def __init__(self, instance: GridInstance, seed: Optional[int] = None, switch_shaping_reward: float = 0.0):
+        """:param switch_shaping_reward: potential-based shaping reward
+        (/tmp/PART1_FINAL.md item 3, the deferred-credit-assignment
+        experiment) -- Phi(s) = number of DISTINCT switches activated so
+        far this episode; shaping = switch_shaping_reward * (Phi(s') -
+        Phi(s)), added to the ordinary reward. Since Phi only increments
+        the first time a given switch is hit (revisiting an
+        already-activated switch does not increase Phi), this reduces
+        exactly to "+switch_shaping_reward the first time each switch is
+        activated in an episode" -- the operational spec -- while keeping
+        the Phi(s')-Phi(s) form. Default 0.0: byte-identical to the
+        unshaped environment, since 0.0 * anything contributes nothing;
+        this is NOT a separate subclass so "everything else identical"
+        holds by construction, not by keeping two code paths in sync.
+        """
         super().__init__()
         self.instance = instance
         self._seed = seed
+        self.switch_shaping_reward = switch_shaping_reward
+        self._switches_activated: set = set()
 
         self.action_ids: List[str] = all_actions(instance)
         self.n_tasks = len(self.action_ids)
@@ -99,6 +115,7 @@ class GridTimedTrainEnv(gym.Env):
         self._state = initial_state(self.instance)
         self._Z = self._zctx.ctx.get_zero_federation()
         self._step_count = 0
+        self._switches_activated = set()
         return self._get_obs(), {}
 
     def step(self, action: int):
@@ -120,17 +137,29 @@ class GridTimedTrainEnv(gym.Env):
                 Z2 = apply_lower_guard(Z2, self._zctx, [(cname, a)])
                 Z2 = apply_upper_guard(Z2, self._zctx, [(cname, b)])
             Z2 = apply_upper_guard(Z2, self._zctx, [(GLOBAL_CLOCK, self.instance.deadline)])
+            shaping_bonus = 0.0
             if self.instance.is_switch(target):
                 Z2 = reset_clocks(Z2, self._zctx, [self.instance.switch_clock(target)])
+                # Potential-based shaping (see __init__ docstring): Phi(s)
+                # = |switches activated so far|, so this fires exactly
+                # once per switch per episode -- revisiting an
+                # already-activated switch (target already in the set)
+                # contributes 0, matching "the first time each switch is
+                # activated" precisely.
+                if target not in self._switches_activated:
+                    self._switches_activated.add(target)
+                    shaping_bonus = self.switch_shaping_reward
             Z2 = reset_clocks(Z2, self._zctx, [EDGE_CLOCK])
             self._Z = Z2
-        elif is_terminal(res.next_state):
-            self._Z = self._zctx.ctx.get_zero_federation()
+        else:
+            shaping_bonus = 0.0
+            if is_terminal(res.next_state):
+                self._Z = self._zctx.ctx.get_zero_federation()
 
         self._step_count += 1
         self._state = res.next_state
         done = is_terminal(self._state)
-        reward = -res.cost
+        reward = -res.cost + shaping_bonus
         info: Dict[str, Any] = {"legal": res.legal, "elapsed": res.elapsed}
         if done:
             success = self._state.pos == "DONE"

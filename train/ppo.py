@@ -28,11 +28,13 @@ from encoders.base import ActorCriticHead, Encoder
 from encoders.cnn_dbm import CNNDBMEncoder
 from encoders.cnn_proj import CNNProjEncoder
 from encoders.deepset_h import DeepSetHEncoder
+from encoders.deepset_v import DeepSetVEncoder
+from encoders.gnn import GNNEncoder
 from encoders.mlp_point import MLPPointEncoder
 from train.env import SymbolicJobShopGymEnv, SyncVectorEnv
 from zoneviews.raster import raster_wall_time, reset_raster_wall_time
 
-ENCODER_NAMES = ("mlp", "deepset", "cnn_dbm", "cnn_proj")
+ENCODER_NAMES = ("mlp", "deepset", "cnn_dbm", "cnn_proj", "deepset_v", "gnn")
 
 
 def build_head(encoder_name: str, env: SyncVectorEnv, point_dim: int) -> ActorCriticHead:
@@ -70,6 +72,15 @@ def build_head(encoder_name: str, env: SyncVectorEnv, point_dim: int) -> ActorCr
     if encoder_name == "cnn_proj":
         enc = CNNProjEncoder(d)
         return ActorCriticHead(enc, n_tasks, task_job_idx=task_job_idx)
+    if encoder_name == "deepset_v":
+        # Same job/clock-indexed, static-mapping-required treatment as
+        # deepset_h -- pooled fallback on gridtimed for the identical
+        # reason (task_job_idx is None there).
+        enc = DeepSetVEncoder(d)
+        return ActorCriticHead(enc, n_tasks, task_job_idx=task_job_idx)
+    if encoder_name == "gnn":
+        enc = GNNEncoder(d)
+        return ActorCriticHead(enc, n_tasks, task_job_idx=task_job_idx)
     raise ValueError(f"Unknown encoder_name {encoder_name!r}; expected one of {ENCODER_NAMES}")
 
 
@@ -89,6 +100,13 @@ class PPOConfig:
     total_steps: int = 300_000
     plateau_patience_steps: int = 50_000
     plateau_min_delta: float = 1e-3
+    #: Uniform-budget requirement (/tmp/PART1_FINAL.md item 1): plateau
+    #: early stopping is now opt-IN, default OFF -- every run trains to
+    #: exactly total_steps unless this is explicitly set True. The
+    #: plateau-tracking machinery itself (_steps_since_improve etc.) is
+    #: left in place either way, not deleted -- only whether it's allowed
+    #: to actually set should_stop=True is gated on this flag.
+    plateau_enabled: bool = False
     seed: int = 0
     device: str = "cpu"
 
@@ -463,7 +481,7 @@ class PPOTrainer:
                 self._steps_since_improve = 0
             else:
                 self._steps_since_improve += cfg.num_envs * cfg.n_steps
-            if self._steps_since_improve >= cfg.plateau_patience_steps:
+            if cfg.plateau_enabled and self._steps_since_improve >= cfg.plateau_patience_steps:
                 should_stop = True
 
         self.update_idx += 1

@@ -24,6 +24,14 @@ module load anaconda
 source "$(conda info --base)/etc/profile.d/conda.sh"
 conda activate amfa-custom-env
 
+# pyudbm's native extensions were compiled against a newer libstdc++ (via
+# the gcc/14.2.0 module) than what's installed system-wide on at least
+# some acpu nodes -- conda's own libstdcxx-ng package (pulled in as a
+# pyudbm build dependency) provides a compatible one, but nothing points
+# the runtime linker at it unless we do so explicitly. Without this,
+# `import pyudbm` fails with "GLIBCXX_3.4.32 not found" on affected nodes.
+export LD_LIBRARY_PATH="$CONDA_PREFIX/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
+
 # WORK_DIR: set this to wherever this repo lives on Alpine before
 # submitting (same convention as b3-extend.slurm) -- e.g.:
 #   WORK_DIR=/projects/$USER/RL-for-zones
